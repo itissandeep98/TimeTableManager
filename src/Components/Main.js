@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Header from './Header'
-import Display from './Table/Display'
 import { withRouter, Switch, Route, Redirect } from 'react-router-dom'
 import Plot from './TimeTable/Plot'
 import {courseFetchAction} from '../store/ActionCreators'
@@ -24,7 +23,6 @@ class Main extends Component {
 			<div>
 				<Header />
 				<Switch>
-					<Route path="/display" component={() => <Display />} />
 					<Route path="/home" component={() => <Plot courselist={this.props.courses.courses}/>} />
 					<Redirect to="/home" />
 				</Switch>
