@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import TableData from './Table'
 import { Form, Dropdown } from 'semantic-ui-react'
+import { Spinner } from 'reactstrap';
 
 export default class Plot extends Component {
 	constructor(props){
@@ -29,7 +30,7 @@ export default class Plot extends Component {
 			["Fri", "", "", "", "", "", "",]
 		]
 		var courselist=[
-			{key:"AI", value:"AI", text:"AI"}
+			{key:"loading", value:<Spinner/>, text:<Spinner/>, disabled:"true"}
 		]
 		
 		return (
