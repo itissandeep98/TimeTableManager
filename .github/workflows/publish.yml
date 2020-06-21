@@ -20,6 +20,8 @@ jobs:
       - name: publish package
         run: |
           yarn
+          git config user.name "itissandeep98"
+          git config user.email "itissandeep98@gmail.com"
           git remote set-url origin https://itissandeep98:${{secrets.ACCESS_TOKEN}}@github.com/itissandeep98/TimeTableManager
           npm run deploy
 
