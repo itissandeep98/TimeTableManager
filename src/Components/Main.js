@@ -10,8 +10,8 @@ class Main extends Component {
 			<div>
 				<Header />
 				<Switch>
-					<Route path="/home" component={() => <Display />} />
-					<Route path="/plot" component={() => <Plot/>} />
+					<Route path="/display" component={() => <Display />} />
+					<Route path="/home" component={() => <Plot/>} />
 					<Redirect to="/home" />
 				</Switch>
 			</div>
