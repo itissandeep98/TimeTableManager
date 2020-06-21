@@ -1,0 +1,272 @@
+Serial Number,Course Name,Course Code,Course Acronym,Prerequisites,Preferable Prerequisites,Antirequisites,Semester,Professor,Credits,Cluster,OptionalDept
+1,Foundations of Biology,BIO101,FOB,None,None,None,Winter,Ganesh Bagler,4,BIO,None
+2,Introduction to Quantitative Biology,BIO213,IQB,MTH100,"""Familiarity with MATLAB, Basic Calculus""",None,Winter,G P S Raghava,4,BIO,None
+3,Genetics and Molecular Biology,BIO2GMB,GMB,None,None,None,Monsoon,Gaurav Ahuja,4,BIO,None
+,Cell Biology and Bio-Chemistry,BIO511,CBB,None,None,None,Monsoon,Shriram K,4,BIO,None
+4,Cell Biology and Bio-Chemistry,BIO211,CBB,None,None,None,Monsoon,Arjun Ray,4,BIO,None
+5,Stochastic Simulations in Systems Biology and Biophysics,BIO506,SSSBB,BIO531,None,None,Monsoon,,4,BIO,None
+6,Foundations of Modern Biology,BIO512,FOMB,None,None,BIO601,Monsoon,Vibhor Kumar,4,BIO,None
+7,Practical Bioinformatics,BIO521,PB,None,"""Data Structures and Algorithms, Basic understanding of Python and/or R programming""",None,Winter,Tavpritesh Sethi,4,BIO,None
+8,Algorithms in Computational Biology,BIO522,ACB,None,"""Familiarity with structural programming and molecular biology""",None,Monsoon,Debarka Sengupta,4,BIO,None
+9,Chemoinformatics,BIO523,ChemInfo,None,"""Knowledge of chemistry, algorithms, programming and machine learning""",None,Winter,,4,BIO,None
+10,Introduction to Mathematical Biology,BIO531,IMB,MTH100,"""Molecular biology and biochemistry, cell biology""",BIO303/BIO503,Winter,Sriram K,4,BIO,None
+11,Network Biology,BIO532,NB,None,"""Knowledge of data structures, algorithms and programming, Basic understanding of biology""",None,Monsoon,Ganesh Bagler,4,BIO,None
+12,Systems and Synthetic Biology,BIO533,S&SB,"""BIO531,BIO501""","""Probability and Statistics""",None,Winter,Sriram K,4,BIO,None
+13,Introduction to Computational Neuroscience,BIO534,ICN,None,"""Calculus, linear algebra and ODE/PDE and coding in MATLAB""",BIO505,Winter,Sriram K,4,BIO,None
+14,Data Sciences for Genomics,BIO541,DSG,None,None,None,Winter,Vibhor Kumar,4,BIO,None
+15,Machine Learning for Biomedical Applications,BIO542,MLBA,None,"""Basic knowledge of statistics and programming""",None,Monsoon,GPS Raghava,4,BIO,None
+16,Big Data Mining in Healthcare,BIO543,BDMH,None,"""Basic knowledge of statistics and programming""",None,Winter,GPS Raghava,4,BIO,None
+17,Computational Gastronomy,BIO544,CGAS,None,"""A good command on programming (Python) and data analysis. Exposure to statistical analysis, data visualization, machine learning and natural language processing.""",None,Monsoon,Ganesh Bagler,4,BIO,None
+18,Biostatistics,BIO545,BioStats,None,"""Basic Biology Knowledge""",None,Winter,Gaurav Ahuja,4,BIO,None
+19,Computer Aided Drug Design,BIO561,CADD,None,"""Basic knowledge of biology, chemistry, physics and python""",None,Winter,Arjun Ray,4,BIO,None
+20,Network Science,BIO571,NS,None,CSE102,None,Winter,,4,BIO,None
+21,Communication Skills,COM101,COM,None,None,None,Monsoon,"""Payel C Mukherjee, Rekha Shorey, Honey Jhalani, Utkrishti Taneja, Syeda Asia, Deepti Sharma, Devika N""",4,OTHERS,None
+22,Technical Communication,COM301A,TCOM,None,None,None,Monsoon,Payel C Mukherjee,2,OTHERS,None
+23,Introduction to Programming,CSE101,IP,None,None,None,Monsoon,"""Vikram Goyal, V Raghava Mutharaju""",4,CSE,None
+24,Data Structures & Algorithms,CSE102,DSA,CSE101,None,None,Winter,"""Subhabrata Samajder, Arun Balaji""",4,CSE,None
+25,Computer Organization,CSE112,CO,"""ECE111""",None,None,Winter,"""Naveen Prakash, Prabhakar Maity""",4,CSE,None
+26,Discrete Mathematics,CSE121,DM,None,"""A good knowledge of elementary mathematics, esp. algebra, calculus and basic programming language.""",None,Monsoon,Samrith Ram,4,CSE,None
+28,Advanced Programming,CSE201,AP,"""CSE101, CSE102""",None,None,Monsoon,Vivek Kumar,4,CSE,None
+29,Fundamentals of Database Management System,CSE202,DBMS,"""CSE102""","""Working knowledge of Programming in C, C++ or Java and experience with Unix""",None,Winter,"""Mukesh Mohania, Md. Shad Akhtar""",4,CSE,None
+30,Algorithm Design and Analysis,CSE222,ADA/ALD,"""CSE102""","""Some knowledge of mathematical proofs""",None,Winter,"""Debbarka Sengupta, Syamantak Das""",4,CSE,None
+31,Operating Systems,CSE231,OS,CSE102,"""C Programming (students must know how to write reasonable length C programs before this course)""",None,Monsoon,Sambuddho Chakravarty,4,CSE,None
+32,Computer Networks,CSE232,CN,"""CSE101, CSE231, CSE222""",None,None,Monsoon,Mukulika Maity,4,CSE,None
+33,Network Administration,CSE233,NAdmn,None,CSE230,None,Winter,,2,CSE,None
+35,Compilers,CSE301/CSE601,CMP,"""MTH100, CSE101, CSE201, CSE102""",Automata Theory,None,Monsoon,Piyus Kedia,4,CSE,None
+36,Modern Algorithm Design,CSE319/CSE519,MAD,CSE222,None,None,Monsoon,Syamantak Das,4,CSE,None
+37,Advanced Algorithms,CSE320/CSE520,AA,"""CSE102""",None,None,Monsoon,,4,CSE,None
+38,Theory of Computation,CSE322,ToC,"""CSE121 or MTH210""",None,None,Winter,Debajyoti Bera,4,CSE,None
+39,Computer Graphics,CSE333/CSE533,CG,"""CSE101""","""CSE102: Data Structures and Algorithms and C/C++ Programming""",None,Monsoon,Ojaswa Sharma,4,CSE,None
+40,Statistical Machine Learning,CSE342/CSE542,SML,"""CSE101, MTH201""",None,Pattern Recognition,Winter,A V Subramanyam,4,CSE,None
+41,Machine Learning,CSE343/CSE543,ML,"""MTH100, MTH201, CSE101, MTH203""",None,None,Monsoon,"""Jainendra Shukla, Tanmoy Chakraborty""",4,CSE,None
+42,Computer Vision,CSE344/CSE544/ECE344/ECE544,CV,"""MTH100""","""Image Analysis, Digital Signal Processing""",None,Winter,Saket Anand,4,CSE,ECE
+43,Foundations of Computer Security,CSE345/CSE545,FCS,None,Computer Networks,None,Monsoon,Ponnurangam Kumaraguru,4,CSE,None
+44,Complexity Theory,CSE421/CSE621,CT,"""CSE102, MTH201, CSE322, CSE121""",None,None,Monsoon,,4,CSE,None
+45,Introduction to Intelligent Systems,CSE440,IIS,None,None,Computer Programming,Winter,C Anantram,4,CSE,None
+46,Advanced Biometrics,CSE441/CSE541,BIOM,CSE343/CSE543,Probability and Statistics,None,Winter,Mayank Vatsa,4,CSE,None
+47,Designing Human Centered Systems,CSE501,DHCS,None,None,None,Monsoon,Ponnurangam Kumaraguru,4,CSE,None
+48,Foundations of Parallel Programming,CSE502,FPP,"""CSE101, CSE102, CSE201""","""Experience with C/C++ programming""",None,Winter,Vivek Kumar,4,CSE,None
+49,Program Analysis,CSE503,PA,"""CSE102, CSE201""","""Theory of Computation""",None,Monsoon,Rahul Purandare,4,CSE,None
+50,Decision Procedures,CSE504,DP,"""CSE102 or CSE201, CSE121 or MTH210""",None,None,Winter,,4,CSE,None
+51,Data Mining,CSE506,DMG,"""CSE202, CSE101, MTH100, MTH201""",Programming in Java,None,Monsoon,Vikram Goyal,4,CSE,None
+52,Database System Implementation,CSE507,DBSI,"""CSE202, CSE102""",None,None,Monsoon,Mukesh Mohania,4,CSE,None
+53,Information Retrieval,CSE508,IR,"""CSE102,CSE201,CSE202""",ECE5ML,None,Winter,Tanmoy Chakraborty,4,CSE,None
+54,Big Data Analytics,CSE510,BDA,"""CSE202""","""Data Mining, Machine Learning, Working knowledge of Programming in C,C++ or Java and experience with Unix""",None,Winter,Vikram Goyal,2,CSE,None
+55,Computer Architecture,CSE511/ECE511,CA,None,None,None,Monsoon,Sujay Deb,4,CSE,ECE
+56,Randomized Algorithms,CSE523,RA,"""CSE222,CSE121,MTH201""",None,None,Monsoon,Rajiv Raman,4,CSE,None
+57,Theory of Modern cryptography,CSE524,TMC,None,"""Discrete mathematics, Applied cryptography or Foundations of computer security""",None,Monsoon,,4,CSE,None
+58,Introduction to Graduate Algorithms,CSE525,GA,"""CSE222""",None,None,Monsoon,Debajyoti Bera,,CSE,None
+59,Convex Optimization,CSE528/ECE528,CO,"""MTH100""",None,None,Winter,Rakesh Chaturvedi,4,CSE,ECE
+60,Approximation Algorithms,CSE529,AAG,"""CSE222""",None,None,Winter,Syamantak Das,4,CSE,None
+61,Distributed Systems Security,CSE530,DSS,"""CSE222,CSE231,CSE202""",None,None,Winter,,,CSE,None
+62,Multi-Agent Systems,CSE531,MAS,None,None,None,Monsoon/Winter,,4,CSE,None
+63,Mobile Computing,CSE535,MC,CSE101,"""CSE231, CSE232, CSE201""",None,Monsoon,Pushpendra Singh,4,CSE,None
+64,Wireless Networks,CSE538/ECE538,WN,CSE232,"""Operating Systems, Advanced Programming""",None,Winter,Mukulika Maity,4,CSE,ECE
+65,Applied Cryptography,CSE546,AC,"""CSE121""",None,None,Monsoon/Winter,Subhabrata Samajder,4,CSE,None
+66,Natural Language Processing,CSE551,NLP,CSE101,"""Python/Java programming""",None,Monsoon,Md. Shad Akhtar,4,CSE,None
+67,Security Engineering,CSE552,SE,CSE231,"""Foundations of Computer Security""",None,Monsoon/Winter,"""Arun Balaji Buduru, Sambuddho Chakravarty""",4,CSE,None
+68,Introduction to Spatial Computing,CSE555,ISC,"""CSE102, CSE202""","""Basic understanding of mathematics and programming skills""",None,Monsoon,Vikram Goel,4,CSE,None
+69,Data Science,CSE558,DSc,"""CSE101""","""Linear Algebra""",None,Monsoon,Debarka Sengupta,4,CSE,None
+70,Mining Large Networks,CSE559,MLN,"""CSE222, CSE101, MTH201"" ","""Any Machine Learning course (ML/SML/AML/DL), Graph theory""",None,Winter,Tanmoy Chakraborty,4,CSE,None
+71,GPU Computing,CSE560,GPU,"""CSE101""",Data Structures and Algorithms,None,Winter,,4,CSE,None
+72,Probabilistic Graphical Models,CSE561,PGM,MTH201,None,None,Winter,Anubha Gupta,4,CSE,None
+73,Advanced Computer Vision,CSE562,ACV,"""CSE344/CSE544/ECE344/ECE544""",None,None,Monsoon,Koteswar Rao Jerripothula,4,CSE,None
+74,Multimedia Computing and Applications,CSE563,MCA,None,Computer Vision,None,Winter,Rajiv Ratn Shah,4,CSE,None
+75,Reinforcement Learning,CSE564,RL,MTH201,None,None,Monsoon,Sanjit Krishnan Kaul,4,CSE,None
+76,Software Defined Networking,CSE565,SDN,CSE232,None,None,Monsoon,,4,CSE,None
+77,Virtual Reality,CSE570,VR,None,Computer Graphics,None,Winter,Ojaswa Sharma,4,CSE,None
+78,Introduction to Media Computing,CSE571,IMC,None ,None,None,Monsoon/Winter,,4,CSE,None
+79,Smart Sensing for Internet of Things (IoT),CSE576,SSIoT,None,"""Operating Systems, Embedded Systems, Algorithms""",None,Monsoon,,4,CSE,None
+80,Advanced Internet of Things,CSE577,AIOT,None,"""Android Programming, Internet of Things""",None,Winter,Juhi Ranjan,4,CSE,None
+81,Ontology Modeling,CSE580A,OM,CSE102,CSE201,None,Monsoon/Winter,,2,CSE,None
+82,Software Production Evolution and Maintenance,CSE582,SPEM,None,None,None,Monsoon,Rahul Mohananai,4,CSE,None
+83,Affective Computing,CSE5AC,AFC,"""CSE101, CSE102, CSE201""","""CSE343/CSE543,CSE643""",None,Monsoon,Jainendra Shukla,4,CSE,None
+84,Geometry Processing,CSE5GP,GP,"""CSE101""","""CSE102""",None,Monsoon/Winter,,,CSE,None
+85,"Systems Analysis, Design and Requirements Engineering",CSE5SD,SADRE,None,None,None,Winter,Rahul Mohananai,4,CSE,None
+86,Social Robotics,CSE5SR,SR,None,None,None,Winter,Jaitendra Shukla,2,CSE,None
+87,Topics in Adaptive Cybersecurity,CSE5TAC,TAC,CSE345/CSE545,None,None,Monsoon,,4,CSE,None
+88,Object Oriented Programming and Design,CSE600A/ECE600A,OOPD,None,"""CSE101, CSE102""",None,Monsoon,Naveen Prakash,2,CSE,ECE
+89,Knowledge Graphs in Practice,CSE605A,KG,CSE508 or CSE551,"""Python/Java, Machine learning, Semantic Web""",None,Monsoon,,2,CSE,None
+90,Data Warehouse,CSE606,DW,"""CSE202""",None,None,Winter,Naveen Prakash,4,CSE,None
+91,Statistical Computation,CSE609,SComp,MTH201,None,None,Monsoon,,4,CSE,None
+92,Introduction to Quantum Computing,CSE622,IQC,MTH100,"""MTH201, CSE222""",None,Winter,,4,CSE,None
+93,Semantic Web,CSE632,Sweb,"""CSE101,CSE202""",CSE201,None,Winter,Raghava Mutharaju,4,CSE,None
+94,Introduction to Robotics,CSE633/ECE670,IRob,None,None,None,Winter,,4,CSE,ECE
+95,Parallel Runtimes for Modern Processors,CSE634,PRMP,"""CSE201, CSE231""",Computer Organization,None,Monsoon,Vivek Kumar,2,CSE,None
+96,Communication Networks,CSE636/ECE636,CN,"""MTH201""","""ECE501""",None,Winter,Sanjit Kaul,4,CSE,ECE
+97,Collaborative Filtering,CSE640,CF,"""MTH100""","""MTH100""",None,Monsoon,,4,CSE,None
+98,Deep Learning,CSE641,DL,None,"""CSE343/CSE543""",None,Winter,,4,CSE,None
+99,Advanced Machine Learning,CSE642,AML,"""MTH201, CSE343/CSE543, CSE342/CSE542""",None,None,Monsoon,Richa Singh,4,CSE,None
+100,Artificial Intelligence,CSE643,AI,"""CSE102""",None,None,Monsoon,Mayank Vatsa,4,CSE,None
+101,Privacy and Security in Online Social Media,CSE645,PSOSM,None,None,None,Winter,Ponnurangam Kumaraguru,4,CSE,None
+102,Information Integration and Applications,CSE656,IIA,CSE202,"DSA, IR",None,Monsoon,,4,CSE,None
+103,Special Topics in Computer Vision,CSE662A,SCV,"""ECE350""",Digital Signal Processing,None,Winter,,2,CSE,None
+104,Edge AI,CSE663,EAI,"""CSE343/CSE543, CSE342/CSE542""",Micro-controller,None,Winter,,4,CSE,None
+105,Multimedia Security,CSE694F/ECE651,MS,"""ECE350""",None,None,Winter,,4,CSE,ECE
+106,Advanced Topics in Mobile Computing,CSE734,ATMC,"""CSE231""",None,None,Winter,,4,CSE,None
+107,Network Anonymity and Privacy,CSE749,NAP,None,CSE232,None,Monsoon,Sambuddho Chakravarty,4,CSE,None
+108,Topics in Cryptanalysis,CSE793A,TC,None,CSE546,None,Winter,Donghoon Chand,4,CSE,None
+109,Design Drawing & Visualization,DES101,DDV,None,None,None,Winter,,4,DES,None
+110,Prototyping Interactive Systems,DES130,PIS,"""CSE101,ECE111,CSE131""",None,None,Monsoon,Aman Parnami,4,DES,None
+111,Design Processes and Perspectives,DES201,DPP,"""DES101 or DES202""",None,None,Monsoon,"""Indrani De Parker, Vibha Narula Gupta""",4,DES,None
+112,Visual Design & Communication,DES202,VDC,DES101,None,None,Monsoon,"""Indrani De Parker, Vibha Narula Gupta""",4,DES,None
+113,Human Computer Interaction ,DES204,HCI,None,None,None,Winter,,4,DES,None
+114,Animation and Graphics,DES302,A&G,None,None,None,Winter,Manohar Khushlani,4,DES,None
+115,Film Making and Radio Podcasting,DES303,FMRP,None,None,None,Monsoon,Manohar Khushlani,4,DES,None
+116,Game Development & Design,DES512,GDD,None,None,None,Winter,,4,DES,None
+117,"Wearable Applications, Research, Devices, Interactions",DES513,WARDI,None,None,None,Monsoon,Aman Parnami,4,DES,None
+118,Digital Audio,DES514,DA,None,None,None,Monsoon,Aman Samuel,4,DES,None
+119,Information Systems in Public Health,DES515,ISPR,None,None,None,Monsoon,,,DES,None
+120,Introduction to 3D Production Design for Animation and Games,DES516,3DAG,None,Design Drawing and Visualization,None,Monsoon,,4,DES,None
+121,Introduction to 3D Animation,DES516s,I3D,None,None,DES302,Monsoon,,2,DES,None
+122,Introduction to Epidemiology,DES517,IEP,"""MTH201""",None,None,Winter,,4,DES,None
+123,Introduction to Motion Graphics,DES518,IMG,None,None,None,Winter,Anoop Ratn,4,DES,None
+124,Design of Interactive Systems,DES519,DIS,None,"""DES304,DES130 """,None,Monsoon,Rajiv Ratn Shah,4,DES,None
+125,Human Centred AI,DES520,HCAI,"""DES204, CSE643 or CSE343/CSE543 or CSE440""",None,None,Monsoon,,4,DES,None
+126,Digital Circuits,ECE111,DC,None,"""ECE113""",None,Monsoon,"""Sneh Saurabh, G S Visweswaran""",4,ECE,None
+127,Basic Electronics,ECE113,BE,None,None,None,Winter,"""Vivek Bohara, Sanat Biswas""",4,ECE,None
+128,Integrated Electronics,ECE214,IE,"""ECE111,ECE113,DES130""",None,None,Winter,,4,ECE,None
+129,Circuit Theory and Device,ECE215,CTD,None,None,None,Monsoon,Shobha Sundar Ram,4,ECE,None
+130,Fields and Waves,ECE230,F&W,"""MTH100""",None,None,Winter,,4,ECE,None
+131,Principles of Communication Systems,ECE240,PCS,"""ECE250, MTH201""",None,None,Winter,,4,ECE,None
+132,Signals and Systems,ECE250,S&S,MTH100,MTH100,None,Monsoon,Pravesh Biyani,4,ECE,None
+133,Embedded Logic Design,ECE270,ELD,None,None,None,Monsoon,Sumit Darak,4,ECE,None
+134,Introduction to VLSI Design,ECE314/ECE514,DVD,None,None,None,Monsoon,Anuj Grover,4,ECE,None
+135,Analog CMOS Circuit Design,ECE315/ECE515,CMOS,None,Electronic Device and Circuit or Network Analysis,None,Monsoon,G S Visweswaran,4,ECE,None
+136,Solid State Devices,ECE318,SSD,None,None,None,Winter,G.S.Visweswaran,4,ECE,None
+137,RF Circuit Design,ECE321/ECE521,RFCD,,None,None,Winter,Dr. M. S. Hashmi,4,ECE,None
+138,Digital Communication Systems,ECE340,DCS,"""ECE240""","""ECE240""",None,Monsoon,Gourab Ghatak,4,ECE,None
+139,Mobile Communications,ECE343,MC,ECE240,None,None,Winter,,4,ECE,None
+140,Digital Image Processing,ECE350,DIP,"""MTH100, MTH201""","""ECE250""",None,Monsoon,A V Subramanyam,4,ECE,None
+141,Digital Signal Processing,ECE351,DSP,"""ECE250""",None,None,Monsoon,A.V.Subramanyam,4,ECE,None
+142,Antennas Theory and Design,ECE431/ECE631,ATD,None,Undergraduate Engineering Electromagnetics and Microwave Theory,None,Monsoon,Shobha Sundar Ram,4,ECE,None
+143,Radar Systems,ECE432,RS,ECE250,None,None,Winter,Shobha Sundaram,4,ECE,None
+144,Statistical Signal Processing,ECE452,SSP,"""MTH100,MTH201,ECE250""",ECE501,None,Winter,Pravesh Biyani,4,ECE,None
+145,Probability and Random Process,ECE501,PRP,ECE240,None,None,Monsoon,Anubha Gupta,4,ECE,None
+146,Digital Hardware Design (DHD),ECE510,DHD,"""ECE270""",None,None,Monsoon,Sumit Darak,4,ECE,None
+147,VLSI Design Flow,ECE513,VLDIDF,None,None,None,Monsoon,,4,ECE,None
+148,Digital VLSI Design,ECE514,DVD,None,None,None,Monsoon,Anuj Grover,4,ECE,None
+149,System on Chip Design and Test,ECE516,SCD&T,"""ECE314/ECE514,CSE234""",None,None,Monsoon,,4,ECE,None
+150,Introduction to Nanoelectronics,ECE517,INE,None,None,None,Winter,,4,ECE,None
+151,Intelligent Applications Implementation on Heterogeneous Platforms,ECE519,IAI,None,None,None,Monsoon,Sumit Mediratta,4,ECE,None
+152,Satellite Navigation and Sensor Fusion,ECE533,SNSF,ECE351,ECE501,None,Monsoon,Sanat Biswas,4,ECE,None
+153,Optical Communications Systems,ECE534,OCS,ECE240,None,None,Winter,,4,ECE,None
+154,Optical Networking,ECE536s,ON,None,"""CSE636/ECE636, ECE534, CSE102""",None,Summer,,2,ECE,None
+155,Wireless Communication Evolution from 3G to 5G,ECE537,WCE,ECE240,"""ECE340,ECE543""",None,Monsoon,,4,ECE,None
+156,Wireless System Implementation,ECE539,WSI,ECE240,"""ECE340,ECE543""",None,Winter,Vivek Bohara,4,ECE,None
+157,Principals of Digital Communication System,ECE543,PDCS,ECE240,ECE501,None,Monsoon,Anand Srivastava,4,ECE,None
+158,Compressive Sensing,ECE554,CS,"""MTH100""",None,None,Monsoon,,4,ECE,None
+159,Speech Recognition and Understanding,ECE557,SRU,ECE250,"""ECE351,CSE343/CSE543 or CSE342""",None,Winter,Saket Anand,4,ECE,None
+160,Transform Learning and Applications,ECE558,TLA,MTH100,None,ECE362/ECE562,Winter,Anubha Gupta,4,ECE,None
+161,Modeling and Analysis of Random 5G Networks,ECE55G,5GN,MTH201,MATLAB,None,Winter,Gourab Ghatak,4,ECE,None
+162,Control Theory,ECE570,CNT,None,None,None,Monsoon,Sanat Biswas,4,ECE,None
+163,Optimal Control Systems,ECE571,OCS,None,None,None,Winter,,4,ECE,None
+164,Advanced Embedded Logic Design,ECE573,AELD,"""CSE234""",None,None,Winter,Sumit Mediratta,4,ECE,None
+165,Machine Learning Techniques for Real Time Control,ECE577,MLRC,None,"""MTH100, CSE343/CSE543, ECE570""",None,Winter,,4,ECE,None
+166,Nonlinear and Adaptive Control of Robotic Systems,ECE579,NLR,None,ECE570,None,Monsoon,Sayan Basu Roy,4,ECE,None
+167,Autonomous Driving,ECE581,AD,None,None,None,Winter,,2,ECE,None
+168,Bayesian Machine Learning,ECE5BML,BML,"""ECE501, ECE452 or CSE342/CSE542""",Machine learning and Convex Optimization,None,Monsoon,,4,ECE,None
+169,Memory Design and Testing,ECE611,MDT,"""ECE111, ECE113, CSE511/ECE511""",None,None,Winter,,4,ECE,None
+170,Mixed Signal Design,ECE612,MSD,"""ECE315/ECE515""",ECE213,None,Winter,,4,ECE,None
+171,Stochastic Estimation and Control,ECE672,SEC,ECE501,None,None,Winter,,2,ECE,None
+172,Microeconomics,ECO101,ME,None,None,ECO301,Winter,,4,ECO,None
+173,Macroeconomics,ECO201,MA,None,None,None,Monsoon,Kiriti Kanjilal,4,ECO,None
+174,Money and Banking,ECO223,MB,None,None,None ,Winter,Kiriti Kanjilal,4,ECO,None
+175,Introduction to Economic Analysis,ECO301,IEA,None,"Matrix Algebra, Calculus",None,Monsoon/Winter,,4,ECO,None
+176,Game Theory,ECO311,GMT,None,None,"""ECO304""",Monsoon,Rakesh Chathurvedi,4,ECO,None
+177,Industrial Organization,ECO312,IO,"""ECO101 or ECO311""",None,None,Winter,,4,ECO,None
+178,Market Design,ECO313,MD,ECO311,None,None,Winter,,4,ECO,None
+179,Behavioural Economics,ECO314,BEco,"""MTH201""",ECO101,None,Monsoon,Kiriti Kanjilal,4,ECO,SSH
+180,Econometrics I,ECO321,ECO,"""MTH201""",None,"""ECO302""",Monsoon,Gaurav Arora,4,ECO,None
+181,Econometrics II,ECO322/ECO522,Econ-2,ECO321,None,None,Monsoon,,4,ECO,None
+182,Spatial Statistics and Spatial Econometrics,ECO324/ECO524,SSSE,"""ECO321""",MTH372,None,Winter,,4,ECO,None
+183,Foundations of Finance,ECO331,FF,None,None,"""FIN401""",Monsoon,Pankaj Vajpayee,4,ECO,None
+184,Valuation and Portfolio Management,ECO332,VPM,None,None,None,Winter,Pankaj Vajpayee,4,ECO,None
+185,Derivatives and Risk Management,ECO333,DRM,"""ECO331 or ECO332""","""Microeconomics OR Macroeconomics""",None,Monsoon,,4,ECO,None
+186,Decision Theory,ECO503,DT,None,None,None,Monsoon,Rakesh Chathurvedi,4,ECO,None
+187,Research Methods,ENG599s,RM,None,None,None,Winter,Angshul Majumdar,2,OTHERS,None
+188,Entrepreneurial Communication,ENT411,EComm,None,None,None,Monsoon,,4,OTHERS,None
+189,Entrepreneurial Khichadi,ENT412,EK,None,None,None,Monsoon,,4,OTHERS,None
+190,Environmental Sciences,ESC205,EVS,None,None,ESC207A,Monsoon,,2,OTHERS,None
+191,"Ecology, Evolution, and Environment",ESC207A,EEE,None,None,"""ESC205""",Monsoon,Swapna Purandare,2,OTHERS,None
+192,Effective Supply Chain for E Commerce,MGT310,ESCM,None,None,None,Monsoon,Sanjiva Dubey,4,OTHERS,None
+193,Emerging Issues in IT Management,MGT311,EIITM,None,None,None,Winter,,4,OTHERS,None
+194,Math I (Linear Algebra),MTH100,M-I,None,None,None,Monsoon,Samaresh Chatterji,4,MTH,None
+195,Introduction to Mathematical Logic,MTH200,IML,None,"""CSE121/MTH210""",None,Winter,,4,MTH,None
+196,Math II (Probability and Statistics),MTH201,P&S,None,None,None,Winter,"""Angshul Majumdar,Sanjit Kaul""",4,MTH,None
+197,Mathematics III (Multivariate Calculus),MTH203,M-III,None,None,MTH240,Monsoon,"""Sarthok Sircar, Kaushik Kalyanraman""",4,MTH,None
+198,Mathematics IV (Differential Equations),MTH204,M-IV,MTH203,None,None,Winter,,4,MTH,None
+199,Discrete Structures,MTH210,DS,None,None,None,Monsoon,Rajiv Raman,4,MTH,None
+200,Number Theory,MTH211,NT,None,None,None,Monsoon,Anuradha Sharma,4,MTH,None
+201,Abstract Algebra I,MTH212,AA-I,None,"""MTH100""","""MTH302""",Winter,Anuradha Sharma,4,MTH,None
+202,Real Analysis I,MTH240,RA-I,None,None,MTH203,Monsoon,Sankha S Basu,4,MTH,None
+203,Numerical Methods,MTH270,NM,"""MTH100, MTH204""",None,None,Monsoon/Winter,,4,MTH,None
+204,Algebra,MTH302,ALG,None,None,"""MTH212""",Monsoon,,4,MTH,None
+205,Graph Theory,MTH310,GT,None,"""MTH100,CSE121""",None,Winter,,4,MTH,None
+206,Combinatorics and its Applications,MTH311,CIA,"""MTH100 ""","""MTH302""",None,Winter,Samrith Ram,4,MTH,None
+207,Real Analysis-II,MTH340,RA-II,MTH240,None,None,Monsoon,Shilpak Banerjee,4,MTH,None
+208,Complex Analysis,MTH341,CmpA,"""MTH240""",None,None,Monsoon,Ashish Kumar Pandey,4,MTH,None
+209,Introduction to Dynamical Systems,MTH343/MTH543,IDS,"""MTH100, MTH203, MTH240""","""MTH204,MTH340,MTH510""",None,Winter,,4,MTH,None
+210,Stochastic Processes and Applications,MTH371,SPA,MTH201,ECE501,None,Monsoon,Monika Arora,4,MTH,None
+211,Statistical Inference,MTH372,SI,None,None,"""ECE452/ECE552, ECO321, CSE609""",Winter,Monika Arora,4,MTH,None
+212,Scientific Computing,MTH373,SC,MTH100,"""MTH204,MTH203,MTH240""",MTH270,Monsoon,Kaushik Kalyanaraman,4,MTH,None
+213,Linear Optimization,MTH374/MTH574,LO,MTH100,CSE101,MTH305/505,Winter,,4,MTH,None
+214,Fluid Mechainics,MTH375/MTH575,FM,"""MTH204""",None,None,Monsoon,,4,MTH,None
+215,Advanced Linear Algebra,MTH510,ALA,"""MTH100""",None,None,Monsoon,,4,MTH,None
+216,Algebraic Number Theory,MTH512,ANT,None,None,None,Monsoon,,4,MTH,None
+217,Abstract Algebra II,MTH513,AA-II,"""MTH100, MTH212""",None,None,Winter,Anuradha Sharma,4,MTH,None
+218,Coding Theory,MTH514,CT,"""MTH100, MTH212, MTH513""",None,None,Winter,,4,MTH,None
+219,Analytic Number Theory,MTH516,ANT,MTH341,MTH211,None,Winter,,4,MTH,None
+220,Combinatorial Optimization,MTH517,CO,MTH374/MTH574,MAD,None,Winter,,4,MTH,None
+221,Calculus in R^N,MTH544,CRN,"""MTH100, MTH203 or MTH240""","Prior familiarity with metric spaces, point-set topology, basic differential geometry, and linear optimization may help understand topics better but will not be presumed.",None,Winter,,4,MTH,None
+222,Introduction to PDE,MTH550,IPDE,MTH204,None,None,Winter,,4,MTH,None
+223,Point Set Toplogy,MTH562,PST,None,MTH240,None,Monsoon,,4,MTH,None
+224,Numerical Solutions Differential Equations,MTH570,NSDE,"""MTH100, MTH203, MTH240""","""MTH270, MTH204""",None,Winter,,4,MTH,None
+225,Integral Transforms and their Applications,MTH571,ITA,"""MTH204""","""MTH341""",None,Winter,,4,MTH,None
+226,Categorical Data Analysis,MTH576,CDA,MTH201,"""Statistical Inference, Econometrics I/Statistical Signal processing/Machine Learning""",None,Monsoon,Monika Arora,4,MTH,None
+227,Introduction to Functional Analysis,MTH598,IFA,"""MTH100""","""MTH203""",None,Winter,,,MTH,None
+228,Numerical Partial Differential Equations,MTH598,NPDE,"""MTH100, MTH203, MTH240""",None,MTH570,Winter,,4,MTH,None
+229,Variational Calculus and their Applications,MTH599,VCA,MTH203,None,None,Monsoon,Sarthok Sircar,4,MTH,None
+230,Introduction to Cognitive Psychology,PSY201,Psy,SSH101,None,HSS204,Monsoon,,4,PSY,SSH
+231,Positive Psychology,PSY202,Ppsy,None,None,None,Winter,,4,PSY,SSH
+232,Cognitive Psychology,PSY301,CP,None,None,"""PSY201""",Winter,Venkata Ratandeep Suri,4,PSY,SSH
+233,Social Psychology,PSY302,SP,None ,None,None,Winter,Venkata Ratandeep Suri,4,PSY,SSH
+234,Attention and Perception,PSY305,AP,None,None,None,Winter,Sonia Baloni Ray,4,PSY,SSH
+235,Learning and Memory,PSY306,LM,None,None,None,Winter,Mrinmoy Charabarty,4,PSY,SSH
+236,Neuroscience of Decision Making,PSY307,NDM,None,PSY301,None,Monsoon,,4,PSY,SSH
+237,Cognition of Motor Movement,PSY308,CMM,"""CSE101, PSY201""",None,None,Monsoon,Sonia Baloni Ray,4,PSY,SSH
+238,Introduction to Sociology and Anthropology,SOC101,ISA,SSH101,None,"""HSS205, HSS215""",Winter,Amrit Srinivasan,4,SOC,SSH
+239,Contemporary India Sociological Perspective,SOC202,CISP,None,None,None,Monsoon,Paro Mishra,4,SOC,SSH
+240,Sociology of New Media,SOC204,SNM,None,None,None,Monsoon,Aasim Khan,4,SOC,SSH
+241,Anthropology and Social Media,SOC205,ASM,None,None,None ,Winter,Swati Mantri(V),4,SOC,SSH
+242,Business Anthropology,SOC206,BA,None,None,None,Monsoon,Shriram Venktraman,4,SOC,SSH
+243,Information Technology And Society,SOC207,ITS,None,SOC201,"""HSS212, SSH101""",Winter,,4,SOC,SSH
+244,Organizations An Anthropological Perspective,SOC208,OAP,None,None,None,Winter,,4,SOC,SSH
+245,Consumer Culture and Society,SOC209,CCS,None,None,None ,Winter,Swati Mantri(V),4,SOC,SSH
+246,Sociological Theory,SOC210,ST1,None,None,None ,Winter,Gayatri Nair,4,SOC,SSH
+247,"Science, Technology and Society",SOC211,STS,None,None,None ,Winter,Shireen Mirza,4,SOC,SSH
+248,Key Concepts in Economic Sociology,SOC212,KCES,None,None,None,Monsoon,,4,SOC,SSH
+249,Urban Sociology,SOC302,US,None,None,None ,Winter,Smriti Singh,4,SOC,SSH
+250,Digital Social Research,SOC307,DSR,None,None,None,Monsoon,Swati Mantri(V),4,SOC,SSH
+251,Gender and Media,SOC308,IPHI,None,None,None,Monsoon,Swati Mantri(V),4,SOC,SSH
+252,Critical Thinking and Readings in Social Science ,SSH101,CTRSS,None,None,None,Winter,Aaasim Khan,4,SSH,None
+253,Introduction to Philosophy,SSH121,IPHI,None,None,None,Monsoon,Raj Ayyar,4,SSH,None
+254,Critical Thinking,SSH124,CT,None,None,"""SSH101""",Winter,Raj Ayyar,4,SSH,None
+255,Research Methods in Social Science and Design,SSH201,RMSSD,SSH101,None,None,Monsoon,Venkata Ratandeep Suri,4,SSH,None
+256,Theatre Appreciation,SSH211,TA,None,None,HSS211,Monsoon,Manohar Khushalani,4,SSH,None
+257,Introduction To The Study Of Literature,SSH214,Lit,None,None,None,Winter,,4,SSH,None
+258,Nation and her Narratives,SSH215,NN,None,None,None,Winter,Payel C Mukherjee(V),4,SSH,None
+259,Introduction to Indian Mythology,SSH216,IIM,None,None,"""HSS219""",Monsoon,Saumya Kulshreshtha,2,SSH,None
+260,Indian Poetry Through the Ages,SSH217,IPA,None,None,None,Winter,,2,SSH,None
+261,Social and Political Philosophy,SSH221,SPP,None,None,None,Monsoon,Manohar Kumar,4,SSH,None
+262,Theory and Practice of Engineering Ethics,SSH222,TPEE,None,None,None,Winter,Shweta Singh,4,SSH,None
+263,Perspectives of Knowledge,SSH223,PoK,None,None,None,Monsoon,Shweta Singh,4,SSH,None
+264,"Computer, Information Ethics and Society",SSH224,CIES,None,None,None,Winter,Shweta Singh,4,SSH,None
+265,Democracy in India: Principles and Practices,SSH261,DIPP,None,None,None,Winter,Praveen Priyadarshi,4,SSH,None
+266,Theories of Ethics,SSH300,TE,None,Introduction to Philosophy,None,Monsoon,,4,SSH,None
+267,Advanced Writing,SSH311,AW,None,None,None,Winter,Payel C Mukherjee(V),4,SSH,None
+268,Applied Ethics,SSH321,AE,None,None,None,Winter,Manohar Kumar,4,SSH,None
+269,Philosophy of Technology,SSH322,PT,None,None,None,Winter,Nishad Patnaik,4,SSH,None
+270,Urban Space and Political Power,SSH322,USPP,None,SOC101,None,Monsoon,,4,SSH,None
+271,New Media and Politics,SSH323,NMP,None,Social and Political Philosophy,None,Monsoon,,4,SSH,None
+272,Comparative Politics in Digital Era,SSH361,CPDE,None,None,None,Winter,Aasim Khan,4,SSH,None
