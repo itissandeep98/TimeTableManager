@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TimeTableManager/precache-manifest.e1807f56b8e2a69820fc53790b848c3c.js"
+  "/TimeTableManager/precache-manifest.72b90deffa76d6da919e8276bf69d263.js"
 );
 
 self.addEventListener('message', (event) => {
