@@ -13,7 +13,7 @@ export default class TableData extends Component {
 			})
 
 			var header = headers.map((field) => {
-				return <th>{field}</th>
+				return <th key={field}>{field}</th>
 			})
 
 			return (

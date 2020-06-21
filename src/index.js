@@ -7,11 +7,16 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap-social/bootstrap-social.css';
 import 'semantic-ui-css/semantic.min.css'
+import { configureStore } from './store/configureStore';
+import { Provider } from 'react-redux';
+const store = configureStore();
 
 ReactDOM.render(
+  <Provider store={store} >
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </Provider>,
   document.getElementById('root')
 );
 

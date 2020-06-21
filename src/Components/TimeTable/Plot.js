@@ -29,9 +29,13 @@ export default class Plot extends Component {
 			["Thu", "", "", "", "", "", "",],
 			["Fri", "", "", "", "", "", "",]
 		]
+		// console.log(this.props.courselist);
+		
 		var courselist=[
-			{key:"loading", value:<Spinner/>, text:<Spinner/>, disabled:"true"}
+			{key:"loading", value:<Spinner/>, text:<Spinner/>, disabled:true}
 		]
+		if(this.props.courselist)
+			courselist=this.props.courselist
 		
 		return (
 			<div className="container">
