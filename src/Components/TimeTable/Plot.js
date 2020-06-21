@@ -25,10 +25,12 @@ export default class Plot extends Component {
 	}
 	updateSchedule(){
 		var temp=this.state.schedule
-		temp[1][1]=temp[1][1].concat(this.state.courses[this.state.courses.length-1])
-		this.setState({
-			schedule:temp
-		})		
+		if (this.state.courses[this.state.courses.length - 1]){
+			temp[1][1]=temp[1][1].concat(this.state.courses[this.state.courses.length-1])
+			this.setState({
+				schedule:temp
+			})		
+		}
 		
 	}
 

@@ -1,12 +1,13 @@
 import React from 'react'
+import { Table } from 'semantic-ui-react'
 
 export default function Rows({course}) {
 	var cols = Object.keys(course).map((field) => {
-		return <td>{course[field]}</td>
+		return <Table.Cell >{course[field]}</Table.Cell>
 	})	
 	return (
-		<tr key={course[Object.keys(course)[0]]}>
+		<Table.Row>
 			{cols}
-		</tr>
+		</Table.Row>
 	)
 }
