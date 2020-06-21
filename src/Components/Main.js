@@ -7,16 +7,49 @@ export default class Main extends Component {
 	constructor(props){
 		super(props);
 		this.state={
-			database:""
+			database:"",
+			courses:""
 		}
 		this.onChange=this.onChange.bind(this);
 	}
 	onChange(e){
 		this.setState({
 			[e.target.id]:e.target.files[0]
+		},()=>{
+			var reader= new FileReader();
+			reader.readAsText(this.state.database)
+			reader.onloadend=()=>{
+				var json=this.csvJSON(reader.result);
+				this.setState({
+					courses:json
+				})
+				
+			}			
 		})
 		
 	}
+
+	csvJSON(csv) {
+		
+		var lines = csv.split("\n");
+
+		var result = [];
+
+		var headers = lines[0].split(",");
+
+		for (var i = 1; i < lines.length; i++) {
+
+			var obj = {};
+			var currentline = lines[i].split(",");
+
+			for (var j = 0; j < headers.length; j++) {
+				obj[headers[j]] = currentline[j];
+			}
+			result.push(obj);
+		}		
+		return result;
+	}
+
 	render() {
 		return (
 			<div>
@@ -31,7 +64,7 @@ export default class Main extends Component {
 					</Row>
 					<hr/>
 					<Row>
-						<TableData/>
+						<TableData Courses={this.state.courses}/>
 					</Row>
 				</div>
 			</div>
