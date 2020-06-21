@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Form, Input, Label, Row } from 'reactstrap'
+import { Form, Input, Label, Row, FormText } from 'reactstrap'
 import Header from './Header';
 import TableData from "./Table";
 
@@ -37,7 +37,7 @@ export default class Main extends Component {
 
 		var headers = lines[0].split(",");
 
-		for (var i = 1; i < lines.length; i++) {
+		for (var i = 0; i < lines.length; i++) {
 
 			var obj = {};
 			var currentline = lines[i].split(",");
@@ -60,13 +60,12 @@ export default class Main extends Component {
 						<Form>
 							<Label htmlFor="database">Upload the database file</Label>
 							<Input type="file" id="database" onChange={this.onChange} />
+							<FormText>Upload only valid CSV files</FormText>
 						</Form>
 					</Row>
-					<hr/>
-					<Row>
-						<TableData Courses={this.state.courses}/>
-					</Row>
 				</div>
+					<hr/>
+					<TableData Courses={this.state.courses}/>
 			</div>
 		)
 	}
