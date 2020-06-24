@@ -18,7 +18,7 @@ class Main extends Component {
 	}
 
 	render() {
-		setInterval(this.collectCourse, 60000); //fetch course every 1 min only if courses list is empty
+		setInterval(this.collectCourse, 10000); //fetch course every 1 min only if courses list is empty
 		return (
 			<div>
 				<Header />
