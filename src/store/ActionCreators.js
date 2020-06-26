@@ -1,13 +1,13 @@
 import axios from "axios";
 import * as ActionTypes from "./ActionTypes";
-import { baseUrl } from "../shared/baseUrl";
+import { jsonUrl } from "../shared/baseUrl";
 
 
 export const courseFetchAction = () => {
 	return async (dispatch) => {
-		return await axios.get(baseUrl+'/courses')
+		return await axios.get(jsonUrl+"/courses")
 			.then(response => {
-				if (response.data.success)
+				if (response.data.courses)
 					dispatch({ type: ActionTypes.COURSE_FETCH_SUCCESS, courses: response.data.courses })
 				else
 					dispatch({ type: ActionTypes.COURSE_FETCH_FAILED, errmess: "Courses Can't be Fetched" })
