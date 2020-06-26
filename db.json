@@ -1,959 +1,1329 @@
 {
-	"courses":[
+	"courses": [
 		{
-			"key":1,
-			"text":"Foundations of Biology",
-			"value":"Foundations of Biology"
+			"key": 1,
+			"text": "Foundations of Biology",
+			"value": "Foundations of Biology"
 		},
 		{
-			"key":2,
-			"text":"Introduction to Quantitative Biology",
-			"value":"Introduction to Quantitative Biology"
+			"key": 2,
+			"text": "Introduction to Quantitative Biology",
+			"value": "Introduction to Quantitative Biology"
 		},
 		{
-			"key":3,
-			"text":"Genetics and Molecular Biology",
-			"value":"Genetics and Molecular Biology"
+			"key": 3,
+			"text": "Genetics and Molecular Biology",
+			"value": "Genetics and Molecular Biology"
 		},
 		{
-			"key":4,
-			"text":"Cell Biology and Bio-Chemistry",
-			"value":"Cell Biology and Bio-Chemistry"
+			"key": 4,
+			"text": "Cell Biology and Bio-Chemistry",
+			"value": "Cell Biology and Bio-Chemistry"
 		},
 		{
-			"key":5,
-			"text":"Stochastic Simulations in Systems Biology and Biophysics",
-			"value":"Stochastic Simulations in Systems Biology and Biophysics"
+			"key": 5,
+			"text": "Stochastic Simulations in Systems Biology and Biophysics",
+			"value": "Stochastic Simulations in Systems Biology and Biophysics"
 		},
 		{
-			"key":6,
-			"text":"Foundations of Modern Biology",
-			"value":"Foundations of Modern Biology"
+			"key": 6,
+			"text": "Foundations of Modern Biology",
+			"value": "Foundations of Modern Biology"
 		},
 		{
-			"key":7,
-			"text":"Practical Bioinformatics",
-			"value":"Practical Bioinformatics"
+			"key": 7,
+			"text": "Practical Bioinformatics",
+			"value": "Practical Bioinformatics"
 		},
 		{
-			"key":8,
-			"text":"Algorithms in Computational Biology",
-			"value":"Algorithms in Computational Biology"
+			"key": 8,
+			"text": "Algorithms in Computational Biology",
+			"value": "Algorithms in Computational Biology"
 		},
 		{
-			"key":9,
-			"text":"Chemoinformatics",
-			"value":"Chemoinformatics"
+			"key": 9,
+			"text": "Chemoinformatics",
+			"value": "Chemoinformatics"
 		},
 		{
-			"key":10,
-			"text":"Introduction to Mathematical Biology",
-			"value":"Introduction to Mathematical Biology"
+			"key": 10,
+			"text": "Introduction to Mathematical Biology",
+			"value": "Introduction to Mathematical Biology"
 		},
 		{
-			"key":11,
-			"text":"Network Biology",
-			"value":"Network Biology"
+			"key": 11,
+			"text": "Network Biology",
+			"value": "Network Biology"
 		},
 		{
-			"key":12,
-			"text":"Systems and Synthetic Biology",
-			"value":"Systems and Synthetic Biology"
+			"key": 12,
+			"text": "Systems and Synthetic Biology",
+			"value": "Systems and Synthetic Biology"
 		},
 		{
-			"key":13,
-			"text":"Introduction to Computational Neuroscience",
-			"value":"Introduction to Computational Neuroscience"
+			"key": 13,
+			"text": "Introduction to Computational Neuroscience",
+			"value": "Introduction to Computational Neuroscience"
 		},
 		{
-			"key":14,
-			"text":"Data Sciences and Genomics",
-			"value":"Data Sciences and Genomics"
+			"key": 14,
+			"text": "Data Sciences and Genomics",
+			"value": "Data Sciences and Genomics"
 		},
 		{
-			"key":15,
-			"text":"Machine Learning and Biomedical Applications",
-			"value":"Machine Learning and Biomedical Applications"
+			"key": 15,
+			"text": "Machine Learning and Biomedical Applications",
+			"value": "Machine Learning and Biomedical Applications"
 		},
 		{
-			"key":16,
-			"text":"Big Data Mining in Healthcare",
-			"value":"Big Data Mining in Healthcare"
+			"key": 16,
+			"text": "Big Data Mining in Healthcare",
+			"value": "Big Data Mining in Healthcare"
 		},
 		{
-			"key":17,
-			"text":"Network Science",
-			"value":"Network Science"
+			"key": 17,
+			"text": "Network Science",
+			"value": "Network Science"
 		},
 		{
-			"key":18,
-			"text":"Communication Skills",
-			"value":"Communication Skills"
+			"key": 18,
+			"text": "Communication Skills",
+			"value": "Communication Skills"
 		},
 		{
-			"key":19,
-			"text":"Technical Communication",
-			"value":"Technical Communication"
+			"key": 19,
+			"text": "Technical Communication",
+			"value": "Technical Communication"
 		},
 		{
-			"key":20,
-			"text":"Introduction to Programming",
-			"value":"Introduction to Programming"
+			"key": 20,
+			"text": "Introduction to Programming",
+			"value": "Introduction to Programming"
 		},
 		{
-			"key":21,
-			"text":"Data Structures & Algorithms",
-			"value":"Data Structures & Algorithms"
+			"key": 21,
+			"text": "Data Structures & Algorithms",
+			"value": "Data Structures & Algorithms"
 		},
 		{
-			"key":22,
-			"text":"Computer Organization",
-			"value":"Computer Organization"
+			"key": 22,
+			"text": "Computer Organization",
+			"value": "Computer Organization"
 		},
 		{
-			"key":23,
-			"text":"Discrete Mathematics",
-			"value":"Discrete Mathematics"
+			"key": 23,
+			"text": "Discrete Mathematics",
+			"value": "Discrete Mathematics"
 		},
 		{
-			"key":24,
-			"text":"Systems Management",
-			"value":"Systems Management"
+			"key": 24,
+			"text": "Systems Management",
+			"value": "Systems Management"
 		},
 		{
-			"key":25,
-			"text":"Advanced Programming",
-			"value":"Advanced Programming"
+			"key": 25,
+			"text": "Advanced Programming",
+			"value": "Advanced Programming"
 		},
 		{
-			"key":26,
-			"text":"Fundamentals of Database Management System",
-			"value":"Fundamentals of Database Management System"
+			"key": 26,
+			"text": "Fundamentals of Database Management System",
+			"value": "Fundamentals of Database Management System"
 		},
 		{
-			"key":27,
-			"text":"Algorithm Design and Analysis",
-			"value":"Algorithm Design and Analysis"
+			"key": 27,
+			"text": "Algorithm Design and Analysis",
+			"value": "Algorithm Design and Analysis"
 		},
 		{
-			"key":28,
-			"text":"Operating Systems",
-			"value":"Operating Systems"
+			"key": 28,
+			"text": "Operating Systems",
+			"value": "Operating Systems"
 		},
 		{
-			"key":29,
-			"text":"Computer Networks",
-			"value":"Computer Networks"
+			"key": 29,
+			"text": "Computer Networks",
+			"value": "Computer Networks"
 		},
 		{
-			"key":30,
-			"text":"Network Administration",
-			"value":"Network Administration"
+			"key": 30,
+			"text": "Network Administration",
+			"value": "Network Administration"
 		},
 		{
-			"key":31,
-			"text":"Computer Architecture and Operating Systems",
-			"value":"Computer Architecture and Operating Systems"
+			"key": 31,
+			"text": "Computer Architecture and Operating Systems",
+			"value": "Computer Architecture and Operating Systems"
 		},
 		{
-			"key":32,
-			"text":"Compilers",
-			"value":"Compilers"
+			"key": 32,
+			"text": "Compilers",
+			"value": "Compilers"
 		},
 		{
-			"key":33,
-			"text":"Modern Algorithm Design",
-			"value":"Modern Algorithm Design"
+			"key": 33,
+			"text": "Modern Algorithm Design",
+			"value": "Modern Algorithm Design"
 		},
 		{
-			"key":34,
-			"text":"Advanced Algorithms",
-			"value":"Advanced Algorithms"
+			"key": 34,
+			"text": "Advanced Algorithms",
+			"value": "Advanced Algorithms"
 		},
 		{
-			"key":35,
-			"text":"Theory of Computation",
-			"value":"Theory of Computation"
+			"key": 35,
+			"text": "Theory of Computation",
+			"value": "Theory of Computation"
 		},
 		{
-			"key":36,
-			"text":"Computer Graphics",
-			"value":"Computer Graphics"
+			"key": 36,
+			"text": "Computer Graphics",
+			"value": "Computer Graphics"
 		},
 		{
-			"key":37,
-			"text":"Statistical Machine Learning",
-			"value":"Statistical Machine Learning"
+			"key": 37,
+			"text": "Statistical Machine Learning",
+			"value": "Statistical Machine Learning"
 		},
 		{
-			"key":38,
-			"text":"Machine Learning",
-			"value":"Machine Learning"
+			"key": 38,
+			"text": "Machine Learning",
+			"value": "Machine Learning"
 		},
 		{
-			"key":39,
-			"text":"Computer Vision",
-			"value":"Computer Vision"
+			"key": 39,
+			"text": "Computer Vision",
+			"value": "Computer Vision"
 		},
 		{
-			"key":40,
-			"text":"Foundations of Computer Security",
-			"value":"Foundations of Computer Security"
+			"key": 40,
+			"text": "Foundations of Computer Security",
+			"value": "Foundations of Computer Security"
 		},
 		{
-			"key":41,
-			"text":"Complexity Theory",
-			"value":"Complexity Theory"
+			"key": 41,
+			"text": "Complexity Theory",
+			"value": "Complexity Theory"
 		},
 		{
-			"key":42,
-			"text":"Introduction to Intelligent Systems",
-			"value":"Introduction to Intelligent Systems"
+			"key": 42,
+			"text": "Introduction to Intelligent Systems",
+			"value": "Introduction to Intelligent Systems"
 		},
 		{
-			"key":43,
-			"text":"Advanced Biometrics",
-			"value":"Advanced Biometrics"
+			"key": 43,
+			"text": "Advanced Biometrics",
+			"value": "Advanced Biometrics"
 		},
 		{
-			"key":44,
-			"text":"Designing Human Centered Systems",
-			"value":"Designing Human Centered Systems"
+			"key": 44,
+			"text": "Designing Human Centered Systems",
+			"value": "Designing Human Centered Systems"
 		},
 		{
-			"key":45,
-			"text":"Foundations of Parallel Programming",
-			"value":"Foundations of Parallel Programming"
+			"key": 45,
+			"text": "Foundations of Parallel Programming",
+			"value": "Foundations of Parallel Programming"
 		},
 		{
-			"key":46,
-			"text":"Program Analysis",
-			"value":"Program Analysis"
+			"key": 46,
+			"text": "Program Analysis",
+			"value": "Program Analysis"
 		},
 		{
-			"key":47,
-			"text":"Data Mining",
-			"value":"Data Mining"
+			"key": 47,
+			"text": "Data Mining",
+			"value": "Data Mining"
 		},
 		{
-			"key":48,
-			"text":"Database System Implementation",
-			"value":"Database System Implementation"
+			"key": 48,
+			"text": "Database System Implementation",
+			"value": "Database System Implementation"
 		},
 		{
-			"key":49,
-			"text":"Information Retrieval",
-			"value":"Information Retrieval"
+			"key": 49,
+			"text": "Information Retrieval",
+			"value": "Information Retrieval"
 		},
 		{
-			"key":50,
-			"text":"Big Data Analytics",
-			"value":"Big Data Analytics"
+			"key": 50,
+			"text": "Big Data Analytics",
+			"value": "Big Data Analytics"
 		},
 		{
-			"key":51,
-			"text":"Computer Architecture",
-			"value":"Computer Architecture"
+			"key": 51,
+			"text": "Computer Architecture",
+			"value": "Computer Architecture"
 		},
 		{
-			"key":52,
-			"text":"Randomized Algorithms",
-			"value":"Randomized Algorithms"
+			"key": 52,
+			"text": "Randomized Algorithms",
+			"value": "Randomized Algorithms"
 		},
 		{
-			"key":53,
-			"text":"Theory of Modern cryptography",
-			"value":"Theory of Modern cryptography"
+			"key": 53,
+			"text": "Theory of Modern cryptography",
+			"value": "Theory of Modern cryptography"
 		},
 		{
-			"key":54,
-			"text":"Graduate Algorithms",
-			"value":"Graduate Algorithms"
+			"key": 54,
+			"text": "Graduate Algorithms",
+			"value": "Graduate Algorithms"
 		},
 		{
-			"key":55,
-			"text":"Convex Optimization",
-			"value":"Convex Optimization"
+			"key": 55,
+			"text": "Convex Optimization",
+			"value": "Convex Optimization"
 		},
 		{
-			"key":56,
-			"text":"Approximation Algorithms",
-			"value":"Approximation Algorithms"
+			"key": 56,
+			"text": "Approximation Algorithms",
+			"value": "Approximation Algorithms"
 		},
 		{
-			"key":57,
-			"text":"Distributed Systems Security",
-			"value":"Distributed Systems Security"
+			"key": 57,
+			"text": "Distributed Systems Security",
+			"value": "Distributed Systems Security"
 		},
 		{
-			"key":58,
-			"text":"Multi-Agent Systems",
-			"value":"Multi-Agent Systems"
+			"key": 58,
+			"text": "Multi-Agent Systems",
+			"value": "Multi-Agent Systems"
 		},
 		{
-			"key":59,
-			"text":"Mobile Computing",
-			"value":"Mobile Computing"
+			"key": 59,
+			"text": "Mobile Computing",
+			"value": "Mobile Computing"
 		},
 		{
-			"key":60,
-			"text":"Wireless Networks",
-			"value":"Wireless Networks"
+			"key": 60,
+			"text": "Wireless Networks",
+			"value": "Wireless Networks"
 		},
 		{
-			"key":61,
-			"text":"Applied Cryptography",
-			"value":"Applied Cryptography"
+			"key": 61,
+			"text": "Applied Cryptography",
+			"value": "Applied Cryptography"
 		},
 		{
-			"key":62,
-			"text":"Natural Language Processing",
-			"value":"Natural Language Processing"
+			"key": 62,
+			"text": "Natural Language Processing",
+			"value": "Natural Language Processing"
 		},
 		{
-			"key":63,
-			"text":"Security Engineering",
-			"value":"Security Engineering"
+			"key": 63,
+			"text": "Security Engineering",
+			"value": "Security Engineering"
 		},
 		{
-			"key":64,
-			"text":"Introduction to Spatial Computing",
-			"value":"Introduction to Spatial Computing"
+			"key": 64,
+			"text": "Introduction to Spatial Computing",
+			"value": "Introduction to Spatial Computing"
 		},
 		{
-			"key":65,
-			"text":"Data Science",
-			"value":"Data Science"
+			"key": 65,
+			"text": "Data Science",
+			"value": "Data Science"
 		},
 		{
-			"key":66,
-			"text":"Mining Large Networks",
-			"value":"Mining Large Networks"
+			"key": 66,
+			"text": "Mining Large Networks",
+			"value": "Mining Large Networks"
 		},
 		{
-			"key":67,
-			"text":"GPU Computing",
-			"value":"GPU Computing"
+			"key": 67,
+			"text": "GPU Computing",
+			"value": "GPU Computing"
 		},
 		{
-			"key":68,
-			"text":"Probabilistic Graphical Models",
-			"value":"Probabilistic Graphical Models"
+			"key": 68,
+			"text": "Probabilistic Graphical Models",
+			"value": "Probabilistic Graphical Models"
 		},
 		{
-			"key":69,
-			"text":"Advanced Computer Vision",
-			"value":"Advanced Computer Vision"
+			"key": 69,
+			"text": "Advanced Computer Vision",
+			"value": "Advanced Computer Vision"
 		},
 		{
-			"key":70,
-			"text":"Multimedia Computing and Applications",
-			"value":"Multimedia Computing and Applications"
+			"key": 70,
+			"text": "Multimedia Computing and Applications",
+			"value": "Multimedia Computing and Applications"
 		},
 		{
-			"key":71,
-			"text":"Reinforcement Learning",
-			"value":"Reinforcement Learning"
+			"key": 71,
+			"text": "Reinforcement Learning",
+			"value": "Reinforcement Learning"
 		},
 		{
-			"key":72,
-			"text":"Software Defined Networking",
-			"value":"Software Defined Networking"
+			"key": 72,
+			"text": "Software Defined Networking",
+			"value": "Software Defined Networking"
 		},
 		{
-			"key":73,
-			"text":"Virtual Reality",
-			"value":"Virtual Reality"
+			"key": 73,
+			"text": "Virtual Reality",
+			"value": "Virtual Reality"
 		},
 		{
-			"key":74,
-			"text":"Introduction to Media Computing",
-			"value":"Introduction to Media Computing"
+			"key": 74,
+			"text": "Introduction to Media Computing",
+			"value": "Introduction to Media Computing"
 		},
 		{
-			"key":75,
-			"text":"Smart Sensing for Internet of Things (IoT)",
-			"value":"Smart Sensing for Internet of Things (IoT)"
+			"key": 75,
+			"text": "Smart Sensing for Internet of Things (IoT)",
+			"value": "Smart Sensing for Internet of Things (IoT)"
 		},
 		{
-			"key":76,
-			"text":"Advanced Internet of Things",
-			"value":"Advanced Internet of Things"
+			"key": 76,
+			"text": "Advanced Internet of Things",
+			"value": "Advanced Internet of Things"
 		},
 		{
-			"key":77,
-			"text":"Ontology Modeling",
-			"value":"Ontology Modeling"
+			"key": 77,
+			"text": "Ontology Modeling",
+			"value": "Ontology Modeling"
 		},
 		{
-			"key":78,
-			"text":"Software Production Evolution and Maintenance",
-			"value":"Software Production Evolution and Maintenance"
+			"key": 78,
+			"text": "Software Production Evolution and Maintenance",
+			"value": "Software Production Evolution and Maintenance"
 		},
 		{
-			"key":79,
-			"text":"Affective Computing",
-			"value":"Affective Computing"
+			"key": 79,
+			"text": "Affective Computing",
+			"value": "Affective Computing"
 		},
 		{
-			"key":80,
-			"text":"Geometry Processing",
-			"value":"Geometry Processing"
+			"key": 80,
+			"text": "Geometry Processing",
+			"value": "Geometry Processing"
 		},
 		{
-			"key":81,
-			"text":"Systems Analysis, Design and Requirements Engineering",
-			"value":"Systems Analysis, Design and Requirements Engineering"
+			"key": 81,
+			"text": "Systems Analysis, Design and Requirements Engineering",
+			"value": "Systems Analysis, Design and Requirements Engineering"
 		},
 		{
-			"key":82,
-			"text":"Social Robotics",
-			"value":"Social Robotics"
+			"key": 82,
+			"text": "Social Robotics",
+			"value": "Social Robotics"
 		},
 		{
-			"key":83,
-			"text":"Topics in Adaptive Cybersecurity",
-			"value":"Topics in Adaptive Cybersecurity"
+			"key": 83,
+			"text": "Topics in Adaptive Cybersecurity",
+			"value": "Topics in Adaptive Cybersecurity"
 		},
 		{
-			"key":84,
-			"text":"Object Oriented Programming and Design",
-			"value":"Object Oriented Programming and Design"
+			"key": 84,
+			"text": "Object Oriented Programming and Design",
+			"value": "Object Oriented Programming and Design"
 		},
 		{
-			"key":85,
-			"text":"Data Warehouse",
-			"value":"Data Warehouse"
+			"key": 85,
+			"text": "Data Warehouse",
+			"value": "Data Warehouse"
 		},
 		{
-			"key":86,
-			"text":"Statistical Computation",
-			"value":"Statistical Computation"
+			"key": 86,
+			"text": "Statistical Computation",
+			"value": "Statistical Computation"
 		},
 		{
-			"key":87,
-			"text":"Introduction to Quantum Computing",
-			"value":"Introduction to Quantum Computing"
+			"key": 87,
+			"text": "Introduction to Quantum Computing",
+			"value": "Introduction to Quantum Computing"
 		},
 		{
-			"key":88,
-			"text":"Semantic Web",
-			"value":"Semantic Web"
+			"key": 88,
+			"text": "Semantic Web",
+			"value": "Semantic Web"
 		},
 		{
-			"key":89,
-			"text":"Introduction to Robotics",
-			"value":"Introduction to Robotics"
+			"key": 89,
+			"text": "Introduction to Robotics",
+			"value": "Introduction to Robotics"
 		},
 		{
-			"key":90,
-			"text":"Communication Networks",
-			"value":"Communication Networks"
+			"key": 90,
+			"text": "Communication Networks",
+			"value": "Communication Networks"
 		},
 		{
-			"key":91,
-			"text":"Collaborative Filtering",
-			"value":"Collaborative Filtering"
+			"key": 91,
+			"text": "Collaborative Filtering",
+			"value": "Collaborative Filtering"
 		},
 		{
-			"key":92,
-			"text":"Deep Learning",
-			"value":"Deep Learning"
+			"key": 92,
+			"text": "Deep Learning",
+			"value": "Deep Learning"
 		},
 		{
-			"key":93,
-			"text":"Advanced Machine Learning",
-			"value":"Advanced Machine Learning"
+			"key": 93,
+			"text": "Advanced Machine Learning",
+			"value": "Advanced Machine Learning"
 		},
 		{
-			"key":94,
-			"text":"Artificial Intelligence",
-			"value":"Artificial Intelligence"
+			"key": 94,
+			"text": "Artificial Intelligence",
+			"value": "Artificial Intelligence"
 		},
 		{
-			"key":95,
-			"text":"Multimedia Security",
-			"value":"Multimedia Security"
+			"key": 95,
+			"text": "Multimedia Security",
+			"value": "Multimedia Security"
 		},
 		{
-			"key":96,
-			"text":"Advanced Topics in Mobile Computing",
-			"value":"Advanced Topics in Mobile Computing"
+			"key": 96,
+			"text": "Advanced Topics in Mobile Computing",
+			"value": "Advanced Topics in Mobile Computing"
 		},
 		{
-			"key":97,
-			"text":"Network Anonymity and Privacy",
-			"value":"Network Anonymity and Privacy"
+			"key": 97,
+			"text": "Network Anonymity and Privacy",
+			"value": "Network Anonymity and Privacy"
 		},
 		{
-			"key":98,
-			"text":"Topics in Cryptanalysis",
-			"value":"Topics in Cryptanalysis"
+			"key": 98,
+			"text": "Topics in Cryptanalysis",
+			"value": "Topics in Cryptanalysis"
 		},
 		{
-			"key":99,
-			"text":"Design Drawing & Visualization",
-			"value":"Design Drawing & Visualization"
+			"key": 99,
+			"text": "Design Drawing & Visualization",
+			"value": "Design Drawing & Visualization"
 		},
 		{
-			"key":100,
-			"text":"Prototyping Interactive Systems",
-			"value":"Prototyping Interactive Systems"
+			"key": 100,
+			"text": "Prototyping Interactive Systems",
+			"value": "Prototyping Interactive Systems"
 		},
 		{
-			"key":101,
-			"text":"Design Processes and Perspectives",
-			"value":"Design Processes and Perspectives"
+			"key": 101,
+			"text": "Design Processes and Perspectives",
+			"value": "Design Processes and Perspectives"
 		},
 		{
-			"key":102,
-			"text":"Visual Design & Communication",
-			"value":"Visual Design & Communication"
+			"key": 102,
+			"text": "Visual Design & Communication",
+			"value": "Visual Design & Communication"
 		},
 		{
-			"key":103,
-			"text":"Human Computer Interaction ",
-			"value":"Human Computer Interaction "
+			"key": 103,
+			"text": "Human Computer Interaction ",
+			"value": "Human Computer Interaction "
 		},
 		{
-			"key":104,
-			"text":"Animation and Graphics",
-			"value":"Animation and Graphics"
+			"key": 104,
+			"text": "Animation and Graphics",
+			"value": "Animation and Graphics"
 		},
 		{
-			"key":105,
-			"text":"Film Making and Radio Podcasting",
-			"value":"Film Making and Radio Podcasting"
+			"key": 105,
+			"text": "Film Making and Radio Podcasting",
+			"value": "Film Making and Radio Podcasting"
 		},
 		{
-			"key":106,
-			"text":"Game Development & Design",
-			"value":"Game Development & Design"
+			"key": 106,
+			"text": "Game Development & Design",
+			"value": "Game Development & Design"
 		},
 		{
-			"key":107,
-			"text":"Wearable Applications, Research, Devices, Interactions",
-			"value":"Wearable Applications, Research, Devices, Interactions"
+			"key": 107,
+			"text": "Wearable Applications, Research, Devices, Interactions",
+			"value": "Wearable Applications, Research, Devices, Interactions"
 		},
 		{
-			"key":108,
-			"text":"Digital Audio",
-			"value":"Digital Audio"
+			"key": 108,
+			"text": "Digital Audio",
+			"value": "Digital Audio"
 		},
 		{
-			"key":109,
-			"text":"Information Systems in Public Health",
-			"value":"Information Systems in Public Health"
+			"key": 109,
+			"text": "Information Systems in Public Health",
+			"value": "Information Systems in Public Health"
 		},
 		{
-			"key":110,
-			"text":"Introduction to 3D Animation",
-			"value":"Introduction to 3D Animation"
+			"key": 110,
+			"text": "Introduction to 3D Animation",
+			"value": "Introduction to 3D Animation"
 		},
 		{
-			"key":111,
-			"text":"Introduction to Epidemiology",
-			"value":"Introduction to Epidemiology"
+			"key": 111,
+			"text": "Introduction to Epidemiology",
+			"value": "Introduction to Epidemiology"
 		},
 		{
-			"key":112,
-			"text":"Introduction to Motion Graphics",
-			"value":"Introduction to Motion Graphics"
+			"key": 112,
+			"text": "Introduction to Motion Graphics",
+			"value": "Introduction to Motion Graphics"
 		},
 		{
-			"key":113,
-			"text":"Design of Interactive Systems",
-			"value":"Design of Interactive Systems"
+			"key": 113,
+			"text": "Design of Interactive Systems",
+			"value": "Design of Interactive Systems"
 		},
 		{
-			"key":114,
-			"text":"Digital Circuits",
-			"value":"Digital Circuits"
+			"key": 114,
+			"text": "Digital Circuits",
+			"value": "Digital Circuits"
 		},
 		{
-			"key":115,
-			"text":"Basic Electronics",
-			"value":"Basic Electronics"
+			"key": 115,
+			"text": "Basic Electronics",
+			"value": "Basic Electronics"
 		},
 		{
-			"key":116,
-			"text":"Integrated Electronics",
-			"value":"Integrated Electronics"
+			"key": 116,
+			"text": "Integrated Electronics",
+			"value": "Integrated Electronics"
 		},
 		{
-			"key":117,
-			"text":"Circuit Theory and Device",
-			"value":"Circuit Theory and Device"
+			"key": 117,
+			"text": "Circuit Theory and Device",
+			"value": "Circuit Theory and Device"
 		},
 		{
-			"key":118,
-			"text":"Fields and Waves",
-			"value":"Fields and Waves"
+			"key": 118,
+			"text": "Fields and Waves",
+			"value": "Fields and Waves"
 		},
 		{
-			"key":119,
-			"text":"Principles of Communication Systems",
-			"value":"Principles of Communication Systems"
+			"key": 119,
+			"text": "Principles of Communication Systems",
+			"value": "Principles of Communication Systems"
 		},
 		{
-			"key":120,
-			"text":"Signals and Systems",
-			"value":"Signals and Systems"
+			"key": 120,
+			"text": "Signals and Systems",
+			"value": "Signals and Systems"
 		},
 		{
-			"key":121,
-			"text":"Embedded Logic Design",
-			"value":"Embedded Logic Design"
+			"key": 121,
+			"text": "Embedded Logic Design",
+			"value": "Embedded Logic Design"
 		},
 		{
-			"key":122,
-			"text":"Introduction to VLSI Design",
-			"value":"Introduction to VLSI Design"
+			"key": 122,
+			"text": "Introduction to VLSI Design",
+			"value": "Introduction to VLSI Design"
 		},
 		{
-			"key":123,
-			"text":"Analog CMOS Circuit Design",
-			"value":"Analog CMOS Circuit Design"
+			"key": 123,
+			"text": "Analog CMOS Circuit Design",
+			"value": "Analog CMOS Circuit Design"
 		},
 		{
-			"key":124,
-			"text":"Solid State Devices",
-			"value":"Solid State Devices"
+			"key": 124,
+			"text": "Solid State Devices",
+			"value": "Solid State Devices"
 		},
 		{
-			"key":125,
-			"text":"Digital Communication Systems",
-			"value":"Digital Communication Systems"
+			"key": 125,
+			"text": "Digital Communication Systems",
+			"value": "Digital Communication Systems"
 		},
 		{
-			"key":126,
-			"text":"Mobile Communications",
-			"value":"Mobile Communications"
+			"key": 126,
+			"text": "Mobile Communications",
+			"value": "Mobile Communications"
 		},
 		{
-			"key":127,
-			"text":"Digital Image Processing",
-			"value":"Digital Image Processing"
+			"key": 127,
+			"text": "Digital Image Processing",
+			"value": "Digital Image Processing"
 		},
 		{
-			"key":128,
-			"text":"Digital Signal Processing",
-			"value":"Digital Signal Processing"
+			"key": 128,
+			"text": "Digital Signal Processing",
+			"value": "Digital Signal Processing"
 		},
 		{
-			"key":129,
-			"text":"Antennas Theory and Design",
-			"value":"Antennas Theory and Design"
+			"key": 129,
+			"text": "Antennas Theory and Design",
+			"value": "Antennas Theory and Design"
 		},
 		{
-			"key":130,
-			"text":"Radar Systems",
-			"value":"Radar Systems"
+			"key": 130,
+			"text": "Radar Systems",
+			"value": "Radar Systems"
 		},
 		{
-			"key":131,
-			"text":"Statistical Signal Processing",
-			"value":"Statistical Signal Processing"
+			"key": 131,
+			"text": "Statistical Signal Processing",
+			"value": "Statistical Signal Processing"
 		},
 		{
-			"key":132,
-			"text":"Probability and Random Process",
-			"value":"Probability and Random Process"
+			"key": 132,
+			"text": "Probability and Random Process",
+			"value": "Probability and Random Process"
 		},
 		{
-			"key":133,
-			"text":"Digital Hardware Design (DHD)",
-			"value":"Digital Hardware Design (DHD)"
+			"key": 133,
+			"text": "Digital Hardware Design (DHD)",
+			"value": "Digital Hardware Design (DHD)"
 		},
 		{
-			"key":134,
-			"text":"VLSI Design Flow",
-			"value":"VLSI Design Flow"
+			"key": 134,
+			"text": "VLSI Design Flow",
+			"value": "VLSI Design Flow"
 		},
 		{
-			"key":135,
-			"text":"Digital VLSI Design",
-			"value":"Digital VLSI Design"
+			"key": 135,
+			"text": "Digital VLSI Design",
+			"value": "Digital VLSI Design"
 		},
 		{
-			"key":136,
-			"text":"System on Chip Design and Test",
-			"value":"System on Chip Design and Test"
+			"key": 136,
+			"text": "System on Chip Design and Test",
+			"value": "System on Chip Design and Test"
 		},
 		{
-			"key":137,
-			"text":"Introduction to Nanoelectronics",
-			"value":"Introduction to Nanoelectronics"
+			"key": 137,
+			"text": "Introduction to Nanoelectronics",
+			"value": "Introduction to Nanoelectronics"
 		},
 		{
-			"key":138,
-			"text":"Intelligent Applications Implementation on Heterogeneous Platforms",
-			"value":"Intelligent Applications Implementation on Heterogeneous Platforms"
+			"key": 138,
+			"text": "Intelligent Applications Implementation on Heterogeneous Platforms",
+			"value": "Intelligent Applications Implementation on Heterogeneous Platforms"
 		},
 		{
-			"key":139,
-			"text":"Satellite Navigation and Sensor Fusion",
-			"value":"Satellite Navigation and Sensor Fusion"
+			"key": 139,
+			"text": "Satellite Navigation and Sensor Fusion",
+			"value": "Satellite Navigation and Sensor Fusion"
 		},
 		{
-			"key":140,
-			"text":"Optical Communications Systems",
-			"value":"Optical Communications Systems"
+			"key": 140,
+			"text": "Optical Communications Systems",
+			"value": "Optical Communications Systems"
 		},
 		{
-			"key":141,
-			"text":"Optical Networking",
-			"value":"Optical Networking"
+			"key": 141,
+			"text": "Optical Networking",
+			"value": "Optical Networking"
 		},
 		{
-			"key":142,
-			"text":"Wireless Communication Evolution from 3G to 5G",
-			"value":"Wireless Communication Evolution from 3G to 5G"
+			"key": 142,
+			"text": "Wireless Communication Evolution from 3G to 5G",
+			"value": "Wireless Communication Evolution from 3G to 5G"
 		},
 		{
-			"key":143,
-			"text":"Wireless System Implementation",
-			"value":"Wireless System Implementation"
+			"key": 143,
+			"text": "Wireless System Implementation",
+			"value": "Wireless System Implementation"
 		},
 		{
-			"key":144,
-			"text":"Principals of Digital Communication System",
-			"value":"Principals of Digital Communication System"
+			"key": 144,
+			"text": "Principals of Digital Communication System",
+			"value": "Principals of Digital Communication System"
 		},
 		{
-			"key":145,
-			"text":"Compressive Sensing",
-			"value":"Compressive Sensing"
+			"key": 145,
+			"text": "Compressive Sensing",
+			"value": "Compressive Sensing"
 		},
 		{
-			"key":146,
-			"text":"Speech Recognition and Understanding",
-			"value":"Speech Recognition and Understanding"
+			"key": 146,
+			"text": "Speech Recognition and Understanding",
+			"value": "Speech Recognition and Understanding"
 		},
 		{
-			"key":147,
-			"text":"Transform Learning and Applications",
-			"value":"Transform Learning and Applications"
+			"key": 147,
+			"text": "Transform Learning and Applications",
+			"value": "Transform Learning and Applications"
 		},
 		{
-			"key":148,
-			"text":"Modeling and Analysis of Random 5G Networks",
-			"value":"Modeling and Analysis of Random 5G Networks"
+			"key": 148,
+			"text": "Modeling and Analysis of Random 5G Networks",
+			"value": "Modeling and Analysis of Random 5G Networks"
 		},
 		{
-			"key":149,
-			"text":"Control Theory",
-			"value":"Control Theory"
+			"key": 149,
+			"text": "Control Theory",
+			"value": "Control Theory"
 		},
 		{
-			"key":150,
-			"text":"Optimal Control Systems",
-			"value":"Optimal Control Systems"
+			"key": 150,
+			"text": "Optimal Control Systems",
+			"value": "Optimal Control Systems"
 		},
 		{
-			"key":151,
-			"text":"Advanced Embedded Logic Design",
-			"value":"Advanced Embedded Logic Design"
+			"key": 151,
+			"text": "Advanced Embedded Logic Design",
+			"value": "Advanced Embedded Logic Design"
 		},
 		{
-			"key":152,
-			"text":"Machine Learning Techniques for Real Time Control",
-			"value":"Machine Learning Techniques for Real Time Control"
+			"key": 152,
+			"text": "Machine Learning Techniques for Real Time Control",
+			"value": "Machine Learning Techniques for Real Time Control"
 		},
 		{
-			"key":153,
-			"text":"Nonlinear and Adaptive Control of Robotic Systems",
-			"value":"Nonlinear and Adaptive Control of Robotic Systems"
+			"key": 153,
+			"text": "Nonlinear and Adaptive Control of Robotic Systems",
+			"value": "Nonlinear and Adaptive Control of Robotic Systems"
 		},
 		{
-			"key":154,
-			"text":"Autonomous Driving",
-			"value":"Autonomous Driving"
+			"key": 154,
+			"text": "Autonomous Driving",
+			"value": "Autonomous Driving"
 		},
 		{
-			"key":155,
-			"text":"Memory Design and Testing",
-			"value":"Memory Design and Testing"
+			"key": 155,
+			"text": "Memory Design and Testing",
+			"value": "Memory Design and Testing"
 		},
 		{
-			"key":156,
-			"text":"Mixed Signal Design",
-			"value":"Mixed Signal Design"
+			"key": 156,
+			"text": "Mixed Signal Design",
+			"value": "Mixed Signal Design"
 		},
 		{
-			"key":157,
-			"text":"Stochastic Estimation and Control",
-			"value":"Stochastic Estimation and Control"
+			"key": 157,
+			"text": "Stochastic Estimation and Control",
+			"value": "Stochastic Estimation and Control"
 		},
 		{
-			"key":158,
-			"text":"Microeconomics",
-			"value":"Microeconomics"
+			"key": 158,
+			"text": "Microeconomics",
+			"value": "Microeconomics"
 		},
 		{
-			"key":159,
-			"text":"Macroeconomics",
-			"value":"Macroeconomics"
+			"key": 159,
+			"text": "Macroeconomics",
+			"value": "Macroeconomics"
 		},
 		{
-			"key":160,
-			"text":"Money and Banking",
-			"value":"Money and Banking"
+			"key": 160,
+			"text": "Money and Banking",
+			"value": "Money and Banking"
 		},
 		{
-			"key":161,
-			"text":"Introduction to Economic Analysis",
-			"value":"Introduction to Economic Analysis"
+			"key": 161,
+			"text": "Introduction to Economic Analysis",
+			"value": "Introduction to Economic Analysis"
 		},
 		{
-			"key":162,
-			"text":"Game Theory",
-			"value":"Game Theory"
+			"key": 162,
+			"text": "Game Theory",
+			"value": "Game Theory"
 		},
 		{
-			"key":163,
-			"text":"Industrial Organization",
-			"value":"Industrial Organization"
+			"key": 163,
+			"text": "Industrial Organization",
+			"value": "Industrial Organization"
 		},
 		{
-			"key":164,
-			"text":"Market Design",
-			"value":"Market Design"
+			"key": 164,
+			"text": "Market Design",
+			"value": "Market Design"
 		},
 		{
-			"key":165,
-			"text":"Econometrics I",
-			"value":"Econometrics I"
+			"key": 165,
+			"text": "Econometrics I",
+			"value": "Econometrics I"
 		},
 		{
-			"key":166,
-			"text":"Foundations of Finance",
-			"value":"Foundations of Finance"
+			"key": 166,
+			"text": "Foundations of Finance",
+			"value": "Foundations of Finance"
 		},
 		{
-			"key":167,
-			"text":"Valuation and Portfolio Management",
-			"value":"Valuation and Portfolio Management"
+			"key": 167,
+			"text": "Valuation and Portfolio Management",
+			"value": "Valuation and Portfolio Management"
 		},
 		{
-			"key":168,
-			"text":"Decision Theory",
-			"value":"Decision Theory"
+			"key": 168,
+			"text": "Decision Theory",
+			"value": "Decision Theory"
 		},
 		{
-			"key":169,
-			"text":"Research Methods",
-			"value":"Research Methods"
+			"key": 169,
+			"text": "Research Methods",
+			"value": "Research Methods"
 		},
 		{
-			"key":170,
-			"text":"Environmental Sciences",
-			"value":"Environmental Sciences"
+			"key": 170,
+			"text": "Environmental Sciences",
+			"value": "Environmental Sciences"
 		},
 		{
-			"key":171,
-			"text":"Ecology, Evolution, and Environment",
-			"value":"Ecology, Evolution, and Environment"
+			"key": 171,
+			"text": "Ecology, Evolution, and Environment",
+			"value": "Ecology, Evolution, and Environment"
 		},
 		{
-			"key":172,
-			"text":"Effective Supply Chain for E Commerce",
-			"value":"Effective Supply Chain for E Commerce"
+			"key": 172,
+			"text": "Effective Supply Chain for E Commerce",
+			"value": "Effective Supply Chain for E Commerce"
 		},
 		{
-			"key":173,
-			"text":"Emerging Issues in IT Management",
-			"value":"Emerging Issues in IT Management"
+			"key": 173,
+			"text": "Emerging Issues in IT Management",
+			"value": "Emerging Issues in IT Management"
 		},
 		{
-			"key":174,
-			"text":"Math I (Linear Algebra)",
-			"value":"Math I (Linear Algebra)"
+			"key": 174,
+			"text": "Math I (Linear Algebra)",
+			"value": "Math I (Linear Algebra)"
 		},
 		{
-			"key":175,
-			"text":"Introduction to Mathematical Logic",
-			"value":"Introduction to Mathematical Logic"
+			"key": 175,
+			"text": "Introduction to Mathematical Logic",
+			"value": "Introduction to Mathematical Logic"
 		},
 		{
-			"key":176,
-			"text":"Math II (Probability and Statistics)",
-			"value":"Math II (Probability and Statistics)"
+			"key": 176,
+			"text": "Math II (Probability and Statistics)",
+			"value": "Math II (Probability and Statistics)"
 		},
 		{
-			"key":177,
-			"text":"Mathematics III (Multivariate Calculus)",
-			"value":"Mathematics III (Multivariate Calculus)"
+			"key": 177,
+			"text": "Mathematics III (Multivariate Calculus)",
+			"value": "Mathematics III (Multivariate Calculus)"
 		},
 		{
-			"key":178,
-			"text":"Mathematics IV (Differential Equations)",
-			"value":"Mathematics IV (Differential Equations)"
+			"key": 178,
+			"text": "Mathematics IV (Differential Equations)",
+			"value": "Mathematics IV (Differential Equations)"
 		},
 		{
-			"key":179,
-			"text":"Discrete Structures",
-			"value":"Discrete Structures"
+			"key": 179,
+			"text": "Discrete Structures",
+			"value": "Discrete Structures"
 		},
 		{
-			"key":180,
-			"text":"Number Theory",
-			"value":"Number Theory"
+			"key": 180,
+			"text": "Number Theory",
+			"value": "Number Theory"
 		},
 		{
-			"key":181,
-			"text":"Abstract Algebra I",
-			"value":"Abstract Algebra I"
+			"key": 181,
+			"text": "Abstract Algebra I",
+			"value": "Abstract Algebra I"
 		},
 		{
-			"key":182,
-			"text":"Real Analysis I",
-			"value":"Real Analysis I"
+			"key": 182,
+			"text": "Real Analysis I",
+			"value": "Real Analysis I"
 		},
 		{
-			"key":183,
-			"text":"Numerical Methods",
-			"value":"Numerical Methods"
+			"key": 183,
+			"text": "Numerical Methods",
+			"value": "Numerical Methods"
 		},
 		{
-			"key":184,
-			"text":"Algebra",
-			"value":"Algebra"
+			"key": 184,
+			"text": "Algebra",
+			"value": "Algebra"
 		},
 		{
-			"key":185,
-			"text":"Graph Theory",
-			"value":"Graph Theory"
+			"key": 185,
+			"text": "Graph Theory",
+			"value": "Graph Theory"
 		},
 		{
-			"key":186,
-			"text":"Combinatorics and its Applications",
-			"value":"Combinatorics and its Applications"
+			"key": 186,
+			"text": "Combinatorics and its Applications",
+			"value": "Combinatorics and its Applications"
 		},
 		{
-			"key":187,
-			"text":"Real Analysis-II",
-			"value":"Real Analysis-II"
+			"key": 187,
+			"text": "Real Analysis-II",
+			"value": "Real Analysis-II"
 		},
 		{
-			"key":188,
-			"text":"Complex Analysis",
-			"value":"Complex Analysis"
+			"key": 188,
+			"text": "Complex Analysis",
+			"value": "Complex Analysis"
 		},
 		{
-			"key":189,
-			"text":"Introduction to Dynamical Systems",
-			"value":"Introduction to Dynamical Systems"
+			"key": 189,
+			"text": "Introduction to Dynamical Systems",
+			"value": "Introduction to Dynamical Systems"
 		},
 		{
-			"key":190,
-			"text":"Stochastic Processes and Applications",
-			"value":"Stochastic Processes and Applications"
+			"key": 190,
+			"text": "Stochastic Processes and Applications",
+			"value": "Stochastic Processes and Applications"
 		},
 		{
-			"key":191,
-			"text":"Statistical Inference",
-			"value":"Statistical Inference"
+			"key": 191,
+			"text": "Statistical Inference",
+			"value": "Statistical Inference"
+		},
+		{
+			"key": 192,
+			"text": "Scientific Computing",
+			"value": "Scientific Computing"
+		},
+		{
+			"key": 193,
+			"text": "Linear Optimization",
+			"value": "Linear Optimization"
+		},
+		{
+			"key": 194,
+			"text": "Advanced Linear Algebra",
+			"value": "Advanced Linear Algebra"
+		},
+		{
+			"key": 195,
+			"text": "Algebraic Number Theory",
+			"value": "Algebraic Number Theory"
+		},
+		{
+			"key": 196,
+			"text": "Abstract Algebra II",
+			"value": "Abstract Algebra II"
+		},
+		{
+			"key": 197,
+			"text": "Numerical Solutions Differential Equations",
+			"value": "Numerical Solutions Differential Equations"
+		},
+		{
+			"key": 198,
+			"text": "Integral Transforms and their Applications",
+			"value": "Integral Transforms and their Applications"
+		},
+		{
+			"key": 199,
+			"text": "Introduction to Functional Analysis",
+			"value": "Introduction to Functional Analysis"
+		},
+		{
+			"key": 200,
+			"text": "Numerical Partial Differential Equations",
+			"value": "Numerical Partial Differential Equations"
+		},
+		{
+			"key": 201,
+			"text": "Variational Calculus and their Applications",
+			"value": "Variational Calculus and their Applications"
+		},
+		{
+			"key": 202,
+			"text": "Introduction to Cognitive Psychology",
+			"value": "Introduction to Cognitive Psychology"
+		},
+		{
+			"key": 203,
+			"text": "Positive Psychology",
+			"value": "Positive Psychology"
+		},
+		{
+			"key": 204,
+			"text": "Cognitive Psychology",
+			"value": "Cognitive Psychology"
+		},
+		{
+			"key": 205,
+			"text": "Social Psychology",
+			"value": "Social Psychology"
+		},
+		{
+			"key": 206,
+			"text": "Attention and Perception",
+			"value": "Attention and Perception"
+		},
+		{
+			"key": 207,
+			"text": "Learning and Memory",
+			"value": "Learning and Memory"
+		},
+		{
+			"key": 208,
+			"text": "Introduction to Sociology and Anthropology",
+			"value": "Introduction to Sociology and Anthropology"
+		},
+		{
+			"key": 209,
+			"text": "Contemporary India Sociological Perspective",
+			"value": "Contemporary India Sociological Perspective"
+		},
+		{
+			"key": 210,
+			"text": "Sociology of New Media",
+			"value": "Sociology of New Media"
+		},
+		{
+			"key": 211,
+			"text": "Anthropology and Social Media",
+			"value": "Anthropology and Social Media"
+		},
+		{
+			"key": 212,
+			"text": "Business Anthropology",
+			"value": "Business Anthropology"
+		},
+		{
+			"key": 213,
+			"text": "Information Technology And Society",
+			"value": "Information Technology And Society"
+		},
+		{
+			"key": 214,
+			"text": "Organizations An Anthropological Perspective",
+			"value": "Organizations An Anthropological Perspective"
+		},
+		{
+			"key": 215,
+			"text": "Consumer Culture and Society",
+			"value": "Consumer Culture and Society"
+		},
+		{
+			"key": 216,
+			"text": "Sociological Theory",
+			"value": "Sociological Theory"
+		},
+		{
+			"key": 217,
+			"text": "Science, Technology and Society",
+			"value": "Science, Technology and Society"
+		},
+		{
+			"key": 218,
+			"text": "Urban Sociology",
+			"value": "Urban Sociology"
+		},
+		{
+			"key": 219,
+			"text": "Digital Social Research",
+			"value": "Digital Social Research"
+		},
+		{
+			"key": 220,
+			"text": "Gender and Media",
+			"value": "Gender and Media"
+		},
+		{
+			"key": 221,
+			"text": "Critical Thinking and Readings in Social Science ",
+			"value": "Critical Thinking and Readings in Social Science "
+		},
+		{
+			"key": 222,
+			"text": "Introduction to Philosophy",
+			"value": "Introduction to Philosophy"
+		},
+		{
+			"key": 223,
+			"text": "Critical Thinking",
+			"value": "Critical Thinking"
+		},
+		{
+			"key": 224,
+			"text": "Research Methods in Social Science and Design",
+			"value": "Research Methods in Social Science and Design"
+		},
+		{
+			"key": 225,
+			"text": "Theatre Appreciation",
+			"value": "Theatre Appreciation"
+		},
+		{
+			"key": 226,
+			"text": "Introduction To The Study Of Literature",
+			"value": "Introduction To The Study Of Literature"
+		},
+		{
+			"key": 227,
+			"text": "Nation and her Narratives",
+			"value": "Nation and her Narratives"
+		},
+		{
+			"key": 228,
+			"text": "Introduction to Indian Mythology",
+			"value": "Introduction to Indian Mythology"
+		},
+		{
+			"key": 229,
+			"text": "Indian Poetry Through the Ages",
+			"value": "Indian Poetry Through the Ages"
+		},
+		{
+			"key": 230,
+			"text": "Social and Political Philosophy",
+			"value": "Social and Political Philosophy"
+		},
+		{
+			"key": 231,
+			"text": "Theory and Practice of Engineering Ethics",
+			"value": "Theory and Practice of Engineering Ethics"
+		},
+		{
+			"key": 232,
+			"text": "Perspectives of Knowledge",
+			"value": "Perspectives of Knowledge"
+		},
+		{
+			"key": 233,
+			"text": "Computer, Information Ethics and Society",
+			"value": "Computer, Information Ethics and Society"
+		},
+		{
+			"key": 234,
+			"text": "Democracy in India: Principles and Practices",
+			"value": "Democracy in India: Principles and Practices"
+		},
+		{
+			"key": 235,
+			"text": "Advanced Writing",
+			"value": "Advanced Writing"
+		},
+		{
+			"key": 236,
+			"text": "Applied Ethics",
+			"value": "Applied Ethics"
+		},
+		{
+			"key": 237,
+			"text": "Philosophy of Technology",
+			"value": "Philosophy of Technology"
+		},
+		{
+			"key": 238,
+			"text": "Comparative Politics in Digital Era",
+			"value": "Comparative Politics in Digital Era"
+		},
+		{
+			"key": 239,
+			"text": "Advanced Topics in Human Centered Computing",
+			"value": "Advanced Topics in Human Centered Computing"
+		},
+		{
+			"key": 240,
+			"text": "Analytic Number Theory",
+			"value": "Analytic Number Theory"
+		},
+		{
+			"key": 241,
+			"text": "Biostatistics",
+			"value": "Biostatistics"
+		},
+		{
+			"key": 242,
+			"text": "Calculus in R^N",
+			"value": "Calculus in R^N"
+		},
+		{
+			"key": 243,
+			"text": "Coding Theory",
+			"value": "Coding Theory"
+		},
+		{
+			"key": 244,
+			"text": "Combinatorial Optimization",
+			"value": "Combinatorial Optimization"
+		},
+		{
+			"key": 245,
+			"text": "Computer Aided Drug Design",
+			"value": "Computer Aided Drug Design"
+		},
+		{
+			"key": 246,
+			"text": "Decision Procedures",
+			"value": "Decision Procedures"
+		},
+		{
+			"key": 247,
+			"text": "Distributed Computing",
+			"value": "Distributed Computing"
+		},
+		{
+			"key": 248,
+			"text": "Edge AI",
+			"value": "Edge AI"
+		},
+		{
+			"key": 249,
+			"text": "Introduction to 2D Animation",
+			"value": "Introduction to 2D Animation"
+		},
+		{
+			"key": 250,
+			"text": "Introduction to PDE",
+			"value": "Introduction to PDE"
+		},
+		{
+			"key": 251,
+			"text": "Low Voltage Analog Circuit Design",
+			"value": "Low Voltage Analog Circuit Design"
+		},
+		{
+			"key": 252,
+			"text": "Network Security",
+			"value": "Network Security"
+		},
+		{
+			"key": 253,
+			"text": "Privacy and Security in Online Social Media",
+			"value": "Privacy and Security in Online Social Media"
+		},
+		{
+			"key": 254,
+			"text": "RF Circuit Design",
+			"value": "RF Circuit Design"
+		},
+		{
+			"key": 255,
+			"text": "Sketching Communication Narrative",
+			"value": "Sketching Communication Narrative"
+		},
+		{
+			"key": 256,
+			"text": "Spatial Statistics and Spatial Econometrics",
+			"value": "Spatial Statistics and Spatial Econometrics"
+		},
+		{
+			"key": 257,
+			"text": "Special Topics in Computer Vision",
+			"value": "Special Topics in Computer Vision"
+		},
+		{
+			"key": 258,
+			"text": "Verification and High-Level Synthesis of VLSI Designs",
+			"value": "Verification and High-Level Synthesis of VLSI Designs"
+		},
+		{
+			"key": 259,
+			"text": "Computational Gastronomy",
+			"value": "Computational Gastronomy"
+		},
+		{
+			"key": 260,
+			"text": "Fluid Mechainics",
+			"value": "Fluid Mechainics"
+		},
+		{
+			"key": 261,
+			"text": "Human Centred AI",
+			"value": "Human Centred AI"
+		},
+		{
+			"key": 262,
+			"text": "Introduction to 3D Production Design for Animation and Games",
+			"value": "Introduction to 3D Production Design for Animation and Games"
+		},
+		{
+			"key": 263,
+			"text": "Knowledge Graphs in Practice",
+			"value": "Knowledge Graphs in Practice"
+		},
+		{
+			"key": 264,
+			"text": "Point Set Toplogy",
+			"value": "Point Set Toplogy"
+		},
+		{
+			"key": 265,
+			"text": "Socio Digital Social Research",
+			"value": "Socio Digital Social Research"
 		}
 	]
 }
