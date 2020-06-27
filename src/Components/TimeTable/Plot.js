@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import TableData from './Table'
-import { Form, Dropdown, Input } from 'semantic-ui-react'
+import { Form, Dropdown } from 'semantic-ui-react'
 import { Spinner } from 'reactstrap';
 
 export default class Plot extends Component {
@@ -94,12 +94,8 @@ export default class Plot extends Component {
 				
 				<Form>
 					<Form.Field>
-						<Input type="file" id="file" onChange={this.onChange} />
+					<Dropdown placeholder="Select Courses" fluid multiple search openOnFocus clearable selection options={courselist} value={this.state.courses} onChange={this.handleCourseChange} />
 					</Form.Field>
-					<Form.Field>
-					<Dropdown placeholder="Courses" fluid multiple search openOnFocus clearable selection options={courselist} value={this.state.courses} onChange={this.handleCourseChange} />
-					</Form.Field>
-
 				</Form>
 				<hr/>
 				<TableData data={this.state.schedule} />
