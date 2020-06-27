@@ -7,8 +7,9 @@ export const courseFetchAction = () => {
 	return async (dispatch) => {
 		return await axios.get(jsonUrl+"/courses")
 			.then(response => {
-				if (response.data.courses)
-					dispatch({ type: ActionTypes.COURSE_FETCH_SUCCESS, courses: response.data.courses })
+				console.log(response);
+				if (response.data)
+					dispatch({ type: ActionTypes.COURSE_FETCH_SUCCESS, courses: response.data })
 				else
 					dispatch({ type: ActionTypes.COURSE_FETCH_FAILED, errmess: "Courses Can't be Fetched" })
 			})
