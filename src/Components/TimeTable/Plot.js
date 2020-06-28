@@ -21,8 +21,8 @@ export default class Plot extends Component {
 		}
 		this.handleCourseChange=this.handleCourseChange.bind(this);
 		this.updateSchedule=this.updateSchedule.bind(this);
-		this.onChange = this.onChange.bind(this);
 	}
+
 	updateSchedule(){
 		var temp=this.state.schedule
 		if (this.state.courses[this.state.courses.length - 1]){
@@ -31,24 +31,8 @@ export default class Plot extends Component {
 				schedule:temp
 			})		
 		}
+
 		
-	}
-
-	onChange(e) {
-		this.setState({
-			[e.target.id]: e.target.files[0]
-		}, () => {
-			var reader = new FileReader();
-			reader.readAsText(this.state.file)
-			reader.onloadend = () => {
-				var json = this.csvJSON(reader.result);
-				this.setState({
-					timetable: json
-				})
-
-			}
-		})
-
 	}
 
 	handleCourseChange(event, result) {
@@ -59,30 +43,8 @@ export default class Plot extends Component {
 		},()=>this.updateSchedule());
 	}
 
-	csvJSON(csv) {
-
-		var lines = csv.split("\n");
-
-		var result = [];
-
-		var headers = lines[0].split(",");
-
-		for (var i = 0; i < lines.length; i++) {
-
-			var obj = {};
-			var currentline = lines[i].split(",");
-
-			for (var j = 0; j < headers.length; j++) {
-				currentline[j] = currentline[j].replace("\r","")
-				obj[headers[j]] = currentline[j].split(" ");
-			}
-			result.push(obj);
-		}
-		return result;
-	}
 	
 	render() {
-			
 		var courselist=[
 			{key:"loading", value:<Spinner/>, text:<Spinner/>, disabled:true}
 		]
