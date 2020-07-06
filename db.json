@@ -3,11 +3,11 @@
 		{
 			"key": 1,
 			"text": "Foundations of Biology",
-			"value": "Foundations of Biology"
+			"value": "FOB"
 		},
 		{
 			"key": 2,
-			"text": "Introduction to Quantitative Biology",
+			"text": "IQB",
 			"value": "Introduction to Quantitative Biology"
 		},
 		{
@@ -1327,238 +1327,248 @@
 		}
 	],
 	"schedule": {
-		"MON1": [
-			"AI",
-			"CMP",
-			"DSP",
-			"BPHY",
-			"SE",
-			"USPP",
-			"IFA",
-			"FMRP"
-		],
-		"MON2": [
-			"MAECO",
-			"CDA",
-			"DIS",
-			"PHO",
-			"FF",
-			"KCES",
-			"POK",
-			"NMP",
-			"DMG",
-			"IPSY"
-		],
-		"MON3": [
-			"TCOM",
-			"OOPD"
-		],
-		"MON4": [
-			"PRP",
-			"MLBA",
-			"I3D",
-			"SPA",
-			"MMS",
-			"AOS"
-		],
-		"MON5": [
-			"BECO",
-			"ML",
-			"CMPA",
-			"ISC",
-			"CMM",
-			"ICF",
-			"CF"
-		],
-		"TUE1": [
-			"DIP",
-			"ACB",
-			"ROB",
-			"RL",
-			"ECOLL",
-			"CIA",
-			"RA",
-			"CRN"
-		],
-		"TUE2": [
-			"SPP",
-			"CISP",
-			"GMT",
-			"TA",
-			"CBB",
-			"ITTA",
-			"MECO",
-			"DVD",
-			"IPHI",
-			"CCS",
-			"GA"
-		],
-		"TUE3": [
-			"AC",
-			"CNT",
-			"IMG",
-			"CA",
-			"NLP",
-			"NDM",
-			"EK"
-		],
-		"TUE4": [
-			"CN",
-			"FOMB",
-			"GM",
-			"DCS",
-			"DSC",
-			"TNT",
-			"ACV"
-		],
-		"TUE5": [
-			"DA",
-			"NB",
-			"SCMP",
-			"MAD",
-			"TE",
-			"BML",
-			"DT",
-			"WSI",
-			"DHD"
-		],
-		"WED1": [
-			"IGA",
-			"FCS",
-			"AML",
-			"AERM",
-			"FSEM",
-			"DSI",
-			"HCAI"
-		],
-		"WED2": [
-			"AI",
-			"CMP",
-			"DSP",
-			"BPHY",
-			"SE",
-			"USPP",
-			"IFA",
-			"FMRP"
-		],
-		"WED3": [
-			"CGAS",
-			"IIA",
-			"RMSSD",
-			"CMOS",
-			"CG",
-			"RA-2",
-			"EC",
-			"CFM",
-			"PDCS"
-		],
-		"WED4": [
-			"RMSSD",
-			"RA-2"
-		],
-		"WED5": [],
-		"THUR1": [
-			"DIP",
-			"ACB",
-			"ROB",
-			"RL",
-			"ECOLL",
-			"CIA",
-			"RA",
-			"CRN"
-		],
-		"THUR2": [
-			"MAECO",
-			"DIS",
-			"PHO",
-			"FF",
-			"KCES",
-			"POL",
-			"NMP",
-			"DMG",
-			"IPSY",
-			"CDA"
-		],
-		"THUR3": [
-			"AC",
-			"CNT",
-			"IMG",
-			"CA",
-			"NLP",
-			"NDM",
-			"EK"
-		],
-		"THUR4": [
-			"PRP",
-			"MLBA",
-			"I3D",
-			"SPA",
-			"MMS",
-			"AOS"
-		],
-		"THUR5": [
-			"BECO",
-			"ML",
-			"CMPA",
-			"ISC",
-			"CMM",
-			"ICF",
-			"CF"
-		],
-		"FRI1": [
-			"IGA",
-			"FCS",
-			"AML",
-			"AERM",
-			"FSEM",
-			"DSI",
-			"HCAI"
-		],
-		"FRI2": [
-			"SPP",
-			"CISP",
-			"GMT",
-			"TA",
-			"CBB",
-			"ITTA",
-			"MECO",
-			"DVD",
-			"IPHI",
-			"CCS",
-			"GA",
-			"EVS"
-		],
-		"FRI3": [
-			"CGAS",
-			"IIA",
-			"RMSSD",
-			"CMOS",
-			"CG",
-			"RA-2",
-			"EC",
-			"CFM",
-			"PDCS"
-		],
-		"FRI4": [
-			"CN",
-			"FOMB",
-			"GM",
-			"DCS",
-			"DSC",
-			"TNT",
-			"ACV"
-		],
-		"FRI5": [
-			"DA",
-			"NB",
-			"SCMP",
-			"MAD",
-			"TE",
-			"BML",
-			"DT",
-			"WSI",
-			"DHD",
-			"EVS"
-		]
+		"1": {
+			"1": [
+				"AI",
+				"CMP",
+				"DSP",
+				"BPHY",
+				"SE",
+				"USPP",
+				"IFA",
+				"FMRP"
+			],
+			"2": [
+				"MAECO",
+				"CDA",
+				"DIS",
+				"PHO",
+				"FF",
+				"KCES",
+				"POK",
+				"NMP",
+				"DMG",
+				"IPSY"
+			],
+			"3": [
+				"TCOM",
+				"OOPD"
+			],
+			"4": [
+				"PRP",
+				"MLBA",
+				"I3D",
+				"SPA",
+				"MMS",
+				"AOS"
+			],
+			"5": [
+				"BECO",
+				"ML",
+				"CMPA",
+				"ISC",
+				"CMM",
+				"ICF",
+				"CF"
+			]
+		},
+		"2": {
+			"1": [
+				"DIP",
+				"ACB",
+				"ROB",
+				"RL",
+				"ECOLL",
+				"CIA",
+				"RA",
+				"CRN"
+			],
+			"2": [
+				"SPP",
+				"CISP",
+				"GMT",
+				"TA",
+				"CBB",
+				"ITTA",
+				"MECO",
+				"DVD",
+				"IPHI",
+				"CCS",
+				"GA"
+			],
+			"3": [
+				"AC",
+				"CNT",
+				"IMG",
+				"CA",
+				"NLP",
+				"NDM",
+				"EK"
+			],
+			"4": [
+				"CN",
+				"FOMB",
+				"GM",
+				"DCS",
+				"DSC",
+				"TNT",
+				"ACV"
+			],
+			"5": [
+				"DA",
+				"NB",
+				"SCMP",
+				"MAD",
+				"TE",
+				"BML",
+				"DT",
+				"WSI",
+				"DHD"
+			]
+		},
+		"3": {
+			"1": [
+				"IGA",
+				"FCS",
+				"AML",
+				"AERM",
+				"FSEM",
+				"DSI",
+				"HCAI"
+			],
+			"2": [
+				"AI",
+				"CMP",
+				"DSP",
+				"BPHY",
+				"SE",
+				"USPP",
+				"IFA",
+				"FMRP"
+			],
+			"3": [
+				"CGAS",
+				"IIA",
+				"RMSSD",
+				"CMOS",
+				"CG",
+				"RA-2",
+				"EC",
+				"CFM",
+				"PDCS"
+			],
+			"4": [
+				"RMSSD",
+				"RA-2"
+			],
+			"5": []
+		},
+		"4": {
+			"1": [
+				"DIP",
+				"ACB",
+				"ROB",
+				"RL",
+				"ECOLL",
+				"CIA",
+				"RA",
+				"CRN"
+			],
+			"2": [
+				"MAECO",
+				"DIS",
+				"PHO",
+				"FF",
+				"KCES",
+				"POL",
+				"NMP",
+				"DMG",
+				"IPSY",
+				"CDA"
+			],
+			"3": [
+				"AC",
+				"CNT",
+				"IMG",
+				"CA",
+				"NLP",
+				"NDM",
+				"EK"
+			],
+			"4": [
+				"PRP",
+				"MLBA",
+				"I3D",
+				"SPA",
+				"MMS",
+				"AOS"
+			],
+			"5": [
+				"BECO",
+				"ML",
+				"CMPA",
+				"ISC",
+				"CMM",
+				"ICF",
+				"CF"
+			]
+		},
+		"5": {
+			"1": [
+				"IGA",
+				"FCS",
+				"AML",
+				"AERM",
+				"FSEM",
+				"DSI",
+				"HCAI"
+			],
+			"2": [
+				"SPP",
+				"CISP",
+				"GMT",
+				"TA",
+				"CBB",
+				"ITTA",
+				"MECO",
+				"DVD",
+				"IPHI",
+				"CCS",
+				"GA",
+				"EVS"
+			],
+			"3": [
+				"CGAS",
+				"IIA",
+				"RMSSD",
+				"CMOS",
+				"CG",
+				"RA-2",
+				"EC",
+				"CFM",
+				"PDCS"
+			],
+			"4": [
+				"CN",
+				"FOMB",
+				"GM",
+				"DCS",
+				"DSC",
+				"TNT",
+				"ACV"
+			],
+			"5": [
+				"DA",
+				"NB",
+				"SCMP",
+				"MAD",
+				"TE",
+				"BML",
+				"DT",
+				"WSI",
+				"DHD",
+				"EVS"
+			]
+		}
 	}
 }
