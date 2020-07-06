@@ -21,16 +21,42 @@ export default class Plot extends Component {
 		}
 		this.handleCourseChange=this.handleCourseChange.bind(this);
 		this.updateSchedule=this.updateSchedule.bind(this);
+		this.findpos=this.findpos.bind(this);
 	}
 
+	findpos(course){
+		var schedule=this.props.schedule;
+		var pos=[]
+		for (let i = 1; i <= 5; i++) {
+			for (let j = 1; j <= 5; j++) {
+				if(schedule[i.toString()][j.toString()].includes(course)){
+					pos.push([i,j])
+				}
+			}
+		}
+		return pos
+
+	}
 	updateSchedule(){
-		var temp=this.state.schedule
-		if (this.state.courses[this.state.courses.length - 1]){
-			temp[1][1]=temp[1][1].concat(this.state.courses[this.state.courses.length-1])
+		var temp = [
+			["", "9:00-10:30", "10:30-12", "12:00-1:30", "1:30-2:30", "2:30-4:00", "4:00-5:30"],
+			["Mon", "", "", "", "", "", "",],
+			["Tue", "", "", "", "", "", "",],
+			["Wed", "", "", "", "", "", "",],
+			["Thu", "", "", "", "", "", "",],
+			["Fri", "", "", "", "", "", "",]
+		]
+		
+			for (let i = 0; i < this.state.courses.length; i++) {
+				var allpos=this.findpos(this.state.courses[i])
+				for (let pos = 0; pos < allpos.length; pos++) {
+					temp[allpos[pos][0]][allpos[pos][1]] = temp[allpos[pos][0]][allpos[pos][1]].concat(this.state.courses[this.state.courses.length - 1])
+				}
+			}
+			
 			this.setState({
 				schedule:temp
-			})		
-		}
+			})
 
 		
 	}
@@ -49,7 +75,7 @@ export default class Plot extends Component {
 			{key:"loading", value:<Spinner/>, text:<Spinner/>, disabled:true}
 		]
 		if(this.props.courselist)
-			courselist=this.props.courselist
+			courselist=this.props.courselist["monsoon"]
 		
 		return (
 			<div className="container">

@@ -7,11 +7,6 @@
 				"value": "FOB"
 			},
 			{
-				"key": 2,
-				"text": "Introduction to Quantitative Biology",
-				"value": "IQB"
-			},
-			{
 				"key": 4,
 				"text": "Cell Biology and Bio-Chemistry",
 				"value": "CBB"
@@ -420,13 +415,6 @@
 				"key": 288,
 				"text": "New Media and Politics",
 				"value": "NMP"
-			}
-		],
-		"winter": [
-			{
-				"key": 260,
-				"text": "Fluid Mechainics",
-				"value": "Fluid Mechainics"
 			},
 			{
 				"key": 261,
@@ -437,6 +425,23 @@
 				"key": 262,
 				"text": "Introduction to 3D Production Design for Animation and Games",
 				"value": "I3D"
+			},
+			{
+				"key": 230,
+				"text": "Social and Political Philosophy",
+				"value": "SPP"
+			}
+		],
+		"winter": [
+			{
+				"key": 2,
+				"text": "Introduction to Quantitative Biology",
+				"value": "IQB"
+			},
+			{
+				"key": 260,
+				"text": "Fluid Mechainics",
+				"value": "Fluid Mechainics"
 			},
 			{
 				"key": 263,
@@ -1387,11 +1392,6 @@
 				"key": 229,
 				"text": "Indian Poetry Through the Ages",
 				"value": "Indian Poetry Through the Ages"
-			},
-			{
-				"key": 230,
-				"text": "Social and Political Philosophy",
-				"value": "SPP"
 			},
 			{
 				"key": 231,

@@ -22,7 +22,6 @@ export const scheduleFetchAction = () => {
 	return async (dispatch) => {
 		return await axios.get(jsonUrl + "/schedule")
 			.then(response => {
-				console.log(response)
 				if (!response.data.errmess)
 					dispatch({ type: ActionTypes.SCHEDULE_FETCH_SUCCESS, schedule: response.data })
 				else
