@@ -17,7 +17,6 @@ export default class Plot extends Component {
 		this.state={
 			courses:[],
 			schedule,
-			file:"",
 		}
 		this.handleCourseChange=this.handleCourseChange.bind(this);
 		this.updateSchedule=this.updateSchedule.bind(this);
@@ -48,9 +47,9 @@ export default class Plot extends Component {
 		]
 		
 			for (let i = 0; i < this.state.courses.length; i++) {
-				var allpos=this.findpos(this.state.courses[i])
-				for (let pos = 0; pos < allpos.length; pos++) {
-					temp[allpos[pos][0]][allpos[pos][1]] = temp[allpos[pos][0]][allpos[pos][1]].concat(this.state.courses[i])
+				var allpos=this.findpos(this.state.courses[i]) //get all coordinates for a particular course
+				for (let pos = 0; pos < allpos.length; pos++) { // update at all the coordinates
+					temp[allpos[pos][0]][allpos[pos][1]] = temp[allpos[pos][0]][allpos[pos][1]].concat(this.state.courses[i]) 
 					temp[allpos[pos][0]][allpos[pos][1]] = temp[allpos[pos][0]][allpos[pos][1]].concat(", ")
 				}
 			}
