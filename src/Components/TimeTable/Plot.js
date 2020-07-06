@@ -46,19 +46,17 @@ export default class Plot extends Component {
 			["Fri", "", "", "", "H", "", "",]
 		]
 		
-			for (let i = 0; i < this.state.courses.length; i++) {
-				var allpos=this.findpos(this.state.courses[i]) //get all coordinates for a particular course
-				for (let pos = 0; pos < allpos.length; pos++) { // update at all the coordinates
-					temp[allpos[pos][0]][allpos[pos][1]] = temp[allpos[pos][0]][allpos[pos][1]].concat(this.state.courses[i]) 
-					temp[allpos[pos][0]][allpos[pos][1]] = temp[allpos[pos][0]][allpos[pos][1]].concat(", ")
-				}
+		for (let i = 0; i < this.state.courses.length; i++) {
+			var allpos=this.findpos(this.state.courses[i]) //get all coordinates for a particular course
+			for (let pos = 0; pos < allpos.length; pos++) { // update at all the coordinates
+				temp[allpos[pos][0]][allpos[pos][1]] = temp[allpos[pos][0]][allpos[pos][1]].concat(this.state.courses[i]) 
+				temp[allpos[pos][0]][allpos[pos][1]] = temp[allpos[pos][0]][allpos[pos][1]].concat(", ")
 			}
+		}
 			
-			this.setState({
-				schedule:temp
-			})
-
-		
+		this.setState({
+			schedule:temp
+		})		
 	}
 
 	handleCourseChange(event, result) {
@@ -79,10 +77,15 @@ export default class Plot extends Component {
 		
 		return (
 			<div className="container">
-				
 				<Form>
 					<Form.Field>
-					<Dropdown placeholder="Select Courses" fluid multiple search openOnFocus clearable selection options={courselist} value={this.state.courses} onChange={this.handleCourseChange} />
+					<Dropdown 
+						placeholder="Select Courses" 
+						fluid multiple search openOnFocus 
+						clearable selection options={courselist} 
+						value={this.state.courses} 
+						onChange={this.handleCourseChange}
+					/>
 					</Form.Field>
 				</Form>
 				<hr/>
