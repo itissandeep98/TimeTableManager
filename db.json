@@ -2,11 +2,6 @@
 	"courses": {
 		"monsoon": [
 			{
-				"key": 1,
-				"text": "Foundations of Biology",
-				"value": "FOB"
-			},
-			{
 				"key": 4,
 				"text": "Cell Biology and Bio-Chemistry",
 				"value": "CBB"
@@ -433,6 +428,11 @@
 			}
 		],
 		"winter": [
+			{
+				"key": 1,
+				"text": "Foundations of Biology",
+				"value": "FOB"
+			},
 			{
 				"key": 2,
 				"text": "Introduction to Quantitative Biology",
@@ -1478,7 +1478,8 @@
 				"TCOM",
 				"OOPD"
 			],
-			"4": [
+			"4":[],
+			"5": [
 				"PRP",
 				"MLBA",
 				"I3D",
@@ -1486,7 +1487,7 @@
 				"MMS",
 				"AOS"
 			],
-			"5": [
+			"6": [
 				"BECO",
 				"ML",
 				"CMPA",
@@ -1529,7 +1530,8 @@
 				"NDM",
 				"EK"
 			],
-			"4": [
+			"4": [],
+			"5": [
 				"CN",
 				"FOMB",
 				"GM",
@@ -1538,7 +1540,7 @@
 				"TNT",
 				"ACV"
 			],
-			"5": [
+			"6": [
 				"DA",
 				"NB",
 				"SCMP",
@@ -1581,11 +1583,12 @@
 				"CFM",
 				"PDCS"
 			],
-			"4": [
+			"4": [],
+			"5": [
 				"RMSSD",
 				"RA-2"
 			],
-			"5": []
+			"6": []
 		},
 		"4": {
 			"1": [
@@ -1619,7 +1622,8 @@
 				"NDM",
 				"EK"
 			],
-			"4": [
+			"4": [],
+			"5": [
 				"PRP",
 				"MLBA",
 				"I3D",
@@ -1627,7 +1631,7 @@
 				"MMS",
 				"AOS"
 			],
-			"5": [
+			"6": [
 				"BECO",
 				"ML",
 				"CMPA",
@@ -1672,7 +1676,8 @@
 				"CFM",
 				"PDCS"
 			],
-			"4": [
+			"4": [],
+			"5": [
 				"CN",
 				"FOMB",
 				"GM",
@@ -1681,7 +1686,7 @@
 				"TNT",
 				"ACV"
 			],
-			"5": [
+			"6": [
 				"DA",
 				"NB",
 				"SCMP",

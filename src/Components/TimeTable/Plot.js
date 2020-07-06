@@ -50,7 +50,7 @@ export default class Plot extends Component {
 			for (let i = 0; i < this.state.courses.length; i++) {
 				var allpos=this.findpos(this.state.courses[i])
 				for (let pos = 0; pos < allpos.length; pos++) {
-					temp[allpos[pos][0]][allpos[pos][1]] = temp[allpos[pos][0]][allpos[pos][1]].concat(this.state.courses[this.state.courses.length - 1])
+					temp[allpos[pos][0]][allpos[pos][1]] = temp[allpos[pos][0]][allpos[pos][1]].concat(this.state.courses[i])
 				}
 			}
 			
