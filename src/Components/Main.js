@@ -1,23 +1,28 @@
 import React, { Component } from 'react'
-import Header from './Header'
-import { withRouter, Switch, Route, Redirect } from 'react-router-dom'
-import Plot from './TimeTable/Plot'
-import {courseFetchAction, scheduleFetchAction} from '../store/ActionCreators'
 import { connect } from 'react-redux'
+import { withRouter, Switch, Route, Redirect } from 'react-router-dom'
+import { courseFetchAction, scheduleFetchAction } from '../store/ActionCreators'
+import Header from './Header'
+import Plot from './TimeTable/Plot'
 
 class Main extends Component {
-
+	
+	componentDidMount(){
+		if(!this.props.courses)
+			this.props.fetchCourse()
+		if(!this.props.schedule)
+			this.props.fetchScehdule()
+	}
 	render() {
-		this.props.fetchCourse()
-		this.props.fetchScehdule()
+	
 		return (
 			<div>
 				<Header />
 				<Switch>
 					<Route path="/home" 
 						component={() => <Plot 
-											courselist={this.props.courses.courses} 
-											schedule={this.props.schedule.schedule}
+											courselist={this.props.courses} 
+											schedule={this.props.schedule}
 										/>}
 					/>
 					<Redirect to="/home" />
@@ -28,8 +33,8 @@ class Main extends Component {
 }
 const mapStateToProps = (state) => {
 	return {
-		courses: state.courses,
-		schedule: state.schedule,
+		courses: state.courses.courses,
+		schedule: state.schedule.schedule,
 	}
 }
 const mapDispatchToProps = (dispatch) => ({
