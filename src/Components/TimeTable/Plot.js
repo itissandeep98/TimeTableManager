@@ -25,7 +25,10 @@ export default class Plot extends Component {
 	}
 
 	findpos(course) {
-		var schedule = this.props.schedule;
+		var schedule = this.props.schedule["monsoon"];
+		if(this.state.season){
+			schedule=this.props.schedule["winter"]
+		}
 		var pos = []
 		for (let i = 1; i <= 5; i++) {
 			for (let j = 1; j <= 6; j++) {

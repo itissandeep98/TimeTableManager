@@ -1442,257 +1442,349 @@
 				"key": 241,
 				"text": "Biostatistics",
 				"value": "Biostatistics"
-			}		
+			}
 		]
-	} ,
+	},
 	"schedule": {
-		"1": {
-			"1": [
-				"AI",
-				"CMP",
-				"DSP",
-				"BPHY",
-				"SE",
-				"USPP",
-				"IFA",
-				"FMRP"
-			],
-			"2": [
-				"MAECO",
-				"CDA",
-				"DIS",
-				"PHO",
-				"FF",
-				"KCES",
-				"POK",
-				"NMP",
-				"DMG",
-				"IPSY"
-			],
-			"3": [
-				"TCOM",
-				"OOPD"
-			],
-			"4":[],
-			"5": [
-				"PRP",
-				"MLBA",
-				"I3D",
-				"SPA",
-				"MMS",
-				"AOS"
-			],
-			"6": [
-				"BECO",
-				"ML",
-				"CMPA",
-				"ISC",
-				"CMM",
-				"ICF",
-				"CF"
-			]
+		"monsoon": {
+			"1": {
+				"1": [
+					"AI",
+					"CMP",
+					"DSP",
+					"BPHY",
+					"SE",
+					"USPP",
+					"IFA",
+					"FMRP"
+				],
+				"2": [
+					"MAECO",
+					"CDA",
+					"DIS",
+					"PHO",
+					"FF",
+					"KCES",
+					"POK",
+					"NMP",
+					"DMG",
+					"IPSY"
+				],
+				"3": [
+					"TCOM",
+					"OOPD"
+				],
+				"4": [],
+				"5": [
+					"PRP",
+					"MLBA",
+					"I3D",
+					"SPA",
+					"MMS",
+					"AOS"
+				],
+				"6": [
+					"BECO",
+					"ML",
+					"CMPA",
+					"ISC",
+					"CMM",
+					"ICF",
+					"CF"
+				]
+			},
+			"2": {
+				"1": [
+					"DIP",
+					"ACB",
+					"ROB",
+					"RL",
+					"E2",
+					"CIA",
+					"RA",
+					"CRN"
+				],
+				"2": [
+					"SPP",
+					"CISP",
+					"GMT",
+					"TA",
+					"CBB",
+					"ITTA",
+					"MECO",
+					"DVD",
+					"IPHI",
+					"CCS",
+					"GA"
+				],
+				"3": [
+					"AC",
+					"CNT",
+					"IMG",
+					"CA",
+					"NLP",
+					"NDM",
+					"EK"
+				],
+				"4": [],
+				"5": [
+					"CN",
+					"FOMB",
+					"GM",
+					"DCS",
+					"DSC",
+					"TNT",
+					"ACV"
+				],
+				"6": [
+					"DA",
+					"NB",
+					"SCMP",
+					"MAD",
+					"TE",
+					"BML",
+					"DT",
+					"WSI",
+					"DHD"
+				]
+			},
+			"3": {
+				"1": [
+					"IGA",
+					"FCS",
+					"AML",
+					"AERM",
+					"FSEM",
+					"DSI",
+					"HCAI"
+				],
+				"2": [
+					"AI",
+					"CMP",
+					"DSP",
+					"BPHY",
+					"SE",
+					"USPP",
+					"IFA",
+					"FMRP"
+				],
+				"3": [
+					"CGAS",
+					"IIA",
+					"RMSSD",
+					"CMOS",
+					"CG",
+					"RA-2",
+					"EC",
+					"CFM",
+					"PDCS"
+				],
+				"4": [],
+				"5": [
+					"RMSSD",
+					"RA-2"
+				],
+				"6": []
+			},
+			"4": {
+				"1": [
+					"DIP",
+					"ACB",
+					"ROB",
+					"RL",
+					"E2",
+					"CIA",
+					"RA",
+					"CRN"
+				],
+				"2": [
+					"MAECO",
+					"DIS",
+					"PHO",
+					"FF",
+					"KCES",
+					"POL",
+					"NMP",
+					"DMG",
+					"IPSY",
+					"CDA"
+				],
+				"3": [
+					"AC",
+					"CNT",
+					"IMG",
+					"CA",
+					"NLP",
+					"NDM",
+					"EK"
+				],
+				"4": [],
+				"5": [
+					"PRP",
+					"MLBA",
+					"I3D",
+					"SPA",
+					"MMS",
+					"AOS"
+				],
+				"6": [
+					"BECO",
+					"ML",
+					"CMPA",
+					"ISC",
+					"CMM",
+					"ICF",
+					"CF"
+				]
+			},
+			"5": {
+				"1": [
+					"IGA",
+					"FCS",
+					"AML",
+					"AERM",
+					"FSEM",
+					"DSI",
+					"HCAI"
+				],
+				"2": [
+					"SPP",
+					"CISP",
+					"GMT",
+					"TA",
+					"CBB",
+					"ITTA",
+					"MECO",
+					"DVD",
+					"IPHI",
+					"CCS",
+					"GA",
+					"EVS"
+				],
+				"3": [
+					"CGAS",
+					"IIA",
+					"RMSSD",
+					"CMOS",
+					"CG",
+					"RA-2",
+					"EC",
+					"CFM",
+					"PDCS"
+				],
+				"4": [],
+				"5": [
+					"CN",
+					"FOMB",
+					"GM",
+					"DCS",
+					"DSC",
+					"TNT",
+					"ACV"
+				],
+				"6": [
+					"DA",
+					"NB",
+					"SCMP",
+					"MAD",
+					"TE",
+					"BML",
+					"DT",
+					"WSI",
+					"DHD",
+					"EVS"
+				]
+			}
 		},
-		"2": {
-			"1": [
-				"DIP",
-				"ACB",
-				"ROB",
-				"RL",
-				"E2",
-				"CIA",
-				"RA",
-				"CRN"
-			],
-			"2": [
-				"SPP",
-				"CISP",
-				"GMT",
-				"TA",
-				"CBB",
-				"ITTA",
-				"MECO",
-				"DVD",
-				"IPHI",
-				"CCS",
-				"GA"
-			],
-			"3": [
-				"AC",
-				"CNT",
-				"IMG",
-				"CA",
-				"NLP",
-				"NDM",
-				"EK"
-			],
-			"4": [],
-			"5": [
-				"CN",
-				"FOMB",
-				"GM",
-				"DCS",
-				"DSC",
-				"TNT",
-				"ACV"
-			],
-			"6": [
-				"DA",
-				"NB",
-				"SCMP",
-				"MAD",
-				"TE",
-				"BML",
-				"DT",
-				"WSI",
-				"DHD"
-			]
-		},
-		"3": {
-			"1": [
-				"IGA",
-				"FCS",
-				"AML",
-				"AERM",
-				"FSEM",
-				"DSI",
-				"HCAI"
-			],
-			"2": [
-				"AI",
-				"CMP",
-				"DSP",
-				"BPHY",
-				"SE",
-				"USPP",
-				"IFA",
-				"FMRP"
-			],
-			"3": [
-				"CGAS",
-				"IIA",
-				"RMSSD",
-				"CMOS",
-				"CG",
-				"RA-2",
-				"EC",
-				"CFM",
-				"PDCS"
-			],
-			"4": [],
-			"5": [
-				"RMSSD",
-				"RA-2"
-			],
-			"6": []
-		},
-		"4": {
-			"1": [
-				"DIP",
-				"ACB",
-				"ROB",
-				"RL",
-				"E2",
-				"CIA",
-				"RA",
-				"CRN"
-			],
-			"2": [
-				"MAECO",
-				"DIS",
-				"PHO",
-				"FF",
-				"KCES",
-				"POL",
-				"NMP",
-				"DMG",
-				"IPSY",
-				"CDA"
-			],
-			"3": [
-				"AC",
-				"CNT",
-				"IMG",
-				"CA",
-				"NLP",
-				"NDM",
-				"EK"
-			],
-			"4": [],
-			"5": [
-				"PRP",
-				"MLBA",
-				"I3D",
-				"SPA",
-				"MMS",
-				"AOS"
-			],
-			"6": [
-				"BECO",
-				"ML",
-				"CMPA",
-				"ISC",
-				"CMM",
-				"ICF",
-				"CF"
-			]
-		},
-		"5": {
-			"1": [
-				"IGA",
-				"FCS",
-				"AML",
-				"AERM",
-				"FSEM",
-				"DSI",
-				"HCAI"
-			],
-			"2": [
-				"SPP",
-				"CISP",
-				"GMT",
-				"TA",
-				"CBB",
-				"ITTA",
-				"MECO",
-				"DVD",
-				"IPHI",
-				"CCS",
-				"GA",
-				"EVS"
-			],
-			"3": [
-				"CGAS",
-				"IIA",
-				"RMSSD",
-				"CMOS",
-				"CG",
-				"RA-2",
-				"EC",
-				"CFM",
-				"PDCS"
-			],
-			"4": [],
-			"5": [
-				"CN",
-				"FOMB",
-				"GM",
-				"DCS",
-				"DSC",
-				"TNT",
-				"ACV"
-			],
-			"6": [
-				"DA",
-				"NB",
-				"SCMP",
-				"MAD",
-				"TE",
-				"BML",
-				"DT",
-				"WSI",
-				"DHD",
-				"EVS"
-			]
+		"winter":{
+			"1": {
+				"1": [
+					
+				],
+				"2": [
+					
+				],
+				"3": [
+					
+				],
+				"4": [],
+				"5": [
+					
+				],
+				"6": [
+					
+				]
+			},
+			"2": {
+				"1": [
+					
+				],
+				"2": [
+					
+				],
+				"3": [
+					
+				],
+				"4": [],
+				"5": [
+					
+				],
+				"6": [
+					
+				]
+			},
+			"3": {
+				"1": [
+					
+				],
+				"2": [
+					
+				],
+				"3": [
+					
+				],
+				"4": [],
+				"5": [
+					
+				],
+				"6": []
+			},
+			"4": {
+				"1": [
+					
+				],
+				"2": [
+					
+				],
+				"3": [
+					
+				],
+				"4": [],
+				"5": [
+					
+				],
+				"6": [
+					
+				]
+			},
+			"5": {
+				"1": [
+					
+				],
+				"2": [
+					
+				],
+				"3": [
+					
+				],
+				"4": [],
+				"5": [
+				
+				],
+				"6": [
+					
+				]
+			}
 		}
 	}
 }
