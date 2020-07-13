@@ -86,8 +86,6 @@ export default class Plot extends Component {
 				courselist = this.props.courselist["winter"]
 			}
 		}
-		console.log(courselist.length)
-
 		return (
 			<div className="container">
 
