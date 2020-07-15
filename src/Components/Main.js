@@ -8,11 +8,10 @@ import Plot from './TimeTable/Plot'
 class Main extends Component {
 	
 	componentDidMount(){
-		if(!this.props.courses)
-			this.props.fetchCourse()
-		if(!this.props.schedule)
-			this.props.fetchScehdule()
+		this.props.fetchCourse()
+		this.props.fetchScehdule()
 	}
+	
 	render() {
 	
 		return (
