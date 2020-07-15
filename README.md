@@ -19,10 +19,11 @@ This is a simple react application to create a TimeTable based only on your choi
 3. Once all the packages are installed run `yarn start` to start the development server.
 
 ## Usage
+1. visit [here](https://itissandeep98.github.io/TimeTableManager/)
 
-1. Wait until the application downloads all the timetable and schedule data from server, only then you will be able to see the dropdown list filled with subjects
+2. Wait until the application downloads all the timetable and schedule data from server, only then you will be able to see the dropdown list filled with subjects
 
-2. Search and choose your subjects from the list and the timetable will get updated accordingly
+3. Search and choose your subjects from the list and the timetable will get updated accordingly
 
 ## PS
 
