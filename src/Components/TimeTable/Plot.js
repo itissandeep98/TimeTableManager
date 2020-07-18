@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import TableData from './Table'
-import { Form, Dropdown, Checkbox, Segment, Button } from 'semantic-ui-react'
+import { Form, Dropdown, Checkbox, Segment } from 'semantic-ui-react'
 import { Spinner } from 'reactstrap';
 
 export default class Plot extends Component {
