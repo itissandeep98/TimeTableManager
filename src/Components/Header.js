@@ -24,7 +24,7 @@ class Header extends Component {
 				<Navbar dark expand="md">
 					<div className="container">
 						<NavbarToggler onClick={this.toggleNav} />
-						<NavbarBrand className="mr-auto" href="/">Time Table Manager</NavbarBrand>
+						<NavbarBrand className="mr-auto" href="/">Time Table Creator</NavbarBrand>
 						<Collapse isOpen={this.state.isNavOpen} navbar>
 							<Nav navbar>
 								<NavItem>

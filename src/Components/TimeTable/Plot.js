@@ -102,7 +102,7 @@ export default class Plot extends Component {
 					<Form>
 						<Form.Field inline>
 							<label>Monsoon</label>
-							<Checkbox slider checked={this.state.season} onChange={this.onChange.bind(this)}/>
+							<Checkbox slider disabled checked={this.state.season} onChange={this.onChange.bind(this)}/>
 							<label>Winter</label>
 						</Form.Field>
 					</Form>

@@ -28,378 +28,378 @@
 			},
 			{
 				"key": 5,
-				"text": "Technical Communication",
-				"value": "TCOM"
-			},
-			{
-				"key": 6,
-				"text": "Computer Networks",
-				"value": "CN"
-			},
-			{
-				"key": 7,
-				"text": "Compilers",
-				"value": "CMP"
-			},
-			{
-				"key": 8,
-				"text": "Modern Algorithm Design",
-				"value": "MAD"
-			},
-			{
-				"key": 9,
-				"text": "Computer Graphics",
-				"value": "CG"
-			},
-			{
-				"key": 10,
-				"text": "Machine Learning",
-				"value": "ML"
-			},
-			{
-				"key": 11,
-				"text": "Foundations of Computer Security",
-				"value": "FCS"
-			},
-			{
-				"key": 12,
-				"text": "Data Mining",
-				"value": "DMG"
-			},
-			{
-				"key": 13,
-				"text": "Database System Implementation",
-				"value": "DSI"
-			},
-			{
-				"key": 14,
-				"text": "Computer Architecture",
-				"value": "CA"
-			},
-			{
-				"key": 15,
-				"text": "Randomized Algorithms",
-				"value": "RA"
-			},
-			{
-				"key": 16,
-				"text": "Introduction to Graduate Algorithms",
-				"value": "IGA"
-			},
-			{
-				"key": 17,
-				"text": "Applied Cryptography",
-				"value": "AC"
-			},
-			{
-				"key": 18,
-				"text": "Natural Language Processing",
-				"value": "NLP"
-			},
-			{
-				"key": 19,
-				"text": "Security Engineering",
-				"value": "SE"
-			},
-			{
-				"key": 20,
-				"text": "Introduction to Spatial Computing",
-				"value": "ISC"
-			},
-			{
-				"key": 21,
-				"text": "Data Science",
-				"value": "DSC"
-			},
-			{
-				"key": 22,
-				"text": "Introduction to Motion Graphics",
-				"value": "IMG"
-			},
-			{
-				"key": 23,
-				"text": "Design of Interactive Systems",
-				"value": "DIS"
-			},
-			{
-				"key": 24,
-				"text": "Analog CMOS Circuit Design",
-				"value": "CMOS"
-			},
-			{
-				"key": 25,
-				"text": "Digital Communication Systems",
-				"value": "DCS"
-			},
-			{
-				"key": 26,
-				"text": "Digital Image Processing",
-				"value": "DIP"
-			},
-			{
-				"key": 27,
-				"text": "Digital Signal Processing",
-				"value": "DSP"
-			},
-			{
-				"key": 28,
-				"text": "Probability and Random Process",
-				"value": "PRP"
-			},
-			{
-				"key": 29,
-				"text": "Digital Hardware Design",
-				"value": "DHD"
-			},
-			{
-				"key": 30,
-				"text": "Digital VLSI Design",
-				"value": "DVD"
-			},
-			{
-				"key": 31,
-				"text": "Wireless System Implementation",
-				"value": "WSI"
-			},
-			{
-				"key": 32,
-				"text": "Principals of Digital Communication System",
-				"value": "PDCS"
-			},
-			{
-				"key": 33,
-				"text": "Control Theory",
-				"value": "CNT"
-			},
-			{
-				"key": 34,
-				"text": "Microeconomics",
-				"value": "MECO"
-			},
-			{
-				"key": 35,
-				"text": "Macroeconomics",
-				"value": "MAECO"
-			},
-			{
-				"key": 36,
-				"text": "Game Theory",
-				"value": "GMT"
-			},
-			{
-				"key": 37,
-				"text": "Econometrics I",
-				"value": "E1"
-			},
-			{
-				"key": 38,
-				"text": "Foundations of Finance",
-				"value": "FF"
-			},
-			{
-				"key": 39,
-				"text": "Decision Theory",
-				"value": "DT"
-			},
-			{
-				"key": 40,
-				"text": "Research Methods",
-				"value": "Research Methods"
-			},
-			{
-				"key": 41,
-				"text": "Environmental Sciences",
-				"value": "EVS"
-			},
-			{
-				"key": 42,
-				"text": "Graph Theory",
-				"value": "GT"
-			},
-			{
-				"key": 43,
-				"text": "Combinatorics and its Applications",
-				"value": "CIA"
-			},
-			{
-				"key": 44,
-				"text": "Real Analysis-II",
-				"value": "RA-2"
-			},
-			{
-				"key": 45,
-				"text": "Complex Analysis",
-				"value": "CMPA"
-			},
-			{
-				"key": 46,
-				"text": "Stochastic Processes and Applications",
-				"value": "SPA"
-			},
-			{
-				"key": 47,
-				"text": "Scientific Computing",
-				"value": "SCMP"
-			},
-			{
-				"key": 48,
-				"text": "Integral Transforms and their Applications",
-				"value": "ITTA"
-			},
-			{
-				"key": 49,
-				"text": "Introduction to Functional Analysis",
-				"value": "IFA"
-			},
-			{
-				"key": 50,
-				"text": "Contemporary India Sociological Perspective",
-				"value": "CISP"
-			},
-			{
-				"key": 51,
-				"text": "Consumer Culture and Society",
-				"value": "CCS"
-			},
-			{
-				"key": 52,
-				"text": "Gender and Media",
-				"value": "GM"
-			},
-			{
-				"key": 53,
-				"text": "Introduction to Philosophy",
-				"value": "IPHI"
-			},
-			{
-				"key": 54,
-				"text": "Research Methods in Social Science and Design",
-				"value": "RMSSD"
-			},
-			{
-				"key": 55,
-				"text": "Theatre Appreciation",
-				"value": "TA"
-			},
-			{
-				"key": 56,
 				"text": "Computational Gastronomy",
 				"value": "CGAS"
 			},
 			{
-				"key": 57,
-				"text": "Finite and Spectral Element Methods",
-				"value": "FSEM"
-			},
-			{
-				"key": 58,
+				"key": 6,
 				"text": "Computing For Medicine",
 				"value": "CFM"
 			},
 			{
-				"key": 59,
-				"text": "Biophysics",
-				"value": "BPHY"
+				"key": 7,
+				"text": "Healthcare Innovation and Entrepreneurship Essentials",
+				"value": "HIEE"
 			},
 			{
-				"key": 60,
-				"text": "Mobile and Middleware Systems",
-				"value": "MMS"
+				"key": 8,
+				"text": "Technical Communication",
+				"value": "TCOM"
 			},
 			{
-				"key": 61,
-				"text": "Advanced Operating Systems",
-				"value": "AOS"
+				"key": 9,
+				"text": "Computer Networks",
+				"value": "CN"
 			},
 			{
-				"key": 62,
-				"text": "Parallel Runtimes for Modern Processors",
-				"value": "PRMP"
+				"key": 10,
+				"text": "Compilers",
+				"value": "CMP"
 			},
 			{
-				"key": 63,
+				"key": 11,
+				"text": "Modern Algorithm Design",
+				"value": "MAD"
+			},
+			{
+				"key": 12,
+				"text": "Computer Graphics",
+				"value": "CG"
+			},
+			{
+				"key": 13,
+				"text": "Digital Image Processing",
+				"value": "DIP"
+			},
+			{
+				"key": 14,
+				"text": "Machine Learning",
+				"value": "ML"
+			},
+			{
+				"key": 15,
+				"text": "Foundations of Computer Security",
+				"value": "FCS"
+			},
+			{
+				"key": 16,
+				"text": "Topics in Adaptive Cybersecurity",
+				"value": "Topics in Adaptive Cybersecurity"
+			},
+			{
+				"key": 17,
+				"text": "Data Mining",
+				"value": "DMG"
+			},
+			{
+				"key": 18,
+				"text": "Computer Architecture",
+				"value": "CA"
+			},
+			{
+				"key": 19,
+				"text": "Randomized Algorithms",
+				"value": "RA"
+			},
+			{
+				"key": 20,
+				"text": "Introduction to Graduate Algorithms",
+				"value": "IGA"
+			},
+			{
+				"key": 21,
+				"text": "Applied Cryptography",
+				"value": "AC"
+			},
+			{
+				"key": 22,
+				"text": "Natural Language Processing",
+				"value": "NLP"
+			},
+			{
+				"key": 23,
+				"text": "Advanced Computer Vision",
+				"value": "ACV"
+			},
+			{
+				"key": 24,
+				"text": "Reinforcement Learning",
+				"value": "RL"
+			},
+			{
+				"key": 25,
+				"text": "Advanced Topics in Mobile Computing",
+				"value": "ATMC"
+			},
+			{
+				"key": 26,
+				"text": "Object Oriented Programing and Design",
+				"value": "OOPD"
+			},
+			{
+				"key": 27,
+				"text": "Collaborative Filtering",
+				"value": "CF"
+			},
+			{
+				"key": 28,
+				"text": "Advanced Machine Learning",
+				"value": "AML"
+			},
+			{
+				"key": 29,
+				"text": "Artificial Intelligence",
+				"value": "AI"
+			},
+			{
+				"key": 30,
 				"text": "Information Integration and Applications",
 				"value": "IIA"
 			},
 			{
-				"key": 64,
-				"text": "Behavioural Economics",
-				"value": "BECO"
+				"key": 31,
+				"text": "Program Analysis",
+				"value": "PA"
 			},
 			{
-				"key": 65,
+				"key": 32,
+				"text": "Complexity Theory",
+				"value": "CTH"
+			},
+			{
+				"key": 33,
+				"text": "Data Lifecycle Management",
+				"value": "DLM"
+			},
+			{
+				"key": 34,
+				"text": "Software Development using Open Source",
+				"value": "SDOS"
+			},
+			{
+				"key": 35,
+				"text": "Film Making and Radio Podcasting",
+				"value": "FMRP"
+			},
+			{
+				"key": 36,
+				"text": "Digital Audio",
+				"value": "DA"
+			},
+			{
+				"key": 37,
+				"text": "Introduction to 3D Production Design for Animation and Games",
+				"value": "I3D"
+			},
+			{
+				"key": 38,
+				"text": "Introduction to Motion Graphics",
+				"value": "IMG"
+			},
+			{
+				"key": 39,
+				"text": "Design of Interactive Systems",
+				"value": "DIS"
+			},
+			{
+				"key": 40,
+				"text": "Microeconomics",
+				"value": "MECO"
+			},
+			{
+				"key": 41,
+				"text": "Macroeconomics",
+				"value": "MAECO"
+			},
+			{
+				"key": 42,
+				"text": "Game Theory",
+				"value": "GMT"
+			},
+			{
+				"key": 43,
+				"text": "Econometrics II",
+				"value": "E2"
+			},
+			{
+				"key": 44,
+				"text": "Foundations of Finance",
+				"value": "FF"
+			},
+			{
+				"key": 45,
+				"text": "Digital VLSI Design",
+				"value": "DVD"
+			},
+			{
+				"key": 46,
+				"text": "Analog CMOS Circuit Design",
+				"value": "CMOS"
+			},
+			{
+				"key": 47,
+				"text": "Digital Communication Systems",
+				"value": "DCS"
+			},
+			{
+				"key": 48,
+				"text": "Probability and Random Process",
+				"value": "PRP"
+			},
+			{
+				"key": 49,
+				"text": "Wireless System Implementation",
+				"value": "WSI"
+			},
+			{
+				"key": 50,
+				"text": "Principals of Digital Communication System",
+				"value": "PDCS"
+			},
+			{
+				"key": 51,
+				"text": "Control Theory",
+				"value": "CNT"
+			},
+			{
+				"key": 52,
+				"text": "Robotics",
+				"value": "ROB"
+			},
+			{
+				"key": 53,
+				"text": "RF Circuit Design",
+				"value": "RFCD"
+			},
+			{
+				"key": 54,
+				"text": "Introduction to Nanoelectronics",
+				"value": "INE"
+			},
+			{
+				"key": 55,
 				"text": "Bayesian Machine Learning",
 				"value": "BML"
 			},
 			{
-				"key": 66,
+				"key": 56,
 				"text": "Integrated Circuit Fabrication",
 				"value": "ICF"
 			},
 			{
-				"key": 67,
+				"key": 57,
 				"text": "Photonics: Fundamentals & Applications",
 				"value": "PHO"
 			},
 			{
-				"key": 68,
+				"key": 58,
 				"text": "Entrepreneurial Communication",
 				"value": "EC"
 			},
 			{
-				"key": 69,
+				"key": 59,
 				"text": "Entrepreneurial Khichadi",
 				"value": "EK"
 			},
 			{
-				"key": 70,
+				"key": 60,
+				"text": "Environmental Sciences",
+				"value": "EVS"
+			},
+			{
+				"key": 61,
+				"text": "Real Analysis-II",
+				"value": "RA-2"
+			},
+			{
+				"key": 62,
+				"text": "Stochastic Processes and Applications",
+				"value": "SPA"
+			},
+			{
+				"key": 63,
+				"text": "Scientific Computing",
+				"value": "SCMP"
+			},
+			{
+				"key": 64,
 				"text": "Topics in Number Theory",
 				"value": "TNT"
 			},
 			{
-				"key": 71,
-				"text": "Categorical Data Analysis",
-				"value": "CDA"
+				"key": 65,
+				"text": "Complex Analysis",
+				"value": "CMPA"
 			},
 			{
-				"key": 72,
-				"text": "Introduction to Psychology",
-				"value": "IPSY"
+				"key": 66,
+				"text": "Finite and Spectral Element Methods",
+				"value": "FSEM"
 			},
 			{
-				"key": 73,
+				"key": 67,
 				"text": "Neuroscience of Decision Making",
 				"value": "NDM"
 			},
 			{
-				"key": 74,
+				"key": 68,
 				"text": "Cognition of Motor Movement",
 				"value": "CMM"
 			},
 			{
-				"key": 75,
+				"key": 69,
+				"text": "Contemporary India Sociological Perspective",
+				"value": "CISP"
+			},
+			{
+				"key": 70,
+				"text": "Consumer Culture and Society",
+				"value": "CCS"
+			},
+			{
+				"key": 71,
 				"text": "Key Concepts in Economic Sociology",
 				"value": "KCES"
 			},
 			{
-				"key": 76,
-				"text": "Perspectives of Knowledge",
-				"value": "POK"
-			},
-			{
-				"key": 77,
-				"text": "Calculus in R^N",
-				"value": "CRN"
-			},
-			{
-				"key": 78,
+				"key": 72,
 				"text": "Advance Ethnographic Research Methods",
 				"value": "AERM"
 			},
 			{
-				"key": 79,
+				"key": 73,
+				"text": "Gender and Media",
+				"value": "GM"
+			},
+			{
+				"key": 74,
+				"text": "Introduction to Philosophy",
+				"value": "IPHI"
+			},
+			{
+				"key": 75,
+				"text": "Research Methods in Social Science and Design",
+				"value": "RMSSD"
+			},
+			{
+				"key": 76,
+				"text": "Theatre Appreciation",
+				"value": "TA"
+			},
+			{
+				"key": 77,
+				"text": "Social and Political Philosophy",
+				"value": "SPP"
+			},
+			{
+				"key": 78,
 				"text": "Theories of Ethics",
 				"value": "TE"
+			},
+			{
+				"key": 79,
+				"text": "Perspectives of Knowledge",
+				"value": "POK"
 			},
 			{
 				"key": 80,
@@ -410,21 +410,6 @@
 				"key": 81,
 				"text": "New Media and Politics",
 				"value": "NMP"
-			},
-			{
-				"key": 82,
-				"text": "Human Centred AI",
-				"value": "HCAI"
-			},
-			{
-				"key": 83,
-				"text": "Introduction to 3D Production Design for Animation and Games",
-				"value": "I3D"
-			},
-			{
-				"key": 84,
-				"text": "Social and Political Philosophy",
-				"value": "SPP"
 			}
 		],
 		"winter": [
@@ -589,11 +574,6 @@
 				"value": "Computer Vision"
 			},
 			{
-				"key": 41,
-				"text": "Complexity Theory",
-				"value": "Complexity Theory"
-			},
-			{
 				"key": 42,
 				"text": "Introduction to Intelligent Systems",
 				"value": "Introduction to Intelligent Systems"
@@ -612,11 +592,6 @@
 				"key": 45,
 				"text": "Foundations of Parallel Programming",
 				"value": "Foundations of Parallel Programming"
-			},
-			{
-				"key": 46,
-				"text": "Program Analysis",
-				"value": "Program Analysis"
 			},
 			{
 				"key": 49,
@@ -739,11 +714,6 @@
 				"value": "Social Robotics"
 			},
 			{
-				"key": 83,
-				"text": "Topics in Adaptive Cybersecurity",
-				"value": "Topics in Adaptive Cybersecurity"
-			},
-			{
 				"key": 85,
 				"text": "Data Warehouse",
 				"value": "Data Warehouse"
@@ -777,11 +747,6 @@
 				"key": 95,
 				"text": "Multimedia Security",
 				"value": "Multimedia Security"
-			},
-			{
-				"key": 96,
-				"text": "Advanced Topics in Mobile Computing",
-				"value": "Advanced Topics in Mobile Computing"
 			},
 			{
 				"key": 97,
@@ -924,11 +889,6 @@
 				"value": "Privacy and Security in Online Social Media"
 			},
 			{
-				"key": 254,
-				"text": "RF Circuit Design",
-				"value": "RF Circuit Design"
-			},
-			{
 				"key": 255,
 				"text": "Sketching Communication Narrative",
 				"value": "Sketching Communication Narrative"
@@ -1052,11 +1012,6 @@
 				"key": 136,
 				"text": "System on Chip Design and Test",
 				"value": "System on Chip Design and Test"
-			},
-			{
-				"key": 137,
-				"text": "Introduction to Nanoelectronics",
-				"value": "Introduction to Nanoelectronics"
 			},
 			{
 				"key": 138,
@@ -1442,6 +1397,111 @@
 				"key": 241,
 				"text": "Biostatistics",
 				"value": "Biostatistics"
+			},
+			{
+				"key": 13,
+				"text": "Database System Implementation",
+				"value": "DSI"
+			},
+			{
+				"key": 19,
+				"text": "Security Engineering",
+				"value": "SE"
+			},
+			{
+				"key": 20,
+				"text": "Introduction to Spatial Computing",
+				"value": "ISC"
+			},
+			{
+				"key": 21,
+				"text": "Data Science",
+				"value": "DSC"
+			},
+			{
+				"key": 27,
+				"text": "Digital Signal Processing",
+				"value": "DSP"
+			},
+			{
+				"key": 29,
+				"text": "Digital Hardware Design",
+				"value": "DHD"
+			},
+			{
+				"key": 39,
+				"text": "Decision Theory",
+				"value": "DT"
+			},
+			{
+				"key": 40,
+				"text": "Research Methods",
+				"value": "Research Methods"
+			},
+			{
+				"key": 42,
+				"text": "Graph Theory",
+				"value": "GT"
+			},
+			{
+				"key": 43,
+				"text": "Combinatorics and its Applications",
+				"value": "CIA"
+			},
+			{
+				"key": 48,
+				"text": "Integral Transforms and their Applications",
+				"value": "ITTA"
+			},
+			{
+				"key": 49,
+				"text": "Introduction to Functional Analysis",
+				"value": "IFA"
+			},
+			{
+				"key": 59,
+				"text": "Biophysics",
+				"value": "BPHY"
+			},
+			{
+				"key": 60,
+				"text": "Mobile and Middleware Systems",
+				"value": "MMS"
+			},
+			{
+				"key": 61,
+				"text": "Advanced Operating Systems",
+				"value": "AOS"
+			},
+			{
+				"key": 62,
+				"text": "Parallel Runtimes for Modern Processors",
+				"value": "PRMP"
+			},
+			{
+				"key": 64,
+				"text": "Behavioural Economics",
+				"value": "BECO"
+			},
+			{
+				"key": 71,
+				"text": "Categorical Data Analysis",
+				"value": "CDA"
+			},
+			{
+				"key": 72,
+				"text": "Introduction to Psychology",
+				"value": "IPSY"
+			},
+			{
+				"key": 77,
+				"text": "Calculus in R^N",
+				"value": "CRN"
+			},
+			{
+				"key": 82,
+				"text": "Human Centred AI",
+				"value": "HCAI"
 			}
 		]
 	},
@@ -1451,24 +1511,21 @@
 				"1": [
 					"AI",
 					"CMP",
-					"DSP",
 					"BPHY",
-					"SE",
+					"TACS",
 					"USPP",
-					"IFA",
+					"INE",
 					"FMRP"
 				],
 				"2": [
 					"MAECO",
-					"CDA",
 					"DIS",
 					"PHO",
 					"FF",
 					"KCES",
 					"POK",
 					"NMP",
-					"DMG",
-					"IPSY"
+					"DMG"
 				],
 				"3": [
 					"TCOM",
@@ -1479,15 +1536,13 @@
 					"PRP",
 					"MLBA",
 					"I3D",
-					"SPA",
-					"MMS",
-					"AOS"
+					"CMPA",
+					"ATMC",
+					"CTH"
 				],
 				"6": [
-					"BECO",
 					"ML",
-					"CMPA",
-					"ISC",
+					"SPA",
 					"CMM",
 					"ICF",
 					"CF"
@@ -1496,26 +1551,24 @@
 			"2": {
 				"1": [
 					"DIP",
-					"ACB",
+					"ABIN",
 					"ROB",
 					"RL",
 					"E2",
-					"CIA",
 					"RA",
-					"CRN"
+					"CG"
 				],
 				"2": [
 					"SPP",
 					"CISP",
 					"GMT",
 					"TA",
-					"CBB",
-					"ITTA",
+					"CBAB",
 					"MECO",
 					"DVD",
 					"IPHI",
 					"CCS",
-					"GA"
+					"IGA"
 				],
 				"3": [
 					"AC",
@@ -1524,7 +1577,8 @@
 					"CA",
 					"NLP",
 					"NDM",
-					"EK"
+					"EK",
+					"SDOS"
 				],
 				"4": [],
 				"5": [
@@ -1532,7 +1586,6 @@
 					"FOMB",
 					"GM",
 					"DCS",
-					"DSC",
 					"TNT",
 					"ACV"
 				],
@@ -1543,9 +1596,8 @@
 					"MAD",
 					"TE",
 					"BML",
-					"DT",
 					"WSI",
-					"DHD"
+					"PA"
 				]
 			},
 			"3": {
@@ -1555,17 +1607,16 @@
 					"AML",
 					"AERM",
 					"FSEM",
-					"DSI",
-					"HCAI"
+					"RFCD",
+					"HIEE"
 				],
 				"2": [
 					"AI",
 					"CMP",
-					"DSP",
 					"BPHY",
-					"SE",
+					"TACS",
 					"USPP",
-					"IFA",
+					"INE",
 					"FMRP"
 				],
 				"3": [
@@ -1573,7 +1624,6 @@
 					"IIA",
 					"RMSSD",
 					"CMOS",
-					"CG",
 					"RA-2",
 					"EC",
 					"CFM",
@@ -1589,13 +1639,13 @@
 			"4": {
 				"1": [
 					"DIP",
-					"ACB",
+					"ABIN",
 					"ROB",
 					"RL",
 					"E2",
-					"CIA",
 					"RA",
-					"CRN"
+					"CG",
+					"DLM"
 				],
 				"2": [
 					"MAECO",
@@ -1603,11 +1653,9 @@
 					"PHO",
 					"FF",
 					"KCES",
-					"POL",
+					"POK",
 					"NMP",
-					"DMG",
-					"IPSY",
-					"CDA"
+					"DMG"
 				],
 				"3": [
 					"AC",
@@ -1616,22 +1664,21 @@
 					"CA",
 					"NLP",
 					"NDM",
-					"EK"
+					"EK",
+					"SDOS"
 				],
 				"4": [],
 				"5": [
 					"PRP",
 					"MLBA",
 					"I3D",
-					"SPA",
-					"MMS",
-					"AOS"
+					"CMPA",
+					"ATMC",
+					"CTH"
 				],
 				"6": [
-					"BECO",
 					"ML",
-					"CMPA",
-					"ISC",
+					"SPA",
 					"CMM",
 					"ICF",
 					"CF"
@@ -1644,21 +1691,18 @@
 					"AML",
 					"AERM",
 					"FSEM",
-					"DSI",
-					"HCAI"
+					"RFCD"
 				],
 				"2": [
 					"SPP",
 					"CISP",
 					"GMT",
 					"TA",
-					"CBB",
-					"ITTA",
+					"CBAB",
 					"MECO",
 					"DVD",
 					"IPHI",
 					"CCS",
-					"GA",
 					"EVS"
 				],
 				"3": [
@@ -1666,7 +1710,6 @@
 					"IIA",
 					"RMSSD",
 					"CMOS",
-					"CG",
 					"RA-2",
 					"EC",
 					"CFM",
@@ -1689,101 +1732,52 @@
 					"MAD",
 					"TE",
 					"BML",
-					"DT",
+					"PA",
 					"WSI",
-					"DHD",
 					"EVS"
 				]
 			}
 		},
-		"winter":{
+		"winter": {
 			"1": {
-				"1": [
-					
-				],
-				"2": [
-					
-				],
-				"3": [
-					
-				],
+				"1": [],
+				"2": [],
+				"3": [],
 				"4": [],
-				"5": [
-					
-				],
-				"6": [
-					
-				]
+				"5": [],
+				"6": []
 			},
 			"2": {
-				"1": [
-					
-				],
-				"2": [
-					
-				],
-				"3": [
-					
-				],
+				"1": [],
+				"2": [],
+				"3": [],
 				"4": [],
-				"5": [
-					
-				],
-				"6": [
-					
-				]
+				"5": [],
+				"6": []
 			},
 			"3": {
-				"1": [
-					
-				],
-				"2": [
-					
-				],
-				"3": [
-					
-				],
+				"1": [],
+				"2": [],
+				"3": [],
 				"4": [],
-				"5": [
-					
-				],
+				"5": [],
 				"6": []
 			},
 			"4": {
-				"1": [
-					
-				],
-				"2": [
-					
-				],
-				"3": [
-					
-				],
+				"1": [],
+				"2": [],
+				"3": [],
 				"4": [],
-				"5": [
-					
-				],
-				"6": [
-					
-				]
+				"5": [],
+				"6": []
 			},
 			"5": {
-				"1": [
-					
-				],
-				"2": [
-					
-				],
-				"3": [
-					
-				],
+				"1": [],
+				"2": [],
+				"3": [],
 				"4": [],
-				"5": [
-				
-				],
-				"6": [
-					
-				]
+				"5": [],
+				"6": []
 			}
 		}
 	}
