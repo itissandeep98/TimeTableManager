@@ -13,8 +13,8 @@
 			},
 			{
 				"key": 2,
-				"text": "Algorithms in Computational Biology",
-				"value": "ACB"
+				"text": "Algorithms in Bioinformatics",
+				"value": "ABIN"
 			},
 			{
 				"key": 3,
@@ -410,7 +410,12 @@
 				"key": 81,
 				"text": "New Media and Politics",
 				"value": "NMP"
-			}
+			},
+			{
+				"key": 82,
+				"text": "Biophysics",
+				"value": "BPHY"
+			},
 		],
 		"winter": [
 			{
@@ -1458,11 +1463,7 @@
 				"text": "Introduction to Functional Analysis",
 				"value": "IFA"
 			},
-			{
-				"key": 59,
-				"text": "Biophysics",
-				"value": "BPHY"
-			},
+			
 			{
 				"key": 60,
 				"text": "Mobile and Middleware Systems",
