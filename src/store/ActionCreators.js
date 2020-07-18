@@ -3,32 +3,22 @@ import * as ActionTypes from "./ActionTypes";
 import { jsonUrl } from "../shared/baseUrl";
 
 
-export const courseFetchAction = () => {
+export const dataFetchAction = () => {
 	return async (dispatch) => {
-		return await axios.get(jsonUrl+"/courses")
+		dispatch({type:ActionTypes.DATA_FETCH_LOADING})
+		return await axios.get(jsonUrl)
 			.then(response => {
-				if (!response.data.errmess)
-					dispatch({ type: ActionTypes.COURSE_FETCH_SUCCESS, courses: response.data })
-				else
-					dispatch({ type: ActionTypes.COURSE_FETCH_FAILED, errmess: "Courses Can't be Fetched" })
+				if (!response.data.errmess){
+					dispatch({ type: ActionTypes.COURSE_FETCH_SUCCESS, courses: response.data.courses })
+					dispatch({ type: ActionTypes.SCHEDULE_FETCH_SUCCESS, schedule: response.data.schedule })
+				}
+				else{
+					dispatch({ type: ActionTypes.DATA_FETCH_FAILED, errmess: "Error in fetched data. Try reloading" })
+				}
 			})
 			.catch(error => {
-				dispatch({ type: ActionTypes.COURSE_FETCH_FAILED, errmess: "Error in connection with Server" })
+				dispatch({ type: ActionTypes.DATA_FETCH_FAILED, errmess: "Error in connection with Server. Try reloading" })
 			})
 	}
 }
 
-export const scheduleFetchAction = () => {
-	return async (dispatch) => {
-		return await axios.get(jsonUrl + "/schedule")
-			.then(response => {
-				if (!response.data.errmess)
-					dispatch({ type: ActionTypes.SCHEDULE_FETCH_SUCCESS, schedule: response.data })
-				else
-					dispatch({ type: ActionTypes.SCHEDULE_FETCH_FAILED, errmess: "Schedule Can't be Fetched" })
-			})
-			.catch(error => {
-				dispatch({ type: ActionTypes.SCHEDULE_FETCH_FAILED , errmess: "Error in connection with Server" })
-			})
-	}
-}

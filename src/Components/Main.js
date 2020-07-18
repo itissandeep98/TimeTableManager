@@ -1,27 +1,27 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { withRouter, Switch, Route, Redirect } from 'react-router-dom'
-import { courseFetchAction, scheduleFetchAction } from '../store/ActionCreators'
+import { dataFetchAction } from '../store/ActionCreators'
 import Header from './Header'
 import Plot from './TimeTable/Plot'
 
 class Main extends Component {
 	
 	componentDidMount(){
-		this.props.fetchCourse()
-		this.props.fetchScehdule()
+		this.props.fetchData()
 	}
 	
 	render() {
-	
 		return (
 			<div>
 				<Header />
 				<Switch>
 					<Route path="/home" 
 						component={() => <Plot 
-											courselist={this.props.courses} 
+											courses={this.props.courses.courses} 
 											schedule={this.props.schedule}
+											isLoading={this.props.courses.isLoading}
+											errmess={this.props.courses.errmess}
 										/>}
 					/>
 					<Redirect to="/home" />
@@ -32,13 +32,12 @@ class Main extends Component {
 }
 const mapStateToProps = (state) => {
 	return {
-		courses: state.courses.courses,
+		courses: state.courses,
 		schedule: state.schedule.schedule,
 	}
 }
 const mapDispatchToProps = (dispatch) => ({
-	fetchCourse: () => dispatch(courseFetchAction()),
-	fetchScehdule: ()=>dispatch(scheduleFetchAction()),
+	fetchData: () => dispatch(dataFetchAction()),
 })
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Main));

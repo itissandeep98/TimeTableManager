@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import TableData from './Table'
-import { Form, Dropdown, Checkbox, Segment } from 'semantic-ui-react'
+import { Form, Dropdown, Checkbox, Segment, Button } from 'semantic-ui-react'
 import { Spinner } from 'reactstrap';
 
 export default class Plot extends Component {
@@ -82,20 +82,33 @@ export default class Plot extends Component {
 
 
 	render() {
-		var courselist = [
-			{ key: "loading", value: <Spinner />, text: <Spinner />, disabled: true }
-		]
-		if (this.props.courselist){
-			courselist = this.props.courselist["monsoon"]
+		var courselist = null;
+		if (this.props.isLoading){
+			courselist = [
+				{ key: "loading", value: <Spinner />, text: <Spinner />, disabled: true }
+			]
+		}
+		else if (this.props.errmess){
+			courselist = [
+				{ key: "error", value: this.props.errmess, text: this.props.errmess, disabled: true }
+			]
+		}
+
+		else{
+			courselist = this.props.courses["monsoon"]
 			if(this.state.season){
-				courselist = this.props.courselist["winter"]
+				courselist = this.props.courses["winter"]
 			}
 		}
 		return (
-			<div className="container-fluid">
+			<div className="container">
+				{/* <div className="row ">
+					<div className="col-2">
+					<Button onClick={()=>{window.print()}}> Print</Button>
+					</div>
+				</div> */}
 				<div className="row">
-
-				<TableData data={this.state.schedule} />
+					<TableData data={this.state.schedule} />
 				</div>
 
 				<hr />

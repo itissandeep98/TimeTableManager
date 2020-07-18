@@ -1404,103 +1404,103 @@
 				"value": "Biostatistics"
 			},
 			{
-				"key": 13,
+				"key": 242,
 				"text": "Database System Implementation",
 				"value": "DSI"
 			},
 			{
-				"key": 19,
+				"key": 243,
 				"text": "Security Engineering",
 				"value": "SE"
 			},
 			{
-				"key": 20,
+				"key": 244,
 				"text": "Introduction to Spatial Computing",
 				"value": "ISC"
 			},
 			{
-				"key": 21,
+				"key": 245,
 				"text": "Data Science",
 				"value": "DSC"
 			},
 			{
-				"key": 27,
+				"key": 246,
 				"text": "Digital Signal Processing",
 				"value": "DSP"
 			},
 			{
-				"key": 29,
+				"key": 247,
 				"text": "Digital Hardware Design",
 				"value": "DHD"
 			},
 			{
-				"key": 39,
+				"key": 248,
 				"text": "Decision Theory",
 				"value": "DT"
 			},
 			{
-				"key": 40,
+				"key": 249,
 				"text": "Research Methods",
 				"value": "Research Methods"
 			},
 			{
-				"key": 42,
+				"key": 250,
 				"text": "Graph Theory",
 				"value": "GT"
 			},
 			{
-				"key": 43,
+				"key": 251,
 				"text": "Combinatorics and its Applications",
 				"value": "CIA"
 			},
 			{
-				"key": 48,
+				"key": 252,
 				"text": "Integral Transforms and their Applications",
 				"value": "ITTA"
 			},
 			{
-				"key": 49,
+				"key": 253,
 				"text": "Introduction to Functional Analysis",
 				"value": "IFA"
 			},
 			
 			{
-				"key": 60,
+				"key": 254,
 				"text": "Mobile and Middleware Systems",
 				"value": "MMS"
 			},
 			{
-				"key": 61,
+				"key": 255,
 				"text": "Advanced Operating Systems",
 				"value": "AOS"
 			},
 			{
-				"key": 62,
+				"key": 256,
 				"text": "Parallel Runtimes for Modern Processors",
 				"value": "PRMP"
 			},
 			{
-				"key": 64,
+				"key": 257,
 				"text": "Behavioural Economics",
 				"value": "BECO"
 			},
 			{
-				"key": 71,
+				"key": 258,
 				"text": "Categorical Data Analysis",
 				"value": "CDA"
 			},
 			{
-				"key": 72,
+				"key": 259,
 				"text": "Introduction to Psychology",
 				"value": "IPSY"
 			},
 			{
-				"key": 77,
+				"key": 260,
 				"text": "Calculus in R^N",
 				"value": "CRN"
 			},
 			{
-				"key": 82,
+				"key": 261,
 				"text": "Human Centred AI",
 				"value": "HCAI"
 			}
