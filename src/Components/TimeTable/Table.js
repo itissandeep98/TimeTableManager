@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Rows from './Rows';
-import { Table } from 'semantic-ui-react';
+import { Table } from 'reactstrap';
+// import { Table } from 'semantic-ui-react';
 
 export default class TableData extends Component {
 	render() {
@@ -13,18 +14,18 @@ export default class TableData extends Component {
 			})
 
 			var header = headers.map((field) => {
-				return <Table.HeaderCell >{field}</Table.HeaderCell>
+				return <th >{field}</th>
 			})
 
 			return (
-				<div className="text-center">
-					<Table celled striped definition selectable responsive>
-						<Table.Header>
+				<div className="col-12 text-center">
+					<Table striped bordered hover responsive>
+						<thead>
 							{header}
-						</Table.Header>
-						<Table.Body>
+						</thead>
+						<tbody>
 							{rows}
-						</Table.Body>
+						</tbody>
 					</Table>
 				</div>
 			)

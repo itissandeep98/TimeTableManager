@@ -92,9 +92,12 @@ export default class Plot extends Component {
 			}
 		}
 		return (
-			<div className="container">
+			<div className="container-fluid">
+				<div className="row">
 
 				<TableData data={this.state.schedule} />
+				</div>
+
 				<hr />
 				<Segment>
 				<div className="text-center">
