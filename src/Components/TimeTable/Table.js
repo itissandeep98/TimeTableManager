@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Rows from './Rows';
 import { Table } from 'reactstrap';
-// import { Table } from 'semantic-ui-react';
 
 export default class TableData extends Component {
 	render() {
