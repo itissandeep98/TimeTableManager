@@ -1,6 +1,6 @@
 import axios from "axios";
 import * as ActionTypes from "./ActionTypes";
-import { jsonUrl } from "../shared/baseUrl";
+import { jsonUrl,origUrl } from "../shared/baseUrl";
 
 
 export const dataFetchAction = () => {
@@ -21,4 +21,11 @@ export const dataFetchAction = () => {
 			})
 	}
 }
-
+export const sendChat=(data)=>{
+	return async(dispatch)=>{
+		return await axios.get(origUrl+"sendmail",{params:data})
+		.then(response=>{
+			// console.log(response.data);
+		})
+	}
+}

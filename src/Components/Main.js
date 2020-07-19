@@ -4,6 +4,7 @@ import { withRouter, Switch, Route, Redirect } from 'react-router-dom'
 import { dataFetchAction } from '../store/ActionCreators'
 import Header from './Header'
 import Plot from './TimeTable/Plot'
+import Footer from './Footer'
 
 class Main extends Component {
 	
@@ -26,6 +27,7 @@ class Main extends Component {
 					/>
 					<Redirect to="/home" />
 				</Switch>
+				<Footer/>
 			</div>
 		)
 	}
