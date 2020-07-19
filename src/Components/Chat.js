@@ -25,7 +25,7 @@ class Chat extends Component {
 		e.preventDefault()
 		const data={
 			emailto:"itissandeep98@gmail.com",
-			message :"Name: \n"+this.state.name+"\nMessage: "+this.state.message,
+			message :"Name: "+this.state.name+"\nMessage: "+this.state.message,
 			subject: "Message from TimeTableManager"
 		}
 		this.props.sendChat(data);
