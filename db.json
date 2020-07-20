@@ -138,173 +138,173 @@
 			},
 			{
 				"key": 27,
-				"text": "Collaborative Filtering",
-				"value": "CF"
-			},
-			{
-				"key": 28,
 				"text": "Advanced Machine Learning",
 				"value": "AML"
 			},
 			{
-				"key": 29,
+				"key": 28,
 				"text": "Artificial Intelligence",
 				"value": "AI"
 			},
 			{
-				"key": 30,
+				"key": 29,
 				"text": "Information Integration and Applications",
 				"value": "IIA"
 			},
 			{
-				"key": 31,
+				"key": 30,
 				"text": "Program Analysis",
 				"value": "PA"
 			},
 			{
-				"key": 32,
+				"key": 31,
 				"text": "Complexity Theory",
 				"value": "CTH"
 			},
 			{
-				"key": 33,
+				"key": 32,
 				"text": "Data Lifecycle Management",
 				"value": "DLM"
 			},
 			{
-				"key": 34,
+				"key": 33,
 				"text": "Software Development using Open Source",
 				"value": "SDOS"
 			},
 			{
-				"key": 35,
+				"key": 34,
 				"text": "Film Making and Radio Podcasting",
 				"value": "FMRP"
 			},
 			{
-				"key": 36,
+				"key": 35,
 				"text": "Digital Audio",
 				"value": "DA"
 			},
 			{
-				"key": 37,
+				"key": 36,
 				"text": "Introduction to 3D Production Design for Animation and Games",
 				"value": "I3D"
 			},
 			{
-				"key": 38,
+				"key": 37,
 				"text": "Introduction to Motion Graphics",
 				"value": "IMG"
 			},
 			{
-				"key": 39,
+				"key": 38,
 				"text": "Design of Interactive Systems",
 				"value": "DIS"
 			},
 			{
-				"key": 40,
+				"key": 39,
 				"text": "Microeconomics",
 				"value": "MECO"
 			},
 			{
-				"key": 41,
+				"key": 40,
 				"text": "Macroeconomics",
 				"value": "MAECO"
 			},
 			{
-				"key": 42,
+				"key": 41,
 				"text": "Game Theory",
 				"value": "GMT"
 			},
 			{
-				"key": 43,
+				"key": 42,
 				"text": "Econometrics II",
 				"value": "E2"
 			},
 			{
-				"key": 44,
+				"key": 43,
 				"text": "Foundations of Finance",
 				"value": "FF"
 			},
 			{
-				"key": 45,
+				"key": 44,
 				"text": "Digital VLSI Design",
 				"value": "DVD"
 			},
 			{
-				"key": 46,
+				"key": 45,
 				"text": "Analog CMOS Circuit Design",
 				"value": "CMOS"
 			},
 			{
-				"key": 47,
+				"key": 46,
 				"text": "Digital Communication Systems",
 				"value": "DCS"
 			},
 			{
-				"key": 48,
+				"key": 47,
 				"text": "Probability and Random Process",
 				"value": "PRP"
 			},
 			{
-				"key": 49,
+				"key": 48,
 				"text": "Wireless System Implementation",
 				"value": "WSI"
 			},
 			{
-				"key": 50,
+				"key": 49,
 				"text": "Principals of Digital Communication System",
 				"value": "PDCS"
 			},
 			{
-				"key": 51,
+				"key": 50,
 				"text": "Control Theory",
 				"value": "CNT"
 			},
 			{
-				"key": 52,
+				"key": 51,
 				"text": "Robotics",
 				"value": "ROB"
 			},
 			{
-				"key": 53,
+				"key": 52,
 				"text": "RF Circuit Design",
 				"value": "RFCD"
 			},
 			{
-				"key": 54,
+				"key": 53,
 				"text": "Introduction to Nanoelectronics",
 				"value": "INE"
 			},
 			{
-				"key": 55,
+				"key": 54,
 				"text": "Bayesian Machine Learning",
 				"value": "BML"
 			},
 			{
-				"key": 56,
+				"key": 55,
 				"text": "Integrated Circuit Fabrication",
 				"value": "ICF"
 			},
 			{
-				"key": 57,
+				"key": 56,
 				"text": "Photonics: Fundamentals & Applications",
 				"value": "PHO"
 			},
 			{
-				"key": 58,
+				"key": 57,
 				"text": "Entrepreneurial Communication",
 				"value": "EC"
 			},
 			{
-				"key": 59,
+				"key": 58,
 				"text": "Entrepreneurial Khichadi",
 				"value": "EK"
 			},
 			{
+				"key": 59,
+				"text": "Environmental Sciences- Sec A",
+				"value": "EVS-A"
+			},
+			{
 				"key": 60,
-				"text": "Environmental Sciences",
-				"value": "EVS"
+				"text": "Environmental Sciences- Sec B",
+				"value": "EVS-B"
 			},
 			{
 				"key": 61,
@@ -1503,6 +1503,11 @@
 				"key": 261,
 				"text": "Human Centred AI",
 				"value": "HCAI"
+			},
+			{
+				"key": 262,
+				"text": "Collaborative Filtering",
+				"value": "CF"
 			}
 		]
 	},
@@ -1545,8 +1550,7 @@
 					"ML",
 					"SPA",
 					"CMM",
-					"ICF",
-					"CF"
+					"ICF"
 				]
 			},
 			"2": {
@@ -1681,8 +1685,7 @@
 					"ML",
 					"SPA",
 					"CMM",
-					"ICF",
-					"CF"
+					"ICF"
 				]
 			},
 			"5": {
@@ -1704,7 +1707,7 @@
 					"DVD",
 					"IPHI",
 					"CCS",
-					"EVS"
+					"EVS-A"
 				],
 				"3": [
 					"CGAS",
@@ -1735,7 +1738,7 @@
 					"BML",
 					"PA",
 					"WSI",
-					"EVS"
+					"EVS-B"
 				]
 			}
 		},
