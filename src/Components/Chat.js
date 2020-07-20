@@ -1,71 +1,49 @@
 import React, { Component } from 'react'
 import { FormGroup, Form, Input } from 'reactstrap';
 import { Button } from 'semantic-ui-react';
-import { connect } from 'react-redux';
-import { sendChat } from '../store/ActionCreators';
+import { origUrl } from '../shared/baseUrl';
+import axios from 'axios';
 
 class Chat extends Component {
-	constructor(props){
-		super(props);
-		this.state={
-			name:"",
-			message:""
-		}
-		this.onChange=this.onChange.bind(this);
-		this.onSubmit=this.onSubmit.bind(this);
-	}
-
-	onChange(e) {
-		this.setState({
-			[e.target.name]: e.target.value
-		})
-	}
 
 	onSubmit(e){
 		e.preventDefault()
 		const data={
 			emailto:"itissandeep98@gmail.com",
-			message :"Name: "+this.state.name+"\nMessage: "+this.state.message,
-			subject: "Message from TimeTableManager"
+			message :this.message.value,
+			subject: "TimeTableManager: Message from " + this.name.value
 		}
-		this.props.sendChat(data);
-		this.setState({
-			message:"",
-			name:""
-		})
+		axios.get(origUrl + "sendmail", { params: data });
+		this.name.value="";
+		this.message.value="";
 	}
 
 	render() {
 		return (
 			<div className="text-center">
-				<Form onSubmit={this.onSubmit}>
+				<Form onSubmit={this.onSubmit.bind(this)}>
 					<FormGroup>
 						<Input
 							type="text" 
 							name="name" 
 							placeholder="Name" 
-							value={this.state.name} 
-							onChange={this.onChange} 
+							innerRef={(input) => this.name = input}
 						/>
 					</FormGroup>
 					<FormGroup>
 						<Input
 							type="textarea"
 							name="message"
-							placeholder="Bug Report or Feature request"
-							value={this.state.message}
-							onChange={this.onChange}
+							placeholder="Feedback"
+							innerRef={(input) => this.message = input}
 						/>
 					</FormGroup>
-					<Button>Submit</Button>
+					<Button circular floated positive> <span className="fa fa-paper-plane"/> Send</Button>
 				</Form>
 			</div>
 		)
 	}
 }
 
-const mapDispatchToProps = (dispatch) => ({
-	sendChat: (data) => dispatch(sendChat(data)),
-})
 
-export default connect(null,mapDispatchToProps)(Chat);
+export default Chat;

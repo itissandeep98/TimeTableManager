@@ -1,6 +1,6 @@
 import axios from "axios";
 import * as ActionTypes from "./ActionTypes";
-import { jsonUrl,origUrl } from "../shared/baseUrl";
+import { jsonUrl } from "../shared/baseUrl";
 
 
 export const dataFetchAction = () => {
@@ -19,13 +19,5 @@ export const dataFetchAction = () => {
 			.catch(error => {
 				dispatch({ type: ActionTypes.DATA_FETCH_FAILED, errmess: "Error in connection with Server. Try reloading" })
 			})
-	}
-}
-export const sendChat=(data)=>{
-	return async(dispatch)=>{
-		return await axios.get(origUrl+"sendmail",{params:data})
-		.then(response=>{
-			// console.log(response.data);
-		})
 	}
 }

@@ -18,9 +18,10 @@ const Footer = () => {
 							onOpen={() => setOpen(true)}
 							open={open}
 							trigger={<Button circular icon color='black' >
-								<Icon name='chat' size="large" />
-							</Button>}
+										<Icon name='chat' size="large" />
+									</Button>}
 							position="top right"
+							
 						/>
 					</NavItem>
 				</Nav>
