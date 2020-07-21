@@ -9,10 +9,9 @@ export default class TableData extends Component {
 		if (data) {
 			var rows = data.map(day => {
 				return <Rows day={day} />
-
 			})
 
-			var header = headers.map((field) => {
+			var header = headers.map(field => {
 				return <th >{field}</th>
 			})
 

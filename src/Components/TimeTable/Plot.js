@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import TableData from './Table'
 import { Form, Dropdown, Checkbox, Segment } from 'semantic-ui-react'
 import { Spinner } from 'reactstrap';
-import { baseSchedule} from '../../shared/Schedule'
+import { baseSchedule } from '../../shared/Schedule'
 
 export default class Plot extends Component {
 	constructor(props) {
@@ -10,7 +10,7 @@ export default class Plot extends Component {
 		this.state = {
 			courses: [],
 			schedule: JSON.parse(JSON.stringify(baseSchedule)),
-			season:false
+			season: false
 		}
 		this.handleCourseChange = this.handleCourseChange.bind(this);
 		this.updateSchedule = this.updateSchedule.bind(this);
@@ -19,8 +19,8 @@ export default class Plot extends Component {
 
 	findpos(course) {
 		var schedule = this.props.schedule["monsoon"];
-		if(this.state.season){
-			schedule=this.props.schedule["winter"]
+		if (this.state.season) {
+			schedule = this.props.schedule["winter"]
 		}
 		var pos = []
 		for (let i = 1; i <= 5; i++) {
@@ -33,6 +33,7 @@ export default class Plot extends Component {
 		return pos
 
 	}
+	
 	updateSchedule() {
 		var temp = JSON.parse(JSON.stringify(baseSchedule))
 
@@ -57,67 +58,61 @@ export default class Plot extends Component {
 		}, () => this.updateSchedule());
 	}
 
-	onChange(){
+	onChange() {
 		this.setState({
-			season:!this.state.season,
-			courses:[]
+			season: !this.state.season,
+			courses: []
 		})
 	}
 
 
 	render() {
 		var courselist = null;
-		if (this.props.isLoading){
+		if (this.props.isLoading) {
 			courselist = [
 				{ key: "loading", value: <Spinner />, text: <Spinner />, disabled: true }
 			]
 		}
-		else if (this.props.errmess){
+		else if (this.props.errmess) {
 			courselist = [
 				{ key: "error", value: this.props.errmess, text: this.props.errmess, disabled: true }
 			]
 		}
 
-		else{
+		else {
 			courselist = this.props.courses["monsoon"]
-			if(this.state.season){
+			if (this.state.season) {
 				courselist = this.props.courses["winter"]
 			}
 		}
 		return (
 			<div className="container">
-				{/* <div className="row ">
-					<div className="col-2">
-					<Button onClick={()=>{window.print()}}> Print</Button>
-					</div>
-				</div> */}
 				<div className="row">
 					<TableData data={this.state.schedule} />
 				</div>
 
 				<hr />
+
 				<Segment>
-				<div className="text-center">
-					
-					<Form>
-						<Form.Field inline>
-							<label>Monsoon</label>
-							<Checkbox slider disabled checked={this.state.season} onChange={this.onChange.bind(this)}/>
-							<label>Winter</label>
-						</Form.Field>
-					</Form>
-					
-				</div>
+					<div className="text-center">
 
-				<Dropdown
-					placeholder="Select Courses"
-					fluid multiple search openOnFocus
-					clearable selection options={courselist}
-					value={this.state.courses}
-					onChange={this.handleCourseChange}
-				/>
+						<Form>
+							<Form.Field inline>
+								<label>Monsoon</label>
+								<Checkbox slider disabled checked={this.state.season} onChange={this.onChange.bind(this)} />
+								<label>Winter</label>
+							</Form.Field>
+						</Form>
+					</div>
+
+					<Dropdown
+						placeholder="Select Courses"
+						fluid multiple search openOnFocus
+						clearable selection options={courselist}
+						value={this.state.courses}
+						onChange={this.handleCourseChange}
+					/>
 				</Segment>
-
 			</div>
 		)
 	}
