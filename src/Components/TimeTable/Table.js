@@ -33,7 +33,7 @@ export default class TableData extends Component {
 			)
 		}
 		else {
-			return <h2> Try Uploading the database file<span className="fa fa-filter" /></h2>
+			return <h2> Something Wrong happend<span className="fa fa-filter" /></h2>
 		}
 	}
 }

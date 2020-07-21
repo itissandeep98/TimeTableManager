@@ -2,21 +2,14 @@ import React, { Component } from 'react'
 import TableData from './Table'
 import { Form, Dropdown, Checkbox, Segment } from 'semantic-ui-react'
 import { Spinner } from 'reactstrap';
+import { baseSchedule} from '../../shared/Schedule'
 
 export default class Plot extends Component {
 	constructor(props) {
 		super(props);
-		var schedule = [
-			[[], ["9:00-10:30"], ["10:30-12"], ["12:00-1:30"], ["1:30-2:30"],[ "2:30-4:00"], ["4:00-5:30"]],
-			[["Mon"], [], [], [], [], [], [],],
-			[["Tue"], [], [], [], [], [], [],],
-			[["Wed"], [], [], [], [], [], [],],
-			[["Thu"], [], [], [], [], [], [],],
-			[["Fri"], [], [], [], [], [], [],]
-		]
 		this.state = {
 			courses: [],
-			schedule,
+			schedule: JSON.parse(JSON.stringify(baseSchedule)),
 			season:false
 		}
 		this.handleCourseChange = this.handleCourseChange.bind(this);
@@ -41,14 +34,7 @@ export default class Plot extends Component {
 
 	}
 	updateSchedule() {
-		var temp = [
-			[[], ["9:00-10:30"], ["10:30-12"], ["12:00-1:30"], ["1:30-2:30"],[ "2:30-4:00"], ["4:00-5:30"]],
-			[["Mon"], [], [], [], [], [], [],],
-			[["Tue"], [], [], [], [], [], [],],
-			[["Wed"], [], [], [], [], [], [],],
-			[["Thu"], [], [], [], [], [], [],],
-			[["Fri"], [], [], [], [], [], [],]
-		]
+		var temp = JSON.parse(JSON.stringify(baseSchedule))
 
 		for (let i = 0; i < this.state.courses.length; i++) {
 			var allpos = this.findpos(this.state.courses[i]) //get all coordinates for a particular course
