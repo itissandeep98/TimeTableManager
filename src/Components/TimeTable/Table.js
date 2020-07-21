@@ -7,8 +7,8 @@ export default class TableData extends Component {
 		var data = this.props.data.slice(1);
 		var headers = this.props.data[0]
 		if (data) {
-			var rows = data.map(course => {
-				return <Rows course={course} />
+			var rows = data.map(day => {
+				return <Rows day={day} />
 
 			})
 

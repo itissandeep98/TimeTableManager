@@ -7,12 +7,12 @@ export default class Plot extends Component {
 	constructor(props) {
 		super(props);
 		var schedule = [
-			["", "9:00-10:30", "10:30-12", "12:00-1:30", "1:30-2:30", "2:30-4:00", "4:00-5:30"],
-			["Mon", "", "", "", "L", "", "",],
-			["Tue", "", "", "", "U", "", "",],
-			["Wed", "", "", "", "N", "", "",],
-			["Thu", "", "", "", "C", "", "",],
-			["Fri", "", "", "", "H", "", "",]
+			[[], "9:00-10:30", "10:30-12", "12:00-1:30", "1:30-2:30", "2:30-4:00", "4:00-5:30"],
+			["Mon", [], [], [], "L", [], [],],
+			["Tue", [], [], [], "U", [], [],],
+			["Wed", [], [], [], "N", [], [],],
+			["Thu", [], [], [], "C", [], [],],
+			["Fri", [], [], [], "H", [], [],]
 		]
 		this.state = {
 			courses: [],
@@ -42,12 +42,12 @@ export default class Plot extends Component {
 	}
 	updateSchedule() {
 		var temp = [
-			["", "9:00-10:30", "10:30-12", "12:00-1:30", "1:30-2:30", "2:30-4:00", "4:00-5:30"],
-			["Mon", "", "", "", "L", "", "",],
-			["Tue", "", "", "", "U", "", "",],
-			["Wed", "", "", "", "N", "", "",],
-			["Thu", "", "", "", "C", "", "",],
-			["Fri", "", "", "", "H", "", "",]
+			[[], "9:00-10:30", "10:30-12", "12:00-1:30", "1:30-2:30", "2:30-4:00", "4:00-5:30"],
+			["Mon", [], [], [], "L", [], [],],
+			["Tue", [], [], [], "U", [], [],],
+			["Wed", [], [], [], "N", [], [],],
+			["Thu", [], [], [], "C", [], [],],
+			["Fri", [], [], [], "H", [], [],]
 		]
 
 		for (let i = 0; i < this.state.courses.length; i++) {
@@ -55,11 +55,9 @@ export default class Plot extends Component {
 			for (let pos = 0; pos < allpos.length; pos++) { // update at all the coordinates
 				var x = allpos[pos][0];
 				var y = allpos[pos][1]
-				temp[x][y] = temp[x][y].concat(this.state.courses[i])
-				temp[x][y] = temp[x][y].concat(", ")
+				temp[x][y].push(this.state.courses[i])
 			}
 		}
-
 		this.setState({
 			schedule: temp
 		})
