@@ -25,6 +25,9 @@ export default class TableData extends Component {
 						<tbody>
 							{rows}
 						</tbody>
+						<thead>
+							{header}
+						</thead>
 					</Table>
 				</div>
 			)
