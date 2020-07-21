@@ -6,7 +6,7 @@ import rootReducer from './reducers/rootReducer';
 export const configureStore = () => {
 	const store = createStore(
 		rootReducer, 
-		applyMiddleware(thunk, logger)
+		process.env.NODE_ENV === 'production' ? applyMiddleware(thunk) : applyMiddleware(thunk, logger)
 	);
 	return store;
 }
