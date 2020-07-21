@@ -18,7 +18,7 @@ export default class TableData extends Component {
 
 			return (
 				<div className="col-12 text-center">
-					<Table striped bordered hover responsive>
+					<Table striped  hover responsive>
 						<thead>
 							{header}
 						</thead>
