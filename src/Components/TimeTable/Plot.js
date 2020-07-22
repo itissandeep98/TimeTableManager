@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import TableData from './Table'
-import { Form, Dropdown, Checkbox, Segment } from 'semantic-ui-react'
+import { Form, Dropdown, Checkbox, Segment, Button } from 'semantic-ui-react'
 import { Spinner } from 'reactstrap';
 import { baseSchedule } from '../../shared/Schedule'
 
@@ -87,13 +87,14 @@ export default class Plot extends Component {
 		}
 		return (
 			<div className="container">
+				<Button onClick={() => window.print()} >Print To pdf</Button>
 				<div className="row">
 					<TableData data={this.state.schedule} />
 				</div>
 
 				<hr />
 
-				<Segment>
+				<Segment className="d-print-none">
 					<div className="text-center">
 
 						<Form>
@@ -111,6 +112,7 @@ export default class Plot extends Component {
 						clearable selection options={courselist}
 						value={this.state.courses}
 						onChange={this.handleCourseChange}
+						
 					/>
 				</Segment>
 			</div>

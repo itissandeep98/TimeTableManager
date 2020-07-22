@@ -7,7 +7,7 @@ const Header = () => {
 	const [isNavOpen, setIsNavOpen] = useState(false)
 	return (
 		<>
-			<Navbar dark expand="md">
+			<Navbar dark expand="md" className="d-print-none">
 				<div className="container">
 					<NavbarToggler onClick={()=>setIsNavOpen(!isNavOpen)} />
 					<NavbarBrand className="mr-auto" href="/">Time Table Creator</NavbarBrand>

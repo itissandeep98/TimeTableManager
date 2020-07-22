@@ -6,7 +6,7 @@ import Chat from './Chat'
 const Footer = () => {
 	const [open, setOpen] = useState(false)
 	return (
-		<div className="text-center">
+		<div className="text-center d-print-none">
 			<Navbar>
 				<Nav navbar/>
 				<Nav navbar>
