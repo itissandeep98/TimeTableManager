@@ -3,6 +3,7 @@ import TableData from './Table'
 import { Form, Dropdown, Checkbox, Segment, Button } from 'semantic-ui-react'
 import { Spinner } from 'reactstrap';
 import { baseSchedule } from '../../shared/Schedule'
+import '../../App.css'
 
 export default class Plot extends Component {
 	constructor(props) {
