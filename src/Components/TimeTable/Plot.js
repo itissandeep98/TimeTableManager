@@ -87,7 +87,9 @@ export default class Plot extends Component {
 		}
 		return (
 			<div className="container">
-				<Button onClick={() => window.print()} ><span className="fa fa-file"/> Print To pdf</Button>
+				<Button onClick={() => window.print()} className="d-print-none">
+					<span className="fa fa-file"/> Print To pdf
+				</Button>
 				<div className="row">
 					<TableData data={this.state.schedule} />
 				</div>
