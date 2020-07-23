@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import TableData from './Table'
-import { Form, Dropdown, Checkbox, Segment, Button } from 'semantic-ui-react'
-import { Spinner } from 'reactstrap';
+import { Form, Dropdown, Checkbox, Segment } from 'semantic-ui-react'
+import { Spinner, Button } from 'reactstrap';
 import { baseSchedule } from '../../shared/Schedule'
 import '../../App.css'
 
@@ -88,7 +88,7 @@ export default class Plot extends Component {
 		}
 		return (
 			<div className="container">
-				<Button onClick={() => window.print()} className="d-print-none">
+				<Button onClick={() => window.print()} className="d-print-none printbutton"  >
 					<span className="fa fa-file"/> Print To pdf
 				</Button>
 				<div className="row">

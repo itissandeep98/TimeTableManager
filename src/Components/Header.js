@@ -1,25 +1,12 @@
-import React, { useState } from 'react';
-import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem } from 'reactstrap';
+import React from 'react';
 import '../App.css'
-import { NavLink } from 'react-router-dom';
 
 const Header = () => {
-	const [isNavOpen, setIsNavOpen] = useState(false)
 	return (
 		<>
-			<Navbar dark expand="md" className="d-print-none">
-				<div className="container">
-					<NavbarToggler onClick={()=>setIsNavOpen(!isNavOpen)} />
-					<NavbarBrand className="mr-auto" href="/">Time Table Creator</NavbarBrand>
-					<Collapse isOpen={isNavOpen} navbar>
-						<Nav navbar>
-							<NavItem>
-								<NavLink className="nav-link" to='/home'><span className="fa fa-home fa-lg" /> Home</NavLink>
-							</NavItem>
-						</Nav>
-					</Collapse>
-				</div>
-			</Navbar>
+			<div className="navbar-dark text-center d-print-none">
+				<h1>Time Table Creator</h1>
+			</div>
 			<hr />
 		</>
 	);
