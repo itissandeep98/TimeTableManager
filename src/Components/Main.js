@@ -1,33 +1,30 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { withRouter, Switch, Route, Redirect } from 'react-router-dom'
 import { dataFetchAction } from '../store/ActionCreators'
 import Header from './Header'
 import Plot from './TimeTable/Plot'
 import Footer from './Footer'
+import { ImpLink } from './ImpLinks'
+import { actions } from 'react-redux-form'
 
 class Main extends Component {
-	
-	componentDidMount(){
+
+	componentDidMount() {
 		this.props.fetchData()
 	}
-	
+
 	render() {
 		return (
 			<div>
 				<Header />
-				<Switch>
-					<Route path="/home" 
-						component={() => <Plot 
-											courses={this.props.courses.courses} 
-											schedule={this.props.schedule}
-											isLoading={this.props.courses.isLoading}
-											errmess={this.props.courses.errmess}
-										/>}
-					/>
-					<Redirect to="/home" />
-				</Switch>
-				<Footer/>
+				<Plot
+					courses={this.props.courses.courses}
+					schedule={this.props.schedule}
+					isLoading={this.props.courses.isLoading}
+					errmess={this.props.courses.errmess}
+				/>
+				<ImpLink />
+				<Footer />
 			</div>
 		)
 	}
@@ -40,6 +37,7 @@ const mapStateToProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) => ({
 	fetchData: () => dispatch(dataFetchAction()),
+	resetFeedbackform: () => { dispatch(actions.reset('feedback')) },
 })
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Main));
+export default connect(mapStateToProps, mapDispatchToProps)(Main);

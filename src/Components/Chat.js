@@ -5,17 +5,33 @@ import { origUrl } from '../shared/baseUrl';
 import axios from 'axios';
 
 class Chat extends Component {
+	constructor(props){
+		super(props);
+		this.state={
+			name:"",
+			message:""
+		}
+		this.onChange=this.onChange.bind(this)
+	}
+
+	onChange(e){
+		this.setState({
+			[e.target.name]:e.target.value
+		})
+	}
 
 	onSubmit(e){
 		e.preventDefault()
 		const data={
 			emailto:"itissandeep98@gmail.com",
-			message :this.message.value,
-			subject: "TimeTableManager: Message from " + this.name.value
+			message :this.state.message,
+			subject: "TimeTableManager: Message from " + this.state.name
 		}
 		axios.get(origUrl + "sendmail", { params: data });
-		this.name.value="";
-		this.message.value="";
+		this.setState({
+			name:"",
+			message:""
+		})
 	}
 
 	render() {
@@ -27,7 +43,8 @@ class Chat extends Component {
 							type="text" 
 							name="name" 
 							placeholder="Name" 
-							innerRef={(input) => this.name = input}
+							value={this.state.name}
+							onChange={this.onChange}
 						/>
 					</FormGroup>
 					<FormGroup>
@@ -35,7 +52,8 @@ class Chat extends Component {
 							type="textarea"
 							name="message"
 							placeholder="Feedback"
-							innerRef={(input) => this.message = input}
+							value={this.state.message}
+							onChange={this.onChange}
 						/>
 					</FormGroup>
 					<Button circular floated positive> <span className="fa fa-paper-plane"/> Send</Button>
