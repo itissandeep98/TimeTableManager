@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 import { Button, Icon, Popup } from 'semantic-ui-react'
 import Chat from './Chat'
 
-const Footer = () => {
+const Footer = (props) => {
 	const [open, setOpen] = useState(false)
 	return (
 		<div className="float-right d-print-none">
 
 			<Popup
-				content={<Chat />}
+				content={<Chat resetFeedbackform={props.resetFeedbackform}/>}
 				on='click'
 				onClose={() => setOpen(false)}
 				onOpen={() => setOpen(true)}

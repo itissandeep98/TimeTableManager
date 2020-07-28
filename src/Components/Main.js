@@ -24,7 +24,7 @@ class Main extends Component {
 					errmess={this.props.courses.errmess}
 				/>
 				<ImpLink />
-				<Footer />
+				<Footer resetFeedbackform={this.props.resetFeedbackform}/>
 			</div>
 		)
 	}
