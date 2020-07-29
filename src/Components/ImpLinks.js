@@ -10,9 +10,9 @@ export const ImpLink = () => {
 				<li>
 					<a href="https://drive.google.com/drive/folders/1YqptkWKt6iKvoImkJYRlB_2yRH69K_D2" target="_blank" rel="noopener noreferrer">Course Descriptions</a>
 				</li>
-				<li>
+				{/* <li>
 					<a href="https://docs.google.com/document/d/1v8EJcxPvXgtNYNFtnUjrvdiP3F5UZMM3vqw7HcDsN7A" target="_blank" rel="noopener noreferrer">Review of electives</a>
-				</li>
+				</li> */}
 				<li>
 					Current Time Table <a href="https://iiitd.ac.in/academics/m2020" target="_blank" rel="noopener noreferrer">(Monsoon 2020)</a>
 				</li>
