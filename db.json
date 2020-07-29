@@ -415,7 +415,23 @@
 				"key": 82,
 				"text": "Biophysics - BIO361",
 				"value": "BPHY"
+			},
+			{
+				"key": 83,
+				"text": "Network Security - CSE350/CSE550",
+				"value": "NS"
+			},
+			{
+				"key": 84,
+				"text": "Low Voltage Analog Circuit Design - ECE520",
+				"value": "LVACD"
+			},
+			{
+				"key": 85,
+				"text": "Solid State Devices - ECE318/ECE518",
+				"value": "SSD"
 			}
+
 		],
 		"winter": [
 			{
@@ -1531,7 +1547,8 @@
 					"KCES",
 					"POK",
 					"NMP",
-					"DMG"
+					"DMG",
+					"GMT"
 				],
 				"3": [
 					"TCOM",
@@ -1548,7 +1565,6 @@
 				],
 				"6": [
 					"ML",
-					"SPA",
 					"CMM",
 					"ICF"
 				]
@@ -1561,18 +1577,18 @@
 					"RL",
 					"E2",
 					"RA",
-					"CG"
+					"CG",
+					"LVACD"
 				],
 				"2": [
 					"SPP",
 					"CISP",
-					"GMT",
+					"CCS",
 					"TA",
 					"CBAB",
 					"MECO",
 					"DVD",
 					"IPHI",
-					"CCS",
 					"IGA"
 				],
 				"3": [
@@ -1583,7 +1599,8 @@
 					"NLP",
 					"NDM",
 					"EK",
-					"SDOS"
+					"SDOS",
+					"NS"
 				],
 				"4": [],
 				"5": [
@@ -1592,7 +1609,9 @@
 					"GM",
 					"DCS",
 					"TNT",
-					"ACV"
+					"ACV",
+					"SSD",
+					"SPA"
 				],
 				"6": [
 					"DA",
@@ -1601,8 +1620,8 @@
 					"MAD",
 					"TE",
 					"BML",
-					"WSI",
-					"PA"
+					"PA",
+					"WSI"
 				]
 			},
 			"3": {
@@ -1629,10 +1648,10 @@
 					"IIA",
 					"RMSSD",
 					"CMOS",
+					"PDCS",
 					"RA-2",
 					"EC",
-					"CFM",
-					"PDCS"
+					"CFM"
 				],
 				"4": [],
 				"5": [
@@ -1650,7 +1669,8 @@
 					"E2",
 					"RA",
 					"CG",
-					"DLM"
+					"DLM",
+					"LVACD"
 				],
 				"2": [
 					"MAECO",
@@ -1660,7 +1680,8 @@
 					"KCES",
 					"POK",
 					"NMP",
-					"DMG"
+					"DMG",
+					"GMT"
 				],
 				"3": [
 					"AC",
@@ -1670,7 +1691,8 @@
 					"NLP",
 					"NDM",
 					"EK",
-					"SDOS"
+					"SDOS",
+					"NS"
 				],
 				"4": [],
 				"5": [
@@ -1683,9 +1705,8 @@
 				],
 				"6": [
 					"ML",
-					"SPA",
-					"CMM",
-					"ICF"
+					"ICF",
+					"CMM"
 				]
 			},
 			"5": {
@@ -1700,13 +1721,12 @@
 				"2": [
 					"SPP",
 					"CISP",
-					"GMT",
+					"CCS",
 					"TA",
 					"CBAB",
 					"MECO",
 					"DVD",
 					"IPHI",
-					"CCS",
 					"EVS-A"
 				],
 				"3": [
@@ -1714,10 +1734,10 @@
 					"IIA",
 					"RMSSD",
 					"CMOS",
+					"PDCS",
 					"RA-2",
 					"EC",
-					"CFM",
-					"PDCS"
+					"CFM"
 				],
 				"4": [],
 				"5": [
@@ -1725,9 +1745,10 @@
 					"FOMB",
 					"GM",
 					"DCS",
-					"DSC",
 					"TNT",
-					"ACV"
+					"ACV",
+					"SSD",
+					"SPA"
 				],
 				"6": [
 					"DA",

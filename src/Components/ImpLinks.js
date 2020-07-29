@@ -1,4 +1,5 @@
 import React from 'react'
+import { Divider } from 'semantic-ui-react';
 
 export const ImpLink = () => {
 	return (
@@ -16,6 +17,7 @@ export const ImpLink = () => {
 					Current Time Table <a href="https://iiitd.ac.in/academics/m2020" target="_blank" rel="noopener noreferrer">(Monsoon 2020)</a>
 				</li>
 			</ul>
+			<Divider horizontal>updated on 29 Jul 2020</Divider>
 
 		</div>
 	);
