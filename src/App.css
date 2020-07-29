@@ -6,6 +6,12 @@
         page-break-before: avoid;
      }
 }
+a{
+ color: #3fada8 !important;   
+}
+a:hover{
+    text-decoration: underline !important;
+}
 
 .navbar-dark {
     background-color: #3fada8;
