@@ -6,19 +6,9 @@
         page-break-before: avoid;
      }
 }
-a{
- color: #3fada8 !important;   
-}
-a:hover{
-    text-decoration: underline !important;
-}
 
 .navbar-dark {
     background-color: #3fada8;
     padding: 10px;
     font-family: "Times New Roman", Times, serif;
-}
-
-.printbutton{
-    margin: 10px auto;
 }

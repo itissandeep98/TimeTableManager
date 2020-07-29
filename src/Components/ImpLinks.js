@@ -1,6 +1,6 @@
 import React from 'react'
 import { Divider } from 'semantic-ui-react';
-import '../App.css'
+import '../style.css'
 
 export const ImpLink = () => {
 	return (

@@ -3,7 +3,6 @@ import TableData from './Table'
 import { Form, Dropdown, Checkbox, Segment } from 'semantic-ui-react'
 import { Spinner, Button } from 'reactstrap';
 import { baseSchedule } from '../../shared/Schedule'
-import '../../App.css'
 
 export default class Plot extends Component {
 	constructor(props) {
@@ -88,7 +87,7 @@ export default class Plot extends Component {
 		}
 		return (
 			<div className="container">
-				<Button onClick={() => window.print()} className="d-print-none printbutton"  >
+				<Button onClick={() => window.print()} className="d-print-none" style={{ margin: "10px auto"}}  >
 					<span className="fa fa-file"/> Print To pdf
 				</Button>
 				<div className="row">
