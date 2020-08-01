@@ -19,7 +19,7 @@ class Main extends Component {
 				<Header />
 				<Plot
 					courses={this.props.courses.courses}
-					schedule={this.props.schedule}
+					schedule={this.props.schedule.schedule}
 					isLoading={this.props.courses.isLoading}
 					errmess={this.props.courses.errmess}
 				/>
@@ -35,7 +35,7 @@ class Main extends Component {
 const mapStateToProps = (state) => {
 	return {
 		courses: state.courses,
-		schedule: state.schedule.schedule,
+		schedule: state.schedule,
 	}
 }
 const mapDispatchToProps = (dispatch) => ({

@@ -12,14 +12,15 @@ This is a simple react application to create a TimeTable based only on your choi
 
 ## Setup
 
-1. clone this repo locally on your system using button on top right or by running `git clone https://github.com/itissandeep98/TimeTableManager.git` on your terminal
+1. Clone this repo locally on your system using button on top right or by running `git clone https://github.com/itissandeep98/TimeTableManager.git` on your terminal
 
-2. get inside the directory and run `yarn` to install all the required dependicies
+2. Get inside the directory and run `yarn` to install all the required dependicies
 
 3. Once all the packages are installed run `yarn start` to start the development server.
 
 ## Usage
-1. visit [here](https://itissandeep98.github.io/TimeTableManager/)
+
+1. Visit [here](https://itissandeep98.github.io/TimeTableManager/)
 
 2. Wait until the application downloads all the timetable and schedule data from server, only then you will be able to see the dropdown list filled with subjects
 

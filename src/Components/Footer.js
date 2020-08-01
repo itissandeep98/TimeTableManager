@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { Button, Icon, Popup } from 'semantic-ui-react'
 import Chat from './Chat'
+import '../App.css'
 
 const Footer = (props) => {
 	const [open, setOpen] = useState(false)
 	return (
-		<div className="float-right d-print-none">
-
+		<div className="float-right d-print-none chat">
 			<Popup
 				content={<Chat resetFeedbackform={props.resetFeedbackform}/>}
 				on='click'

@@ -10,5 +10,16 @@
 .navbar-dark {
     background-color: #3fada8;
     padding: 10px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px 1px #333;
+}
+.printbutton {
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px !important;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+.chat{
+    display: inline;
+    margin-right: 10px;
 }
