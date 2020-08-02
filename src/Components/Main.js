@@ -10,7 +10,7 @@ import { actions } from 'react-redux-form'
 class Main extends Component {
 
 	componentDidMount() {
-		this.props.fetchData()
+		this.props.fetchData() // fetch all the data when the webpage is loaded
 	}
 
 	render() {
@@ -25,20 +25,20 @@ class Main extends Component {
 				/>
 				<ImpLink />
 				<Footer resetFeedbackform={this.props.resetFeedbackform}/>
-				<div className="text-center d-none d-md-block d-print-none">
+				<div className="text-center d-none d-md-block d-print-none"> 
 					<embed src={process.env.PUBLIC_URL + "/assets/ttv6.pdf"} type="application/pdf" width="70%" height="800px" />
 				</div>
 			</div>
 		)
 	}
 }
-const mapStateToProps = (state) => {
+const mapStateToProps = (state) => {  // Redux props
 	return {
 		courses: state.courses,
 		schedule: state.schedule,
 	}
 }
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = (dispatch) => ({ // redux functions
 	fetchData: () => dispatch(dataFetchAction()),
 	resetFeedbackform: () => { dispatch(actions.reset('feedback')) },
 })

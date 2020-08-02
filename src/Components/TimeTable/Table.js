@@ -4,14 +4,15 @@ import { Table } from 'reactstrap';
 
 export default class TableData extends Component {
 	render() {
-		var data = this.props.data.slice(1);
-		var headers = this.props.data[0]
+		var headers = this.props.data[0] // get the header from schedule
+		var data = this.props.data.slice(1);  // get all data except the header
+		
 		if (data) {
-			var rows = data.map(day => {
+			var rows = data.map(day => { // create all the rows
 				return <Rows day={day} />
 			})
 
-			var header = headers.map(field => {
+			var header = headers.map(field => { // create the header of table
 				return <th >{field}</th>
 			})
 

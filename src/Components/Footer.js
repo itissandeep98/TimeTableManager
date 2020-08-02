@@ -3,7 +3,7 @@ import { Button, Icon, Popup } from 'semantic-ui-react'
 import Chat from './Chat'
 import '../App.css'
 
-const Footer = (props) => {
+const Footer = (props) => { // just a normal popup from semantic ui for the feedback form
 	const [open, setOpen] = useState(false)
 	return (
 		<div className="float-right d-print-none chat">

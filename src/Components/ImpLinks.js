@@ -2,7 +2,7 @@ import React from 'react'
 import { Divider } from 'semantic-ui-react';
 import '../style.css'
 
-export const ImpLink = () => {
+export const ImpLink = () => { // Links to show in the bottom of table
 	return (
 		<div className="container d-print-none">
 			<br/>

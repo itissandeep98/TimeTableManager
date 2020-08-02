@@ -21,7 +21,7 @@ class Chat extends Component {
 	}
 
 
-	showAlert(type, message) {
+	showAlert(type, message) { // for showing success message in the chat
 		this.setState({
 			showA: true,
 			message: message,
@@ -29,13 +29,13 @@ class Chat extends Component {
 		})
 	}
 
-	toggleAlert() {
+	toggleAlert() {  // toggling the success alert
 		this.setState({
 			showA: !this.state.showA
 		})
 	}
 
-	onSubmit(values){
+	onSubmit(values){  // submit the feedback form. sends a request to my flask api with all the data which in turn sends me a mail
 		const data={
 			emailto:"itissandeep98@gmail.com",
 			message :values.message,
