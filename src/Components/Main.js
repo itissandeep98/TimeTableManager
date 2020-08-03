@@ -3,9 +3,10 @@ import { connect } from 'react-redux'
 import { dataFetchAction } from '../store/ActionCreators'
 import Header from './Header'
 import Plot from './TimeTable/Plot'
-import Footer from './Footer'
 import { ImpLink } from './ImpLinks'
 import { actions } from 'react-redux-form'
+
+import Chat from './Chat'
 
 class Main extends Component {
 
@@ -24,7 +25,7 @@ class Main extends Component {
 					errmess={this.props.courses.errmess}
 				/>
 				<ImpLink />
-				<Footer resetFeedbackform={this.props.resetFeedbackform}/>
+				<Chat resetFeedbackform={this.props.resetFeedbackform}/>
 				<div className="text-center d-none d-md-block d-print-none"> 
 					<embed src={process.env.PUBLIC_URL + "/assets/ttv6.pdf"} type="application/pdf" width="70%" height="800px" />
 				</div>

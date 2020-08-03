@@ -19,7 +19,13 @@
 	border-radius: 50px !important;
 	box-shadow: 0 3px 20px 0 #0000003b;
 }
-.chat{
+
+.feed-input{
+    margin: 10px auto;
+}
+#chatbutton{
     display: inline;
+    position: absolute;
+    margin-left: 95%;
     margin-right: 10px;
 }
