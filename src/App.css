@@ -25,7 +25,8 @@
 }
 #chatbutton{
     display: inline;
-    position: absolute;
-    margin-left: 95%;
-    margin-right: 10px;
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+    z-index: 100;
 }

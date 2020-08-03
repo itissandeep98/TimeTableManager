@@ -25,7 +25,8 @@ class Main extends Component {
 					errmess={this.props.courses.errmess}
 				/>
 				<ImpLink />
-				<Chat resetFeedbackform={this.props.resetFeedbackform}/>
+				<Chat resetFeedbackform={this.props.resetFeedbackform} />
+				
 				<div className="text-center d-none d-md-block d-print-none"> 
 					<embed src={process.env.PUBLIC_URL + "/assets/ttv6.pdf"} type="application/pdf" width="70%" height="800px" />
 				</div>

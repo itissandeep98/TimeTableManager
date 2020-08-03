@@ -52,37 +52,37 @@ class Chat extends Component {
 
 	render() {
 		return (
-				<Button id="chatbutton" circular icon color='black'>
-					<Icon name='chat' size="large" />
-					<UncontrolledPopover trigger="legacy" placement="top" target="chatbutton">
-						<PopoverBody className="text-center">
-							<Alert color={this.state.type} isOpen={this.state.showA} toggle={this.toggleAlert}>
-								{this.state.message}
-							</Alert>
-							<Form model='feedback' onSubmit={(values) => this.onSubmit(values)}>
-								<FormGroup>
-									<Control.text
-										model=".name"
-										className="form-control feed-input"
-										name="name"
-										placeholder="Name"
+			<Button id="chatbutton" circular icon color='black'>
+				<Icon name='chat' size="large" />
+				<UncontrolledPopover trigger="legacy" placement="top" target="chatbutton">
+					<PopoverBody className="text-center">
+						<Alert color={this.state.type} isOpen={this.state.showA} toggle={this.toggleAlert}>
+							{this.state.message}
+						</Alert>
+						<Form model='feedback' onSubmit={(values) => this.onSubmit(values)}>
+							<FormGroup>
+								<Control.text
+									model=".name"
+									className="form-control feed-input"
+									name="name"
+									placeholder="Name"
 
-									/>
-								</FormGroup>
-								<FormGroup>
-									<Control.textarea
-										model=".message"
-										className="form-control feed-input"
-										name="message"
-										placeholder="Feedback"
-										rows={5}
-									/>
-								</FormGroup>
-								<Button circular floated positive> <span className="fa fa-paper-plane" /> Send</Button>
-							</Form>
-						</PopoverBody>
-					</UncontrolledPopover>
-				</Button>
+								/>
+							</FormGroup>
+							<FormGroup>
+								<Control.textarea
+									model=".message"
+									className="form-control feed-input"
+									name="message"
+									placeholder="Feedback"
+									rows={5}
+								/>
+							</FormGroup>
+							<Button circular floated positive> <span className="fa fa-paper-plane" /> Send</Button>
+						</Form>
+					</PopoverBody>
+				</UncontrolledPopover>
+			</Button>
 		)
 	}
 }
