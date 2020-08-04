@@ -6,27 +6,29 @@ export default class TableData extends Component {
 	render() {
 		var headers = this.props.data[0] // get the header from schedule
 		var data = this.props.data.slice(1);  // get all data except the header
-		
-		if (data) {
-			var rows = data.map(day => { // create all the rows
-				return <Rows day={day} />
-			})
 
-			var header = headers.map(field => { // create the header of table
-				return <th >{field}</th>
-			})
+		if (data) {
+			var rows = data.map(day => <Rows day={day} key={Math.random().toPrecision(4) * 10000} />)   // create all the rows
+
+
+			var header = headers.map(field => <th key={field}>{field}</th>) // create the header of table
+
 
 			return (
 				<div className="col-12 text-center">
-					<Table striped  hover responsive className="border">
+					<Table striped hover responsive className="border">
 						<thead>
-							{header}
+							<tr>
+								{header}
+							</tr>
 						</thead>
 						<tbody>
 							{rows}
 						</tbody>
 						<thead>
-							{header}
+							<tr>
+								{header}
+							</tr>
 						</thead>
 					</Table>
 				</div>

@@ -78,7 +78,7 @@ class Chat extends Component {
 									rows={5}
 								/>
 							</FormGroup>
-							<Button circular floated positive> <span className="fa fa-paper-plane" /> Send</Button>
+							<Button circular positive> <span className="fa fa-paper-plane" /> Send</Button>
 						</Form>
 					</PopoverBody>
 				</UncontrolledPopover>

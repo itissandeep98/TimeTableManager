@@ -29,12 +29,14 @@
     "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
+    "json-server": "json-server --watch db.json -d 2000 -p 3001",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,12 +1,13 @@
 import axios from "axios";
 import * as ActionTypes from "./ActionTypes";
-import { jsonUrl } from "../shared/baseUrl";
+import { jsonUrl,localJsonUrl } from "../shared/baseUrl";
 
 
 export const dataFetchAction = () => {
+	const url = process.env.NODE_ENV === 'production' ?jsonUrl:localJsonUrl
 	return async (dispatch) => {
 		dispatch({type:ActionTypes.DATA_FETCH_LOADING})
-		return await axios.get(jsonUrl)
+		return await axios.get(url)
 			.then(response => {
 				if (!response.data.errmess){
 					dispatch({ type: ActionTypes.COURSE_FETCH_SUCCESS, courses: response.data.courses })

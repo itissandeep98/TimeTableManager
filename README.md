@@ -18,7 +18,7 @@ This is a simple react application to create a TimeTable based only on your choi
 
 3. Once all the packages are installed run `yarn start` to start the development server.'
 
-4. (Optional) Run `json-server --watch db.json -d 2000 -p 3001` to start local JSON server
+4. Run `yarn json-server` or equivalently run `json-server --watch db.json -d 2000 -p 3001` to start local JSON server
 
 ## Usage
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import TableData from './Table'
-import { Form, Dropdown, Checkbox, Segment } from 'semantic-ui-react'
+import { Dropdown, Segment } from 'semantic-ui-react'
 import { Spinner, Button } from 'reactstrap';
 import { baseSchedule } from '../../shared/Schedule'
 import '../../App.css'
@@ -11,7 +11,6 @@ export default class Plot extends Component {
 		this.state = {
 			courses: [],
 			schedule: JSON.parse(JSON.stringify(baseSchedule)),
-			season: false
 		}
 		this.handleCourseChange = this.handleCourseChange.bind(this);
 		this.updateSchedule = this.updateSchedule.bind(this);
@@ -20,9 +19,7 @@ export default class Plot extends Component {
 
 	findpos(course) {  // finds all the positions of a particular course in the schedule
 		var schedule = this.props.schedule["monsoon"];
-		if (this.state.season) {
-			schedule = this.props.schedule["winter"]
-		}
+	
 		var pos = []
 		for (let i = 1; i <= 5; i++) {
 			for (let j = 1; j <= 6; j++) {
@@ -59,19 +56,11 @@ export default class Plot extends Component {
 		}, () => this.updateSchedule());
 	}
 
-	onChange() {  // to handle the change in the season toggle
-		this.setState({
-			season: !this.state.season,
-			courses: []
-		})
-	}
-
-
 	render() {
 		var courselist = null;
 		if (this.props.isLoading) { // Loading Icon in the List until data is fetched
 			courselist = [
-				{ key: "loading", value: <Spinner />, text: <Spinner />, disabled: true }
+				{ key: "loading", value: "loading", text: <Spinner />, disabled: true }
 			]
 		}
 		else if (this.props.errmess) {  // Error message in the list if data could not be fetched
@@ -80,11 +69,9 @@ export default class Plot extends Component {
 			]
 		}
 
-		else { // select data based on the the season toggle
+		else { 
 			courselist = this.props.courses["monsoon"]
-			if (this.state.season) {
-				courselist = this.props.courses["winter"]
-			}
+			
 		}
 		return (
 			<div className="container">
@@ -97,16 +84,6 @@ export default class Plot extends Component {
 				</div>
 
 				<Segment className="d-print-none">
-					<div className="text-center">
-
-						<Form>
-							<Form.Field inline>
-								<label>Monsoon</label>
-								<Checkbox slider disabled checked={this.state.season} onChange={this.onChange.bind(this)} />
-								<label>Winter</label>
-							</Form.Field>
-						</Form>
-					</div>
 
 					<Dropdown
 						placeholder="Select Courses"
