@@ -8,61 +8,32 @@ import Slots from './Slots'
 export default class Formview extends Component {
 	constructor(props){
 		super(props)
-		this.state={
-			coursename:"",
-			coursecode: "",
-			acronym: "",
-			slots:[]
-		}
 		this.onChange=this.onChange.bind(this)
 		this.addslot=this.addslot.bind(this)
 		this.deleteSlot = this.deleteSlot.bind(this)
-		this.addCourse = this.addCourse.bind(this)
 
 	}
-
+	
 	onChange(e){
-		this.setState({
-			[e.target.name]:e.target.value
-		})
-
+		this.props.onCoursechange(e.target.name,e.target.value)
 	}
 
 	
 	addslot(slot){
-		var temp=this.state.slots.concat(slot)
-		this.setState({
-			slots:temp,
-		})
+		var temp = this.props.course.slots.concat(slot)
+		this.props.onCoursechange("slots", temp)
 	}
 
 	deleteSlot(event,key){
 		event.preventDefault()
-		const temp=this.state.slots.filter(s=>s.key!==key)
-		this.setState({
-			slots:temp
-		})
+		const temp = this.props.course.slots.filter(s=>s.key!==key)
+		this.props.onCoursechange("slots", temp)
 	}
 
-	addCourse(event){
-		event.preventDefault();
-		const course={
-			key:this.state.coursecode,
-			value:this.state.coursename,
-			acro:this.state.acronym,
-			slots:this.state.slots
-		}
-		this.props.addCourse(course)
-		this.setState({
-			coursename: "",
-			coursecode: "",
-			acronym: "",
-			slots: []
-		})
-	}
 
 	render() {
-		const allslots = this.state.slots.map(s => (
+		const course=this.props.course
+		const allslots = course.slots.map(s => (
 			<FormGroup key={s.key}> 
 				<Row>
 					<Col>
@@ -106,26 +77,26 @@ export default class Formview extends Component {
 				<Form>
 					<FormGroup>
 						<Label>Course Name</Label>
-						<Input value={this.state.coursename} name="coursename" onChange={this.onChange}/>
+						<Input value={course.value} name="value" onChange={this.onChange}/>
 					</FormGroup>
 					<Row>
 						<Col>
 							<FormGroup>
 								<Label>Course Code</Label>
-								<Input value={this.state.coursecode} name="coursecode" onChange={this.onChange}/>
+								<Input value={course.key} name="key" onChange={this.onChange}/>
 							</FormGroup>
 						</Col>
 						<Col>
 							<FormGroup>
 								<Label>Acronym</Label>
-								<Input value={this.state.acronym} name="acronym" onChange={this.onChange}/>
+								<Input value={course.acro} name="acro" onChange={this.onChange}/>
 							</FormGroup>
 						</Col>
 					</Row>
 					<h3>Slots</h3>
-					<Slots addslot={this.addslot} slots={this.state.slots}/>
+					<Slots addslot={this.addslot} slots={course.slots}/>
 					{allslots}
-					<Button primary onClick={this.addCourse} > Add</Button>
+					<Button primary onClick={this.props.addCourse} > Add</Button>
 				</Form>
 			</div>
 		)
