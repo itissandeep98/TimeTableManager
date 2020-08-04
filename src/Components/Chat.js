@@ -52,7 +52,7 @@ class Chat extends Component {
 
 	render() {
 		return (
-			<Button id="chatbutton" circular icon color='black'>
+			<Button id="chatbutton" circular icon color='black' className="d-print-none">
 				<Icon name='chat' size="large" />
 				<UncontrolledPopover trigger="legacy" placement="top" target="chatbutton">
 					<PopoverBody className="text-center">
