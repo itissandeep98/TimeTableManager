@@ -18,8 +18,12 @@ class Chat extends Component {
 		this.showAlert = this.showAlert.bind(this);
 		this.onSubmit = this.onSubmit.bind(this)
 		this.toggleAlert = this.toggleAlert.bind(this);
+	}
 
-
+	handleKeyDown(e) {
+		e.target.style.height = 'inherit';
+		e.target.style.height = `${Math.min(e.target.scrollHeight + 30, 800)}px`;
+		// e.target.style.width = `${window.innerWidth / 2 - 40}px`
 	}
 
 
@@ -76,6 +80,7 @@ class Chat extends Component {
 									name="message"
 									placeholder="Feedback"
 									rows={5}
+									onKeyDown={this.handleKeyDown}
 								/>
 							</FormGroup>
 							<Button circular positive> <span className="fa fa-paper-plane" /> Send</Button>

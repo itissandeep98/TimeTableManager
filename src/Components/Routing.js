@@ -2,7 +2,7 @@
 import React from 'react'
 import { withRouter, Switch, Route, Redirect } from 'react-router-dom'
 import Main from "./Main";
-import Admin from './Admin';
+import Admin from './Admin/Admin';
 import Header from './Header'
 
 
