@@ -23,10 +23,12 @@ export default class Dataview extends Component {
 	}
 
 	render() {
+		let docs=JSON.stringify(this.props.doc,null,4)
+		
 		return (
 			<Form>
 				<FormGroup>
-					<textarea  ref={this.setTextInputRef} />
+					<textarea  ref={this.setTextInputRef} value={docs} />
 				</FormGroup>
 			</Form>
 		)
