@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { dataFetchAction } from '../store/ActionCreators'
-import Header from './Header'
 import Plot from './TimeTable/Plot'
 import { ImpLink } from './ImpLinks'
 import { actions } from 'react-redux-form'
@@ -17,7 +16,7 @@ class Main extends Component {
 	render() {
 		return (
 			<div>
-				<Header />
+				
 				<Plot
 					courses={this.props.courses.courses}
 					schedule={this.props.schedule.schedule}

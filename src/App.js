@@ -1,13 +1,16 @@
 import React from 'react';
-import Main from "./Components/Main";
 import './App.css';
+import Routing from './Components/Routing';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
 
   return (
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
-        <Main />
+        <Routing/>
       </div>
+      </BrowserRouter>
   );
 }
 
