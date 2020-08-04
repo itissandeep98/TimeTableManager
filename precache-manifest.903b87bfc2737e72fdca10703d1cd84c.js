@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d05a24852bebab50af4ee9b8f2a38090",
+    "revision": "bbd9d9f90a245b3e166c0a297498973d",
     "url": "/TimeTableManager/index.html"
   },
   {
-    "revision": "eafbeb2f79f21528b78d",
+    "revision": "01c122a2b5b0c25f8c21",
     "url": "/TimeTableManager/static/css/2.742ca047.chunk.css"
   },
   {
-    "revision": "ac3da0f80979ba7d1b8f",
+    "revision": "63808348d33809186694",
     "url": "/TimeTableManager/static/css/main.592164f7.chunk.css"
   },
   {
-    "revision": "eafbeb2f79f21528b78d",
-    "url": "/TimeTableManager/static/js/2.150b1ac2.chunk.js"
+    "revision": "01c122a2b5b0c25f8c21",
+    "url": "/TimeTableManager/static/js/2.6ff9ad6c.chunk.js"
   },
   {
     "revision": "2089965cc3e0fbb1dda2d650d8277df4",
-    "url": "/TimeTableManager/static/js/2.150b1ac2.chunk.js.LICENSE.txt"
+    "url": "/TimeTableManager/static/js/2.6ff9ad6c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ac3da0f80979ba7d1b8f",
-    "url": "/TimeTableManager/static/js/main.ce9e2482.chunk.js"
+    "revision": "63808348d33809186694",
+    "url": "/TimeTableManager/static/js/main.945af15e.chunk.js"
   },
   {
     "revision": "8976cf7b17c0a9b3ea6a",
