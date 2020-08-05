@@ -9,9 +9,9 @@ class Admin extends Component {
 		this.state={
 			doc:[],
 			course:{
-				value: "",
 				key: "",
-				text:"",
+				text: "",
+				value: "",
 				code: "",
 				slots: []
 			}
@@ -47,9 +47,9 @@ class Admin extends Component {
 		this.setState({
 			doc:temp,
 			course: {
-				value: "",
 				key: "",
 				text: "",
+				value: "",
 				code: "",
 				slots: []
 			}

@@ -18,11 +18,11 @@ export default function CourseList({doc,deleteCourse,editCourse}) {
 					<Accordion key={course.key} fluid styled>
 						<Accordion.Title active={active===course.key} onClick={()=>changeactive(course.key)}>
 							<Icon name='dropdown' />
-							{course.value}							
+							{course.text}							
 						</Accordion.Title>
 						
 						<Accordion.Content active={active === course.key} >
-							<strong>Acronym: </strong> <p>{course.text}</p>
+							<strong>Acronym: </strong> <p>{course.value}</p>
 							<strong>Course Code: </strong> <p>{course.code}</p>
 							<strong>Slots: </strong> <ul>{course.slots.map(s=><li>{s.day} {s.stime}-{s.etime}</li>)}</ul>
 							<ButtonGroup >

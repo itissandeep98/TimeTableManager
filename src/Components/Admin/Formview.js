@@ -74,7 +74,7 @@ export default class Formview extends Component {
 				<Form>
 					<FormGroup>
 						<Label>Course Name</Label>
-						<Input value={course.value} name="value" onChange={this.onChange}/>
+						<Input value={course.text} name="text" onChange={this.onChange}/>
 					</FormGroup>
 					<Row>
 						<Col>
@@ -86,7 +86,7 @@ export default class Formview extends Component {
 						<Col>
 							<FormGroup>
 								<Label>Acronym</Label>
-								<Input value={course.text} name="text" onChange={this.onChange}/>
+								<Input value={course.value} name="value" onChange={this.onChange}/>
 							</FormGroup>
 						</Col>
 					</Row>

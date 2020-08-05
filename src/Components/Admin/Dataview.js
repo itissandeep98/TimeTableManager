@@ -32,7 +32,6 @@ export default class Dataview extends Component {
 		element.href = URL.createObjectURL(file);
 		element.download = "db.json";
 		document.body.appendChild(element); // Required for this to work in FireFox
-		console.log(element);
 		element.click();
 		
 	}
@@ -54,7 +53,7 @@ export default class Dataview extends Component {
 				<Button onClick={(e)=>this.copyText(e)}>Copy</Button>
 				<br /><br />
 				<FormGroup>
-					<textarea  ref={this.setTextInputRef} value={docs} />
+					<textarea  ref={this.setTextInputRef} value={docs} readOnly/>
 				</FormGroup>
 			</Form>
 		)
