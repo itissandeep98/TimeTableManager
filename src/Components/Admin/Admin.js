@@ -11,7 +11,8 @@ class Admin extends Component {
 			course:{
 				value: "",
 				key: "",
-				acro: "",
+				text:"",
+				code: "",
 				slots: []
 			}
 		}
@@ -35,13 +36,21 @@ class Admin extends Component {
 
 	addCourse(e){
 		e.preventDefault()
-		const temp=this.state.doc.concat(this.state.course)
+		let key = 1;
+		const doc = this.state.doc
+		if (doc.length > 0)
+			key = doc[doc.length - 1].key + 1
+		const course=this.state.course
+		course.key=key
+		const temp=this.state.doc.concat(course)
+		
 		this.setState({
 			doc:temp,
 			course: {
 				value: "",
 				key: "",
-				acro: "",
+				text: "",
+				code: "",
 				slots: []
 			}
 		})

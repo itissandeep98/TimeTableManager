@@ -8,7 +8,7 @@ export default function CourseList({doc,deleteCourse,editCourse}) {
 				setactive(-1)
 			}
 			else{
-			setactive(key)
+				setactive(key)
 			}
 		}
 		return (
@@ -22,8 +22,8 @@ export default function CourseList({doc,deleteCourse,editCourse}) {
 						</Accordion.Title>
 						
 						<Accordion.Content active={active === course.key} >
-							<strong>Acronym: </strong> <p>{course.acro}</p>
-							<strong>Course Code: </strong> <p>{course.key}</p>
+							<strong>Acronym: </strong> <p>{course.text}</p>
+							<strong>Course Code: </strong> <p>{course.code}</p>
 							<strong>Slots: </strong> <ul>{course.slots.map(s=><li>{s.day} {s.stime}-{s.etime}</li>)}</ul>
 							<ButtonGroup >
 								<Button fluid color="olive" onClick={(e) => editCourse(e, course.key)}>

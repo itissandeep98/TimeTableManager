@@ -39,8 +39,7 @@ export default class Formview extends Component {
 					<Col>
 						<Dropdown
 							placeholder="Select Day"
-							fluid search openOnFocus
-							clearable selection
+							fluid 
 							options={days} 
 							value={s.day}
 							disabled
@@ -49,8 +48,7 @@ export default class Formview extends Component {
 					<Col>
 						<Dropdown
 							placeholder="Start Time"
-							fluid search openOnFocus
-							clearable selection
+							fluid 
 							options={times} 
 							value={s.stime}
 							disabled
@@ -59,8 +57,7 @@ export default class Formview extends Component {
 					<Col>
 						<Dropdown
 							placeholder="End Time"
-							fluid search openOnFocus
-							clearable selection
+							fluid 
 							options={times} 
 							value={s.etime}
 							disabled
@@ -83,13 +80,13 @@ export default class Formview extends Component {
 						<Col>
 							<FormGroup>
 								<Label>Course Code</Label>
-								<Input value={course.key} name="key" onChange={this.onChange}/>
+								<Input value={course.code} name="code" onChange={this.onChange}/>
 							</FormGroup>
 						</Col>
 						<Col>
 							<FormGroup>
 								<Label>Acronym</Label>
-								<Input value={course.acro} name="acro" onChange={this.onChange}/>
+								<Input value={course.text} name="text" onChange={this.onChange}/>
 							</FormGroup>
 						</Col>
 					</Row>
