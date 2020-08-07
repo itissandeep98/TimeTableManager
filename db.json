@@ -430,6 +430,11 @@
 				"key": 85,
 				"text": "Solid State Devices - ECE318/ECE518",
 				"value": "SSD"
+			},
+			{
+				"key":86,
+				"text":" Ecology, Evolution, and Environment",
+				"value":"EEE"
 			}
 
 		]
@@ -913,7 +918,8 @@
 					"I3D",
 					"CMPA",
 					"ATMC",
-					"CTH"
+					"CTH",
+					"EEE"
 				],
 				"6": [
 					"ML",

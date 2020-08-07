@@ -18,7 +18,7 @@ export const ImpLink = () => { // Links to show in the bottom of table
 					Current Time Table <a href="https://iiitd.ac.in/academics/m2020" target="_blank" rel="noopener noreferrer">(Monsoon 2020)</a>
 				</li>
 			</ul>
-			<Divider horizontal>updated on 29 Jul 2020</Divider>
+			<Divider horizontal>updated on 7 Aug 2020</Divider>
 
 		</div>
 	);
