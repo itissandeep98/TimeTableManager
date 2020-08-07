@@ -7,8 +7,7 @@ export default class Dataview extends Component {
 	constructor(props) {
 		super(props);
 
-		this.textInput = null;
-		this.setTextInputRef = element => { this.textInput = element; };
+		this.textInput = React.createRef();
 
 	}
 	componentDidMount(){
@@ -26,14 +25,13 @@ export default class Dataview extends Component {
 
 	downloadFile(e,doc){
 		e.preventDefault()
-
 		const element = document.createElement("a");
 		const file = new Blob([doc], { type: 'text/plain' });
 		element.href = URL.createObjectURL(file);
 		element.download = "db.json";
 		document.body.appendChild(element); // Required for this to work in FireFox
 		element.click();
-		
+		URL.revokeObjectURL(element.href); //frees the memory
 	}
 
 	copyText(e){
@@ -53,7 +51,7 @@ export default class Dataview extends Component {
 				<Button onClick={(e)=>this.copyText(e)}>Copy</Button>
 				<br /><br />
 				<FormGroup>
-					<textarea  ref={this.setTextInputRef} value={docs} readOnly/>
+					<textarea  ref={this.textInput} value={docs} readOnly/>
 				</FormGroup>
 			</Form>
 		)

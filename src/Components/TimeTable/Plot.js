@@ -3,6 +3,7 @@ import TableData from './Table'
 import { Dropdown, Segment } from 'semantic-ui-react'
 import { Spinner, Button } from 'reactstrap';
 import { baseSchedule } from '../../shared/Schedule'
+// import jsPDF from "jspdf";
 import '../../App.css'
 
 export default class Plot extends Component {
@@ -15,6 +16,8 @@ export default class Plot extends Component {
 		this.handleCourseChange = this.handleCourseChange.bind(this);
 		this.updateSchedule = this.updateSchedule.bind(this);
 		this.findpos = this.findpos.bind(this);
+
+		this.tableData = React.createRef()
 	}
 
 	findpos(course) {  // finds all the positions of a particular course in the schedule
@@ -75,12 +78,12 @@ export default class Plot extends Component {
 		}
 		return (
 			<div className="container">
-				<Button onClick={() => window.print()} className="d-print-none printbutton"> 
+				<Button onClick={(e) => this.downloadFile(e)} className="d-print-none printbutton"> 
 					<span className="fa fa-file"/> Print To pdf
 				</Button>
 				<br/><br/>
 				<div className="row">
-					<TableData data={this.state.schedule} />
+					<TableData data={this.state.schedule} ref={this.tableData}  />
 				</div>
 
 				<Segment className="d-print-none">
