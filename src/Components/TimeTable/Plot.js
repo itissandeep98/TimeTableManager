@@ -78,7 +78,7 @@ export default class Plot extends Component {
 		}
 		return (
 			<div className="container">
-				<Button onClick={(e) => this.downloadFile(e)} className="d-print-none printbutton"> 
+				<Button onClick={(e) => window.print()} className="d-print-none printbutton"> 
 					<span className="fa fa-file"/> Print To pdf
 				</Button>
 				<br/><br/>
