@@ -3,7 +3,6 @@ import TableData from './Table'
 import { Dropdown, Segment } from 'semantic-ui-react'
 import { Spinner, Button } from 'reactstrap';
 import { baseSchedule } from '../../shared/Schedule'
-// import jsPDF from "jspdf";
 import '../../App.css'
 
 export default class Plot extends Component {
