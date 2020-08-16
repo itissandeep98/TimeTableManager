@@ -22,6 +22,7 @@ jobs:
           yarn
           git config user.name "itissandeep98"
           git config user.email "itissandeep98@gmail.com"
+          echo ${{secrets.FIRE_CONFIG}} > src/config/fire.json
           git remote set-url origin https://itissandeep98:${{secrets.ACCESS_TOKEN}}@github.com/itissandeep98/TimeTableManager
           npm run deploy
 
