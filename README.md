@@ -2,6 +2,7 @@
 
 - [Table of Contents](#table-of-contents)
 	- [Info](#info)
+	- [Directory](#directory)
 	- [Setup](#setup)
 	- [Usage](#usage)
 	- [PS](#ps)
@@ -9,6 +10,24 @@
 ## Info
 
 This is a simple react application to create a TimeTable based only on your choice of subjects.
+
+## Directory
+	/
+	 |--public/
+		|---> timetable.pdf         // Pdf shown on Main page
+		|--- images/                // All the images used
+
+	 |--src/
+		|--- Components/
+				|---> Routing.js     // Contains all the routing info
+				|---> Main.js        // Holds the Main view of '/' Route
+				|--- TimTable/
+						|--> Plot.js // Plots the table
+				|--- Admin/          // In progress
+		|--- shared/                 // Contains urls and initial state of the app
+		|--- store/                  // Contains redux store related code
+				
+	 
 
 ## Setup
 
