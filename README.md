@@ -21,7 +21,7 @@ This is a simple react application to create a TimeTable based only on your choi
 		|--- Components/
 			|---> Routing.js     // Contains all the routing info
 			|---> Main.js        // Holds the Main view of '/' Route
-			|--- TimTable/
+			|--- TimeTable/
 				|--> Plot.js // Plots the table
 			|--- Admin/          // In progress
 		|--- shared/                 // Contains urls and initial state of the app
