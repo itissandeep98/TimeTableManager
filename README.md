@@ -12,6 +12,7 @@
 This is a simple react application to create a TimeTable based only on your choice of subjects.
 
 ## Directory
+
 	/
 	 |--public/
 		|---> timetable.pdf         // Pdf shown on Main page
@@ -26,8 +27,6 @@ This is a simple react application to create a TimeTable based only on your choi
 			|--- Admin/          // In progress
 		|--- shared/                 // Contains urls and initial state of the app
 		|--- store/                  // Contains redux store related code
-				
-	 
 
 ## Setup
 
