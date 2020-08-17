@@ -67,7 +67,7 @@ export default class Plot extends Component {
 		}
 		else if (this.props.errmess) {  // Error message in the list if data could not be fetched
 			courselist = [
-				{ key: "error", value: this.props.errmess, text: this.props.errmess, disabled: true }
+				{ key: "error", value: this.props.errmess, text: this.props.errmess,onClick:()=>window.location.reload() }
 			]
 		}
 
