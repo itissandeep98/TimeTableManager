@@ -10,9 +10,25 @@
 .navbar-dark {
     background-color: #3fada8;
     padding: 10px;
-    font-family: 'Dancing Script', cursive;
-    text-shadow: 1px 1px 1px #333;
+    font-size: small;
+    /* font-family: 'Dancing Script', cursive; */
 }
+
+.navbar-dark .container a{
+    color: #fff;
+    padding: 15px 5px 15px 5px;
+}
+.navbar-dark .container .active{
+    background-color: #fff ;
+    color: #000;
+    padding: 15px 5px 15px 5px;
+}
+
+.navbar-dark .container :hover{
+    background-color: #fff ;
+    color: #000;
+}
+
 .printbutton {
 	outline: none;
 	padding: 10px 20px;
@@ -23,6 +39,7 @@
 .feed-input{
     margin: 10px auto;
 }
+
 #chatbutton{
     display: inline;
     position: fixed;
