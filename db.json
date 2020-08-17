@@ -297,16 +297,6 @@
 				"value": "EK"
 			},
 			{
-				"key": 59,
-				"text": "Environmental Sciences- Sec A - ESC205A",
-				"value": "EVS-A"
-			},
-			{
-				"key": 60,
-				"text": "Environmental Sciences- Sec B - ESC205A",
-				"value": "EVS-B"
-			},
-			{
 				"key": 61,
 				"text": "Real Analysis-II - MTH340/MTH540",
 				"value": "RA-2"
@@ -944,8 +934,7 @@
 					"CBAB",
 					"MECO",
 					"DVD",
-					"IPHI",
-					"EVS-A"
+					"IPHI"
 				],
 				"3": [
 					"CGAS",
@@ -976,8 +965,7 @@
 					"TE",
 					"BML",
 					"PA",
-					"WSI",
-					"EVS-B"
+					"WSI"
 				]
 			}
 		}
