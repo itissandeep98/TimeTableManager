@@ -2,6 +2,7 @@
 
 - [Table of Contents](#table-of-contents)
 	- [Info](#info)
+	- [PWA](#pwa)
 	- [Directory](#directory)
 	- [Setup](#setup)
 	- [Usage](#usage)
@@ -10,6 +11,10 @@
 ## Info
 
 This is a simple react application to create a TimeTable based only on your choice of subjects.
+
+## PWA
+
+This is a Progressive Web App(PWA) i.e a user can install it as a native app on their operating system irrespective of its platform (Smartphone or PC). To Achieve this just open this app in Chrome browser(preferably) for atmost 30 sec, for PC you will see an install button on address bar and for smartphone you will see a small banner in bottom saying "Add to Home Screen", just click on it and the app will be installed on your system
 
 ## Directory
 
