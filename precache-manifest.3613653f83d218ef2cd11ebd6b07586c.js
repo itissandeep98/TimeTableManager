@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7065e68d72c387ccdd71fb8789917f5",
+    "revision": "7c70e6ba5e29b82d024e93fd86d3d19a",
     "url": "/TimeTableManager/index.html"
   },
   {
