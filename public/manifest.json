@@ -3,17 +3,27 @@
   "name": "TimeTable Creator",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64",
-      "type": "image/x-icon"
+      "src": "icons/logo16.png",
+      "type": "image/png",
+      "sizes": "16x16"
     },
     {
-      "src": "logo192.png",
+      "src": "icons/logo32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "icons/logo64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "icons/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "icons/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
