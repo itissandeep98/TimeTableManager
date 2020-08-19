@@ -14,7 +14,7 @@ This is a simple react application to create a TimeTable based only on your choi
 
 ## PWA
 
-This is a Progressive Web App(PWA) i.e a user can install it as a native app on their operating system irrespective of its platform (Smartphone or PC). To Achieve this just open this app in Chrome browser(preferably) for atmost 30 sec, for PC you will see an install button on address bar and for smartphone you will see a small banner in bottom saying "Add to Home Screen", just click on it and the app will be installed on your system
+This is a Progressive Web App(PWA) i.e a user can install it as a native app on their operating system irrespective of its platform (Smartphone or PC). To Achieve this just open this app in Chrome browser(preferably) for atleast 30 sec, for PC you will see an install button on address bar and for smartphone you will see a small banner in bottom saying "Add to Home Screen", just click on it and the app will be installed on your system
 
 ## Directory
 
