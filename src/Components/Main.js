@@ -25,10 +25,6 @@ class Main extends Component {
 				/>
 				<ImpLink />
 				<Chat resetFeedbackform={this.props.resetFeedbackform} />
-				
-				<div className="text-center d-none d-md-block d-print-none"> 
-					<embed src="https://iiitd.ac.in/sites/default/files/docs/education/2020/Time%20Table%20Add%20Drop%20Monsoon%202020V1.pdf" type="application/pdf" width="70%" height="800px" />
-				</div>
 			</div>
 		)
 	}

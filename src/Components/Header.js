@@ -17,7 +17,8 @@ const Header = () => { // main Header of the page
 			</div>
 			<div className="navbar-dark  d-print-none">
 				<div className="container">
-					<Link to="/" className="active">HOME</Link>
+					<Link to="/" >HOME</Link>
+					<Link to="/ttpdf">TIMETABLE</Link>
 					<a href="http://techtree.iiitd.edu.in/" target="_blank" rel="noopener noreferrer" >TECHTREE</a>
 				</div>
 			</div>

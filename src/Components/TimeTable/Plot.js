@@ -58,6 +58,10 @@ export default class Plot extends Component {
 		}, () => this.updateSchedule());
 	}
 
+	print(){
+		window.print()
+	}
+
 	render() {
 		var courselist = null;
 		if (this.props.isLoading) { // Loading Icon in the List until data is fetched
@@ -77,7 +81,7 @@ export default class Plot extends Component {
 		}
 		return (
 			<div className="container">
-				<Button onClick={(e) => window.print()} className="d-print-none printbutton"> 
+				<Button onClick={(e) => this.print()} className="d-print-none printbutton"> 
 					<span className="fa fa-file"/> Print To pdf
 				</Button>
 				<br/><br/>
