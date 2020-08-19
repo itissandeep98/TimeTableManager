@@ -2,6 +2,11 @@
 	"courses": {
 		"monsoon": [
 			{
+				"key": 82,
+				"text": "Biophysics - BIO361",
+				"value": "BPHY"
+			},
+			{
 				"key": 0,
 				"text": "Cell Biology and Bio-Chemistry - BIO511",
 				"value": "CBAB"
@@ -82,9 +87,9 @@
 				"value": "FCS"
 			},
 			{
-				"key": 16,
-				"text": "Topics in Adaptive Cybersecurity - CSE651",
-				"value": "TCS"
+				"key": 83,
+				"text": "Network Security - CSE350/CSE550",
+				"value": "NS"
 			},
 			{
 				"key": 17,
@@ -127,14 +132,29 @@
 				"value": "RL"
 			},
 			{
-				"key": 25,
-				"text": "Advanced Topics in Mobile Computing - CSE734",
-				"value": "ATMC"
+				"key": 33,
+				"text": "Software Development using Open Source - CSE5XX",
+				"value": "SDOS"
+			},
+			{
+				"key":87,
+				"text":"Program Verification - CSE584",
+				"value":"PV"
 			},
 			{
 				"key": 26,
 				"text": "Object Oriented Programing and Design - CSE600A/ECE600A",
 				"value": "OOPD"
+			},
+			{
+				"key": 32,
+				"text": "Data Lifecycle Management - CSE5XX",
+				"value": "DLM"
+			},
+			{
+				"key": 31,
+				"text": "Complexity Theory - CSE621",
+				"value": "CTH"
 			},
 			{
 				"key": 27,
@@ -147,29 +167,19 @@
 				"value": "AI"
 			},
 			{
+				"key": 16,
+				"text": "Topics in Adaptive Cybersecurity - CSE651",
+				"value": "TCS"
+			},
+			{
 				"key": 29,
 				"text": "Information Integration and Applications - CSE656",
 				"value": "IIA"
 			},
 			{
-				"key": 30,
-				"text": "Program Analysis - CSE503",
-				"value": "PA"
-			},
-			{
-				"key": 31,
-				"text": "Complexity Theory - CSE621",
-				"value": "CTH"
-			},
-			{
-				"key": 32,
-				"text": "Data Lifecycle Management - CSE5XX",
-				"value": "DLM"
-			},
-			{
-				"key": 33,
-				"text": "Software Development using Open Source - CSE5XX",
-				"value": "SDOS"
+				"key": 25,
+				"text": "Advanced Topics in Mobile Computing - CSE734",
+				"value": "ATMC"
 			},
 			{
 				"key": 34,
@@ -195,6 +205,11 @@
 				"key": 38,
 				"text": "Design of Interactive Systems - DES519",
 				"value": "DIS"
+			},
+			{
+				"key": 88,
+				"text": "Fundamentals of Audio for Engineers - DES5xx",
+				"value": "FAE"
 			},
 			{
 				"key": 39,
@@ -230,6 +245,11 @@
 				"key": 45,
 				"text": "Analog CMOS Circuit Design - ECE315/ECE515",
 				"value": "CMOS"
+			},
+			{
+				"key": 85,
+				"text": "Solid State Devices - ECE318/ECE518",
+				"value": "SSD"
 			},
 			{
 				"key": 46,
@@ -277,6 +297,11 @@
 				"value": "BML"
 			},
 			{
+				"key": 84,
+				"text": "Low Voltage Analog Circuit Design - ECE520",
+				"value": "LVACD"
+			},
+			{
 				"key": 55,
 				"text": "Integrated Circuit Fabrication - ECE5XX",
 				"value": "ICF"
@@ -295,6 +320,11 @@
 				"key": 58,
 				"text": "Entrepreneurial Khichadi - ENT412",
 				"value": "EK"
+			},
+			{
+				"key": 86,
+				"text": " Ecology, Evolution, and Environment",
+				"value": "EEE"
 			},
 			{
 				"key": 61,
@@ -325,6 +355,11 @@
 				"key": 66,
 				"text": "Finite and Spectral Element Methods - MTH545",
 				"value": "FSEM"
+			},
+			{
+				"key": 89,
+				"text": "Point Set Topology - MTH562A",
+				"value": "PST"
 			},
 			{
 				"key": 67,
@@ -400,340 +435,9 @@
 				"key": 81,
 				"text": "New Media and Politics - SSH323",
 				"value": "NMP"
-			},
-			{
-				"key": 82,
-				"text": "Biophysics - BIO361",
-				"value": "BPHY"
-			},
-			{
-				"key": 83,
-				"text": "Network Security - CSE350/CSE550",
-				"value": "NS"
-			},
-			{
-				"key": 84,
-				"text": "Low Voltage Analog Circuit Design - ECE520",
-				"value": "LVACD"
-			},
-			{
-				"key": 85,
-				"text": "Solid State Devices - ECE318/ECE518",
-				"value": "SSD"
-			},
-			{
-				"key":86,
-				"text":" Ecology, Evolution, and Environment",
-				"value":"EEE"
 			}
-
 		]
 	},
-	"schema":{
-		"CBAB":{
-			"1,3":3,
-			"4,3":3
-		},
-		"DM": {
-			"1,14":3,
-			"3,11":3
-		},
-		"AP": {
-			"1,11":3,
-			"4,11":3
-		},
-		"OS": {
-			"0,14":3,
-			"3,14":3
-		},
-		"M-III": {
-
-		},
-		"GMT": {
-
-		},
-		"FF": {
-
-		},
-		"S&S": {
-
-		},
-		"RA-I": {
-
-		},
-		"NT": {
-
-		},
-		"CISP": {
-
-		},
-		"CCS": {
-
-		},
-		"KCES": {
-
-		},
-		"IPHI": {
-
-		},
-		"TA": {
-
-		},
-		"SPP": {
-
-		},
-		"NMP": {
-
-		},
-		"DS": {
-
-		},
-		"MECO": {
-
-		},
-		"MAECO": {
-
-		},
-		"CTD": {
-
-		},
-		"ELD": {
-
-		},
-		"POK": {
-
-		},
-		"DPP": {
-
-		},
-		"VDC": {
-
-		},
-		"RMSSD": {
-
-		},
-		"CBB": {
-
-		},
-		"GMB": {
-
-		},
-		"ABIN": {
-
-		},
-		"BPHY": {
-
-		},
-		"CN": {
-
-		},
-		"TCOM": {
-
-		},
-		"DIS": {
-
-		},
-		"DCS": {
-
-		},
-		"EVS": {
-
-		},
-		"RA-II": {
-
-		},
-		"SPA": {
-
-		},
-		"SCMP": {
-
-		},
-		"FOMB": {
-
-		},
-		"NB": {
-
-		},
-		"MLBA": {
-
-		},
-		"CGAS": {
-
-		},
-		"CFM": {
-
-		},
-		"HIEE": {
-
-		},
-		"CMP": {
-
-		},
-		"MAD": {
-
-		},
-		"CG": {
-
-		},
-		"DIP": {
-
-		},
-		"ML": {
-
-		},
-		"FCS": {
-
-		},
-		"NS": {
-
-		},
-		"TACS": {
-
-		},
-		"DMG": {
-
-		},
-		"CA": {
-
-		},
-		"RA": {
-
-		},
-		"IGA": {
-
-		},
-		"AC": {
-
-		},
-		"NLP": {
-
-		},
-		"ACV": {
-
-		},
-		"RL": {
-
-		},
-		"ATMC": {
-
-		},
-		"OOPD": {
-
-		},
-		"AML": {
-
-		},
-		"AI": {
-
-		},
-		"IIA": {
-
-		},
-		"PV": {
-
-		},
-		"CTH": {
-
-		},
-		"DLM": {
-
-		},
-		"SDOS": {
-
-		},
-		"FMRP": {
-
-		},
-		"DA": {
-
-		},
-		"IMG": {
-
-		},
-		"I3DD": {
-
-		},
-		"ECOII": {
-
-		},
-		"DVD": {
-
-		},
-		"CMOS": {
-
-		},
-		"SSD": {
-
-		},
-		"PRP": {
-
-		},
-		"WSI": {
-
-		},
-		"PDCS": {
-
-		},
-		"CNT": {
-
-		},
-		"ROB": {
-
-		},
-		"RFCD": {
-
-		},
-		"INE": {
-
-		},
-		"ICF": {
-
-		},
-		"PHO": {
-
-		},
-		"BML": {
-
-		},
-		"LVACD": {
-
-		},
-		"EC ": {
-
-		},
-		"EK": {
-
-		},
-		"TNT": {
-
-		},
-		"CMPA": {
-
-		},
-		"FSEM": {
-
-		},
-		"NDM": {
-
-		},
-		"CMM": {
-
-		},
-		"AERM": {
-
-		},
-		"GM": {
-
-		},
-		"TE": {
-
-		},
-		"USPP": {
-
-		}
-		
-
-	}, 
 	"schedule": {
 		"monsoon": {
 			"1": {
@@ -754,8 +458,7 @@
 					"KCES",
 					"POK",
 					"NMP",
-					"DMG",
-					"GMT"
+					"DMG"
 				],
 				"3": [
 					"TCOM",
@@ -767,13 +470,15 @@
 					"MLBA",
 					"I3D",
 					"CMPA",
-					"ATMC",
-					"CTH"
+					"ATMC"
 				],
 				"6": [
 					"ML",
+					"ICF",
 					"CMM",
-					"ICF"
+					"FAE",
+					"PST"
+					
 				]
 			},
 			"2": {
@@ -796,6 +501,7 @@
 					"MECO",
 					"DVD",
 					"IPHI",
+					"GMT",
 					"IGA"
 				],
 				"3": [
@@ -827,7 +533,7 @@
 					"MAD",
 					"TE",
 					"BML",
-					"PA",
+					"PV",
 					"WSI"
 				]
 			},
@@ -839,7 +545,8 @@
 					"AERM",
 					"FSEM",
 					"RFCD",
-					"HIEE"
+					"HIEE",
+					"CTH"
 				],
 				"2": [
 					"AI",
@@ -887,8 +594,7 @@
 					"KCES",
 					"POK",
 					"NMP",
-					"DMG",
-					"GMT"
+					"DMG"
 				],
 				"3": [
 					"AC",
@@ -908,13 +614,14 @@
 					"I3D",
 					"CMPA",
 					"ATMC",
-					"CTH",
 					"EEE"
 				],
 				"6": [
 					"ML",
 					"ICF",
-					"CMM"
+					"CMM",
+					"FAE",
+					"PST"
 				]
 			},
 			"5": {
@@ -924,7 +631,8 @@
 					"AML",
 					"AERM",
 					"FSEM",
-					"RFCD"
+					"RFCD",
+					"CTH"
 				],
 				"2": [
 					"SPP",
@@ -934,7 +642,8 @@
 					"CBAB",
 					"MECO",
 					"DVD",
-					"IPHI"
+					"IPHI",
+					"GMT"
 				],
 				"3": [
 					"CGAS",
@@ -964,10 +673,123 @@
 					"MAD",
 					"TE",
 					"BML",
-					"PA",
+					"PV",
 					"WSI"
 				]
 			}
 		}
-	}
+	},
+	"schema": {
+		"CBAB": {
+			"1,3": 3,
+			"4,3": 3
+		},
+		"DM": {
+			"1,14": 3,
+			"3,11": 3
+		},
+		"AP": {
+			"1,11": 3,
+			"4,11": 3
+		},
+		"OS": {
+			"0,14": 3,
+			"3,14": 3
+		},
+		"M-III": {},
+		"GMT": {},
+		"FF": {},
+		"S&S": {},
+		"RA-I": {},
+		"NT": {},
+		"CISP": {},
+		"CCS": {},
+		"KCES": {},
+		"IPHI": {},
+		"TA": {},
+		"SPP": {},
+		"NMP": {},
+		"DS": {},
+		"MECO": {},
+		"MAECO": {},
+		"CTD": {},
+		"ELD": {},
+		"POK": {},
+		"DPP": {},
+		"VDC": {},
+		"RMSSD": {},
+		"CBB": {},
+		"GMB": {},
+		"ABIN": {},
+		"BPHY": {},
+		"CN": {},
+		"TCOM": {},
+		"DIS": {},
+		"DCS": {},
+		"EVS": {},
+		"RA-II": {},
+		"SPA": {},
+		"SCMP": {},
+		"FOMB": {},
+		"NB": {},
+		"MLBA": {},
+		"CGAS": {},
+		"CFM": {},
+		"HIEE": {},
+		"CMP": {},
+		"MAD": {},
+		"CG": {},
+		"DIP": {},
+		"ML": {},
+		"FCS": {},
+		"NS": {},
+		"TACS": {},
+		"DMG": {},
+		"CA": {},
+		"RA": {},
+		"IGA": {},
+		"AC": {},
+		"NLP": {},
+		"ACV": {},
+		"RL": {},
+		"ATMC": {},
+		"OOPD": {},
+		"AML": {},
+		"AI": {},
+		"IIA": {},
+		"PV": {},
+		"CTH": {},
+		"DLM": {},
+		"SDOS": {},
+		"FMRP": {},
+		"DA": {},
+		"IMG": {},
+		"I3DD": {},
+		"ECOII": {},
+		"DVD": {},
+		"CMOS": {},
+		"SSD": {},
+		"PRP": {},
+		"WSI": {},
+		"PDCS": {},
+		"CNT": {},
+		"ROB": {},
+		"RFCD": {},
+		"INE": {},
+		"ICF": {},
+		"PHO": {},
+		"BML": {},
+		"LVACD": {},
+		"EC ": {},
+		"EK": {},
+		"TNT": {},
+		"CMPA": {},
+		"FSEM": {},
+		"NDM": {},
+		"CMM": {},
+		"AERM": {},
+		"GM": {},
+		"TE": {},
+		"USPP": {}
+	}	
 }
