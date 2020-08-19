@@ -20,7 +20,6 @@ This is a Progressive Web App(PWA) i.e a user can install it as a native app on 
 
 	/
 	 |--public/
-		|---> timetable.pdf         // Pdf shown on Main page
 		|--- images/                // All the images used
 
 	 |--src/
