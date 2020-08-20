@@ -681,522 +681,418 @@
 	"info": {
 		"DM": {
 			"INST": "Samrith Ram",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"AP": {
 			"INST": "Raghava Mutharaju",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/meeting/register/tJctduippjgiEtZWsy3gZ61Pe18w8OaHNQ9d"
 		},
 		"OS": {
 			"INST": "Arani Bhattacharya",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/94080800404?pwd=NTEzbXVBaE8wUkdQNnE5emt5Q3MzUT09"
 		},
 		"M-III": {
 			"INST": "Sarthok Sircar",
-			"CLASS": "NPTEL",
 			"LINK": "https://nptel.ac.in/courses/111/104/111104125/",
-			"DESC":"https://nptel.ac.in/courses/111/105/111105122/"
+			"DESC": "https://nptel.ac.in/courses/111/105/111105122/"
 		},
 		"S&S": {
 			"INST": "Pravesh Biyani",
-			"CLASS": "MEET",
-			"LINK":"",
+			"LINK": "",
 			"DESC": "use \"sns\" meeting nick name in Google meet. Works only from IIIT D a/c."
 		},
 		"ELD": {
 			"INST": "Sumit J Darak",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/96738131141?pwd=Q3NWYk9Vd2pEMnVLWkVVeGpiN0RiUT09",
-			"DESC":"Meeting ID: 967 3813 1141, Passcode: ELD270"
+			"DESC": "Meeting ID: 967 3813 1141, Passcode: ELD270"
 		},
 		"CTD": {
 			"INST": "Shobha Sundar Ram",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"RA-I": {
 			"INST": "Debika Banerjee",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/99010850939?pwd=Z0d1MlZGMllqZ2N4RVJBUmNFb0xsQT09"
 		},
 		"DS": {
 			"INST": "Sankha Basu",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/92644465079?pwd=ZzRiMzFWdzlDN1QwNDR3QVdWbWs0UT09"
 		},
 		"NT": {
 			"INST": "Sneha Chaubey",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"VDC": {
 			"INST": "Indrani De Parker(V)",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"DPP": {
 			"INST": "Indrani De Parker(V)",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"RMSSD": {
 			"INST": "Venkata Ratnadeep Suri",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/92096401249?pwd=ZjVqYzJVUHViZjBSQVZ2VXAzTGhlUT09"
 		},
 		"CBB": {
 			"INST": "Arjun Ray",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/97963344474?pwd=ZU92WWRldm9Od2VmTHdjWUZoZGlqQT09"
 		},
 		"GMB": {
 			"INST": "Gaurav Ahuja",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/msz-sapq-uzn"
 		},
 		"ABIN": {
 			"INST": "Debarka Sengupta",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/orf-cnyo-fif",
-			"DESC":"Dial-in: (US) +1 803-999-5557 PIN: 852 549 139#"
+			"DESC": "Dial-in: (US) +1 803-999-5557 PIN: 852 549 139#"
 		},
 		"BPHY": {
 			"INST": "Arjun Ray",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/94327424406?pwd=M0xRbGhIZmJhSEcreDJoSlNremV5dz09"
 		},
 		"CN": {
 			"INST": "Mukulika Maity",
-			"CLASS": "",
 			"LINK": "https://meet.google.com/ymo-tmdu-dez"
 		},
 		"TCOM": {
 			"INST": "Payel C Mukherjee(V)",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/93889948026?pwd=QlREMm9JT0k3c09tZVQxZXJoeExnQT09",
-			"DESC":"Meeting ID: 938 8994 8026 PASSCODE: tcom1"
+			"DESC": "Meeting ID: 938 8994 8026 PASSCODE: tcom1"
 		},
 		"DIS": {
 			"INST": "Aman Parnami",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"DCS": {
 			"INST": "Gourab Ghatak",
-			"CLASS": "ZOOM",
-			"LINK":"",
+			"LINK": "",
 			"DESC": "Meeting ID: 938 8994 8026"
 		},
 		"EEE": {
 			"INST": "Swapna Purandare(V)",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/meeting/register/tJwlceuqqz4qHdzDLfJJGQE7GjP1DFdLV90C",
-			"DESC":"Meeting ID 988 6225 5078"
+			"DESC": "Meeting ID 988 6225 5078"
 		},
 		"RA-II": {
 			"INST": "Shilpak Banerjee",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/hzuufsd72t"
 		},
 		"SPA": {
 			"INST": "Monika Arora",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/95488232595?pwd=dFEyUHFGbzhJRTQ4Z1dVZ3Y5Q1AyZz09"
 		},
 		"SCMP": {
 			"INST": "Kaushik Kalyanaraman",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/meeting/register/tJcpd-qurDojEtXFrE0dDztYnaULgPmxgIRK"
 		},
 		"CBAB": {
 			"INST": "Sriram K",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/eio-jhpv-hwd"
 		},
 		"FOMB": {
 			"INST": "Vibhor Kumar",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"NB": {
 			"INST": "Ganesh Bagler",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/xmj-jhwc-ked"
 		},
 		"MLBA": {
 			"INST": "GPS Raghava",
-			"CLASS": "",
-			"LINK":"",
-			"DESC": "https://classroom.google.com/c/MzM4ODA2MjE1NzZa?cjc=qa33zgx"
+			"LINK": ""
 		},
 		"CGAS": {
 			"INST": "Ganesh Bagler",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/kfv-iymg-suh"
 		},
 		"CFM": {
 			"INST": "Tavpritesh Sethi+Ponnurangam Kumarguru",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/vvv-aivk-wpb"
 		},
 		"HIEE": {
 			"INST": "Tavpritesh Sethi",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/fgt-uznz-yju"
 		},
 		"CMP": {
 			"INST": "Piyus Kedia",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/hczrmpif7q"
 		},
 		"MAD": {
 			"INST": "Syamantak Das",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/fxks5a5aaz"
 		},
 		"CG": {
 			"INST": "Ojaswa Sharma",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/hb44gqvt6c"
 		},
 		"DIP": {
 			"INST": "Angshul Majumdar",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/hzh-eize-syk"
 		},
 		"ML": {
 			"INST": "Jainendra Shukla & Tanmoy Chakraborty",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/qrs-jmjw-gmh",
-			"DESC":"https://meet.google.com/kat-iyxk-ifs"
+			"DESC": "https://meet.google.com/kat-iyxk-ifs"
 		},
 		"FCS": {
 			"INST": "Ponnurangam Kumaraguru",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/ebk-gmqn-dsh"
 		},
 		"NS": {
 			"INST": "B N Jain(V)",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/apd-wezp-pag"
 		},
 		"DMG": {
 			"INST": "Vikram Goyal",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/92444092655?pwd=ckNhcDJUL1J4d0VyQlQvbEJzM2RZZz09"
 		},
 		"CA": {
 			"INST": "Sujay Deb",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/gwc-vomk-kpt"
 		},
 		"RA": {
 			"INST": "Rajiv Raman",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/dpwnmwfxer"
 		},
 		"IGA": {
 			"INST": "Debajyoti Bera",
-			"CLASS": "",
 			"LINK": "https://zoom.us/s/93048906891?pwd=bXZob3dWdzltNjMvWUdVZjZ1eUQyQT09"
 		},
 		"AC": {
 			"INST": "Subhabrata Samajder",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/cm24hcja6g"
 		},
 		"NLP": {
 			"INST": "Md. Shad Akhtar",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/jub-ckop-ybx"
 		},
 		"ACV": {
 			"INST": "Koteswar Rao Jerripothula",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/h2eg3wgyns"
 		},
 		"RL": {
 			"INST": "Sanjit Krishnan Kaul",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/oku-gerv-eat"
 		},
 		"SDOS": {
 			"INST": "Pankaj Jalote",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"PV": {
 			"INST": "Rahul Purandare",
-			"CLASS": "MEET",
 			"LINK": "meet.google.com/mng-yyzm-gpt"
 		},
 		"OOPD": {
 			"INST": "Naveen Prakash(V)",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"DLM": {
 			"INST": "Sameep Mehta(G)+Hima Patel(G)",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"AML": {
 			"INST": "Saket Anand",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/vqk-rpvs-vrt"
 		},
 		"AI": {
 			"INST": "C. Anantram",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/98514809511?pwd=VklYSEg5VUhtbjlxamVmUzBlbzVlZz09"
 		},
 		"IIA": {
 			"INST": "Mukesh Mohania",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/vwf-pnho-wnk"
 		},
 		"CTH": {
 			"INST": "Ashutosh Rai",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/4975521139"
 		},
 		"TACS": {
 			"INST": "Arun Balaji Buduru",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"ATMC": {
 			"INST": "Pushpendra Singh",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/98953588286?pwd=MjVRSTRVWVBDSWtqdDlIcUpkQkxvdz09"
 		},
 		"FMRP": {
 			"INST": "Manohar Khushlani(V)",
-			"CLASS": "ZOOM",
 			"LINK": "https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F99945549990%3Fpwd%3DZnU2aExCVUFwempyR25PQnh2UUxJQT09&sa=D&ust=1598265108283000&usg=AOvVaw2W9982nvt-MKMKYAAzcWb3"
 		},
 		"DA": {
 			"INST": "Aman Samuel(G)",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/7810512578?pwd=RDZ0cGNVZjFYY0l3MzV0c0NkQUFzZz09",
-			"DESC":"Meeting ID: 781 051 2578 Passcode: 99241"
+			"DESC": "Meeting ID: 781 051 2578 Passcode: 99241"
 		},
 		"IMG": {
 			"INST": "Anoop Ratn(V)",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/dgp-hpxj-psp"
 		},
 		"I3DD": {
 			"INST": "Anoop Ratn(V)",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/mgv-jfzk-npd"
 		},
 		"AFE": {
 			"INST": "Angshu Das",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/iho-fmpj-bot?hs=122&authuser=0"
 		},
 		"MECO": {
 			"INST": "Souvik Dutta",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/92261566605?pwd=azVNYkdGSGhoK3h0MkxMZDlPVkprQT09",
-			"DESC":"Meeting ID: 922 6156 6605, Passcode: 872492"
+			"DESC": "Meeting ID: 922 6156 6605, Passcode: 872492"
 		},
 		"MAECO": {
 			"INST": "Kiriti Kanjilal",
-			"CLASS": "ZOOM",
 			"LINK": "https://us02web.zoom.us/j/83796010336?pwd=bnA1NDlRbzgrZnNTVEJxQ1VUU2poQT09"
 		},
 		"GMT": {
 			"INST": "Rakesh Chathurvedi",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/98641296149?pwd=aHZrak5OOEhVU1pGdW1yRnhDM3RRQT09"
 		},
 		"ECOII": {
 			"INST": "Gaurav Arora",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/99088100211?pwd=T3Fqa09lRVJDUGtUVmtSVDBiUk9nUT09",
-			"DESC":"Meeting ID: 990 8810 0211; Passcode: 715745"
+			"DESC": "Meeting ID: 990 8810 0211; Passcode: 715745"
 		},
 		"FF": {
 			"INST": "Pankaj Vajpayee",
-			"CLASS": "MEET",
 			"LINK": "http://meet.google.com/kzh-hpgq-jjx"
 		},
 		"DVD": {
 			"INST": "Anuj Grover",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/wvq-kpdv-aaw"
 		},
 		"CMOS": {
 			"INST": "G S Visweswaran(V)",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/g33oiskcnu"
 		},
 		"SSD": {
 			"INST": "G S Visweswaran(V)",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/hp6ovrdtwn"
 		},
 		"PRP": {
 			"INST": "Anubha Gupta",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/yhw-xnbs-rca?authuser=0&hs=122"
 		},
 		"WSI": {
 			"INST": "Vivek Bohara",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/ddv-wtpi-wys"
 		},
 		"PDCS": {
 			"INST": "Anand Srivastava",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/96470305072?pwd=Ukg4NnNZU3NybCsrTXA1Y1hLTDF1dz09"
 		},
 		"CNT": {
 			"INST": "Sanat K Biswas",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"ROB": {
 			"INST": "Sayan Basu Roy",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/hro-ttso-jzi"
 		},
 		"RFCD": {
 			"INST": "M S Hashmi",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"INE": {
 			"INST": "Sneh Saurabh",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/xbo-udub-cau"
 		},
 		"ICF": {
 			"INST": "S S Jamuar",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"PHO": {
 			"INST": "Sayak Bhattacharya",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/nni-ytxa-raj"
 		},
 		"BML": {
 			"INST": "Ranjitha P",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/b7joj7thzl"
 		},
 		"LVACD": {
 			"INST": "S S Jamuar",
-			"CLASS": "",
-			"LINK":"",
-			"DESC": "https://classroom.google.com/u/0/c/MTQ3Njk2MDY4ODM2"
+			"LINK": ""
 		},
 		"EC": {
 			"INST": "Payel C Mukherjee(V)",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/ghhaf7z7ru?authuser=1&hs=179"
 		},
 		"EK": {
 			"INST": "Anupam Saronwala(V)",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/fss-tpgx-iap"
 		},
 		"TNT": {
 			"INST": "Anuradha Sharma",
-			"CLASS": "ZOOM",
 			"LINK": "https://us02web.zoom.us/j/7191463141?pwd=b0FSYVJKRjIzbW85aVA3U0dKdUtnZz09"
 		},
 		"CMPA": {
 			"INST": "Ashish Kumar Pandey",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/asnb5gtycu"
 		},
 		"FSEM": {
 			"INST": "Subhashree Mohapatra",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/nzy-irwj-ohu"
 		},
 		"PST": {
 			"INST": "Samaresh Chatterji(V)",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"NDM": {
 			"INST": "Mrinmoy Chakrabarty",
-			"CLASS": "",
-			"LINK":"",
-			"DESC": "https://classroom.google.com/c/MTI3MDcwMzM4OTcx?cjc=jx4k3px"
+			"LINK": ""
 		},
 		"CMM": {
 			"INST": "Sonia Baloni Ray",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/ood-unym-cqx"
 		},
 		"CISP": {
 			"INST": "Paro Mishra",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/qqe-cqro-yvf"
 		},
 		"CCS": {
 			"INST": "Amrit Srinivasan(V)",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/cng-dqqw-bhs"
 		},
 		"KCES": {
 			"INST": "Gayatri Nair",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/99916248698?pwd=MFRwYkRlL2RSek10MWEwYUVrVThtZz09",
-			"DESC":"Meeting ID: 999 1624 8698 Passcode: 520663"
+			"DESC": "Meeting ID: 999 1624 8698 Passcode: 520663"
 		},
 		"AERM": {
 			"INST": "Shireen Mirza",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"GM": {
 			"INST": "Smriti Singh",
-			"CLASS": "TEAMS",
 			"LINK": "https://teams.microsoft.com/l/team/19%3a65219fd65ad14f2cbe8cc2e463615edb%40thread.tacv2/conversations?groupId=ac4af217-abd6-4910-a28a-0f337b416981&tenantId=c9613df7-b16f-476b-8d8b-64bbab406416"
 		},
 		"IPHI": {
 			"INST": "Shweta Singh(L)",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"TA": {
 			"INST": "Manohar Khushlani(V)",
-			"CLASS": "ZOOM",
 			"LINK": "https://zoom.us/j/97943323956?pwd=bHJ4d1QwT1VETS9NZklnVjZZczhkQT09"
 		},
 		"SPP": {
 			"INST": "Manohar Kumar",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/d6yufkm4or"
 		},
 		"TE": {
 			"INST": "Nishad Patnaik",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/gizvd6g4sx"
 		},
 		"POK": {
 			"INST": "Shweta Singh(L)",
-			"CLASS": "",
 			"LINK": ""
 		},
 		"USPP": {
 			"INST": "Praveen Priyadarshi",
-			"CLASS": "MEET",
 			"LINK": "https://meet.google.com/lookup/fusabtrjgr"
 		},
 		"NMP": {
 			"INST": "Aasim Khan",
-			"CLASS": "",
 			"LINK": ""
 		}
 	}
