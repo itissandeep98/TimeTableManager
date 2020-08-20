@@ -6,8 +6,23 @@ import { ImpLink } from './ImpLinks'
 import { actions } from 'react-redux-form'
 
 import Chat from './Chat'
+import InfoTable from './InfoTable'
 
 class Main extends Component {
+	constructor(props){
+		super(props)
+		this.state={
+			selctedCourse:[]
+		}
+		this.addCourse=this.addCourse.bind(this)
+	}
+
+	async addCourse(value){
+		return await this.setState({
+			...this.state.selctedCourse,
+			selctedCourse: value
+		});
+	}
 
 	componentDidMount() {
 		this.props.fetchData() // fetch all the data when the webpage is loaded
@@ -18,6 +33,8 @@ class Main extends Component {
 			<div>
 				
 				<Plot
+					selectedCourses={this.state.selctedCourse}
+					addCourse={this.addCourse}
 					courses={this.props.courses.courses}
 					schedule={this.props.schedule.schedule}
 					isLoading={this.props.courses.isLoading}
@@ -25,6 +42,10 @@ class Main extends Component {
 				/>
 				<ImpLink />
 				<Chat resetFeedbackform={this.props.resetFeedbackform} />
+				<InfoTable 
+					selectedCourses={this.state.selctedCourse}
+					info={this.props.info.info}
+					/>
 			</div>
 		)
 	}
@@ -33,6 +54,7 @@ const mapStateToProps = (state) => {  // Redux props
 	return {
 		courses: state.courses,
 		schedule: state.schedule,
+		info:state.info
 	}
 }
 const mapDispatchToProps = (dispatch) => ({ // redux functions

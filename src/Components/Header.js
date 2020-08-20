@@ -6,7 +6,7 @@ const Header = () => { // main Header of the page
 	return (
 		<>
 			<div className="container">
-				<div className="row">
+				<div className="row d-print-none">
 					<div className="col">
 						<img src={ process.env.PUBLIC_URL + "/assets/images/IIIT-Delhi.png"} alt="IIIT-Delhi" className="img-fluid" />
 					</div>

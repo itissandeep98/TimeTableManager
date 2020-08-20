@@ -9,7 +9,6 @@ export default class Plot extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			courses: [],
 			schedule: JSON.parse(JSON.stringify(baseSchedule)),
 		}
 		this.handleCourseChange = this.handleCourseChange.bind(this);
@@ -37,12 +36,12 @@ export default class Plot extends Component {
 	updateSchedule() {
 		var temp = JSON.parse(JSON.stringify(baseSchedule))
 
-		for (let i = 0; i < this.state.courses.length; i++) {
-			var allpos = this.findpos(this.state.courses[i]) //get all coordinates for a particular course
+		for (let i = 0; i < this.props.selectedCourses.length; i++) {
+			var allpos = this.findpos(this.props.selectedCourses[i]) //get all coordinates for a particular course
 			for (let pos = 0; pos < allpos.length; pos++) { // update at all the coordinates
 				var x = allpos[pos][0];
 				var y = allpos[pos][1]
-				temp[x][y].push(this.state.courses[i])
+				temp[x][y].push(this.props.selectedCourses[i])
 			}
 		}
 		this.setState({
@@ -52,10 +51,7 @@ export default class Plot extends Component {
 
 	handleCourseChange(event, result) {   // To handle the changes in the courses list
 		const { value } = result || event.target;
-		this.setState({
-			...this.state.courses,
-			courses: value
-		}, () => this.updateSchedule());
+		this.props.addCourse(value).then(e =>this.updateSchedule())
 	}
 
 	print(){
@@ -77,8 +73,8 @@ export default class Plot extends Component {
 
 		else { 
 			courselist = this.props.courses["monsoon"]
-			
 		}
+		
 		return (
 			<div className="container">
 				<Button onClick={(e) => this.print()} className="d-print-none printbutton"> 
@@ -95,7 +91,7 @@ export default class Plot extends Component {
 						placeholder="Select Courses"
 						fluid multiple search openOnFocus
 						clearable selection options={courselist}
-						value={this.state.courses}
+						value={this.props.selectedCourses}
 						onChange={this.handleCourseChange}
 						
 					/>

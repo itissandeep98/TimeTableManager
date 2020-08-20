@@ -12,6 +12,8 @@ export const dataFetchAction = () => {
 				if (!response.data.errmess){
 					dispatch({ type: ActionTypes.COURSE_FETCH_SUCCESS, courses: response.data.courses })
 					dispatch({ type: ActionTypes.SCHEDULE_FETCH_SUCCESS, schedule: response.data.schedule })
+					dispatch({ type: ActionTypes.INFO_FETCH_SUCCESS, info: response.data.info })
+
 				}
 				else{
 					dispatch({ type: ActionTypes.DATA_FETCH_FAILED, errmess: "Error in fetched data. Try reloading" })
