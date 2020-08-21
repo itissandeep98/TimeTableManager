@@ -72,7 +72,11 @@ export default class Plot extends Component {
 		}
 
 		else { 
-			courselist = this.props.courses["monsoon"]
+			courselist = this.props.courses["monsoon"].map(course=>{
+				const temp=JSON.parse(JSON.stringify(course))
+				temp.text+=" - "+ temp.value
+				return temp
+			})
 		}
 		
 		return (
