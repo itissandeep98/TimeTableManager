@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { dataFetchAction } from '../store/ActionCreators'
+import { dataFetchInfoFirebase, dataFetchScheduleFirebase } from '../store/ActionCreators'
 import Plot from './TimeTable/Plot'
 import { ImpLink } from './ImpLinks'
 import { actions } from 'react-redux-form'
@@ -8,15 +8,15 @@ import Chat from './Chat'
 import InfoTable from './InfoTable'
 
 class Main extends Component {
-	constructor(props){
+	constructor(props) {
 		super(props)
-		this.state={
-			selctedCourse:[]
+		this.state = {
+			selctedCourse: []
 		}
-		this.addCourse=this.addCourse.bind(this)
+		this.addCourse = this.addCourse.bind(this)
 	}
 
-	async addCourse(value){
+	async addCourse(value) {
 		return await this.setState({
 			...this.state.selctedCourse,
 			selctedCourse: value
@@ -24,13 +24,14 @@ class Main extends Component {
 	}
 
 	componentDidMount() {
-		this.props.fetchData() // fetch all the data when the webpage is loaded
+		this.props.fetchInfo()
+		this.props.fetchSchedule()
 	}
 
 	render() {
 		return (
 			<div>
-				
+
 				<Plot
 					selectedCourses={this.state.selctedCourse}
 					addCourse={this.addCourse}
@@ -41,10 +42,10 @@ class Main extends Component {
 				/>
 				<ImpLink />
 				<Chat resetFeedbackform={this.props.resetFeedbackform} />
-				<InfoTable 
+				<InfoTable
 					selectedCourses={this.state.selctedCourse}
 					info={this.props.info.info}
-					/>
+				/>
 			</div>
 		)
 	}
@@ -52,12 +53,14 @@ class Main extends Component {
 const mapStateToProps = (state) => {  // Redux props
 	return {
 		schedule: state.schedule,
-		info:state.info
+		info: state.info
 	}
 }
-const mapDispatchToProps = (dispatch) => ({ // redux functions
-	fetchData: () => dispatch(dataFetchAction()),
+const mapDispatchToProps = (dispatch) => ({ // Redux functions
 	resetFeedbackform: () => { dispatch(actions.reset('feedback')) },
+	fetchInfo: () => dispatch(dataFetchInfoFirebase()),
+	fetchSchedule: () => dispatch(dataFetchScheduleFirebase())
+
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Main);

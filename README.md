@@ -40,8 +40,6 @@ This is a Progressive Web App(PWA) i.e a user can install it as a native app on 
 		|--- shared/                 // Contains urls and initial state of the app
 		|--- store/                  // Contains redux store related code
 
-
-
 ## Setup
 
 1. Clone this repo locally on your system using button on top right or by running `git clone https://github.com/itissandeep98/TimeTableManager.git` on your terminal
@@ -49,8 +47,6 @@ This is a Progressive Web App(PWA) i.e a user can install it as a native app on 
 2. Get inside the directory and run `yarn` to install all the required dependicies
 
 3. Once all the packages are installed run `yarn start` to start the development server.'
-
-4. Run `yarn json-server` or equivalently run `json-server --watch db.json -d 2000 -p 3001` to start local JSON server
 
 ## PS
 

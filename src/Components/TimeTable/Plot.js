@@ -87,7 +87,7 @@ export default class Plot extends Component {
 				</Button>
 				<br/><br/>
 				<div className="row">
-					<TableData data={this.state.schedule} />
+					<TableData data={this.state.schedule}  />
 				</div>
 
 				<Segment className="d-print-none">
