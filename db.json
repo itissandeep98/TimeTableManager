@@ -1,443 +1,4 @@
 {
-	"courses": {
-		"monsoon": [
-			{
-				"key": 82,
-				"text": "Biophysics - BIO361",
-				"value": "BPHY"
-			},
-			{
-				"key": 0,
-				"text": "Cell Biology and Bio-Chemistry - BIO511",
-				"value": "CBAB"
-			},
-			{
-				"key": 1,
-				"text": "Foundations of Modern Biology - BIO512",
-				"value": "FOMB"
-			},
-			{
-				"key": 2,
-				"text": "Algorithms in Bioinformatics - BIO321",
-				"value": "ABIN"
-			},
-			{
-				"key": 3,
-				"text": "Network Biology - BIO342",
-				"value": "NB"
-			},
-			{
-				"key": 4,
-				"text": "Machine Learning and Biomedical Applications - BIO542",
-				"value": "MLBA"
-			},
-			{
-				"key": 5,
-				"text": "Computational Gastronomy - BIO544",
-				"value": "CGAS"
-			},
-			{
-				"key": 6,
-				"text": "Computing For Medicine - BIO546/CSE585",
-				"value": "CFM"
-			},
-			{
-				"key": 7,
-				"text": "Healthcare Innovation and Entrepreneurship Essentials - BIO571/ENT421",
-				"value": "HIEE"
-			},
-			{
-				"key": 8,
-				"text": "Technical Communication - COM301A",
-				"value": "TCOM"
-			},
-			{
-				"key": 9,
-				"text": "Computer Networks - CSE232",
-				"value": "CN"
-			},
-			{
-				"key": 10,
-				"text": "Compilers - CSE301/CSE601",
-				"value": "CMP"
-			},
-			{
-				"key": 11,
-				"text": "Modern Algorithm Design - CSE319/CSE519",
-				"value": "MAD"
-			},
-			{
-				"key": 12,
-				"text": "Computer Graphics - CSE333/CSE533",
-				"value": "CG"
-			},
-			{
-				"key": 13,
-				"text": "Digital Image Processing - CSE340/CSE540/ECE350",
-				"value": "DIP"
-			},
-			{
-				"key": 14,
-				"text": "Machine Learning - CSE343/CSE543",
-				"value": "ML"
-			},
-			{
-				"key": 15,
-				"text": "Foundations of Computer Security - CSE345/SCE545",
-				"value": "FCS"
-			},
-			{
-				"key": 83,
-				"text": "Network Security - CSE350/CSE550",
-				"value": "NS"
-			},
-			{
-				"key": 17,
-				"text": "Data Mining - CSE506",
-				"value": "DMG"
-			},
-			{
-				"key": 18,
-				"text": "Computer Architecture - CSE511/ECE511",
-				"value": "CA"
-			},
-			{
-				"key": 19,
-				"text": "Randomized Algorithms - CSE523",
-				"value": "RA"
-			},
-			{
-				"key": 20,
-				"text": "Introduction to Graduate Algorithms - CSE525",
-				"value": "IGA"
-			},
-			{
-				"key": 21,
-				"text": "Applied Cryptography - CSE546",
-				"value": "AC"
-			},
-			{
-				"key": 22,
-				"text": "Natural Language Processing - CSE556",
-				"value": "NLP"
-			},
-			{
-				"key": 23,
-				"text": "Advanced Computer Vision - CSE562",
-				"value": "ACV"
-			},
-			{
-				"key": 24,
-				"text": "Reinforcement Learning - CSE564/ECE564",
-				"value": "RL"
-			},
-			{
-				"key": 33,
-				"text": "Software Development using Open Source - CSE5XX",
-				"value": "SDOS"
-			},
-			{
-				"key": 87,
-				"text": "Program Verification - CSE584",
-				"value": "PV"
-			},
-			{
-				"key": 26,
-				"text": "Object Oriented Programing and Design - CSE600A/ECE600A",
-				"value": "OOPD"
-			},
-			{
-				"key": 32,
-				"text": "Data Lifecycle Management - CSE5XX",
-				"value": "DLM"
-			},
-			{
-				"key": 31,
-				"text": "Complexity Theory - CSE621",
-				"value": "CTH"
-			},
-			{
-				"key": 27,
-				"text": "Advanced Machine Learning - CSE642",
-				"value": "AML"
-			},
-			{
-				"key": 28,
-				"text": "Artificial Intelligence - CSE643",
-				"value": "AI"
-			},
-			{
-				"key": 16,
-				"text": "Topics in Adaptive Cybersecurity - CSE651",
-				"value": "TACS"
-			},
-			{
-				"key": 29,
-				"text": "Information Integration and Applications - CSE656",
-				"value": "IIA"
-			},
-			{
-				"key": 25,
-				"text": "Advanced Topics in Mobile Computing - CSE734",
-				"value": "ATMC"
-			},
-			{
-				"key": 34,
-				"text": "Film Making and Radio Podcasting - DES303",
-				"value": "FMRP"
-			},
-			{
-				"key": 35,
-				"text": "Digital Audio - DES514",
-				"value": "DA"
-			},
-			{
-				"key": 36,
-				"text": "Introduction to 3D Production Design for Animation and Games - DES516",
-				"value": "I3D"
-			},
-			{
-				"key": 37,
-				"text": "Introduction to Motion Graphics - DES518",
-				"value": "IMG"
-			},
-			{
-				"key": 38,
-				"text": "Design of Interactive Systems - DES519",
-				"value": "DIS"
-			},
-			{
-				"key": 88,
-				"text": "Fundamentals of Audio for Engineers - DES5xx",
-				"value": "FAE"
-			},
-			{
-				"key": 39,
-				"text": "Microeconomics - ECO101",
-				"value": "MECO"
-			},
-			{
-				"key": 40,
-				"text": "Macroeconomics - ECO201",
-				"value": "MAECO"
-			},
-			{
-				"key": 41,
-				"text": "Game Theory - ECO311",
-				"value": "GMT"
-			},
-			{
-				"key": 42,
-				"text": "Econometrics II - ECO322/ECO522",
-				"value": "E2"
-			},
-			{
-				"key": 43,
-				"text": "Foundations of Finance - ECO331",
-				"value": "FF"
-			},
-			{
-				"key": 44,
-				"text": "Digital VLSI Design - ECE314/ECE514",
-				"value": "DVD"
-			},
-			{
-				"key": 45,
-				"text": "Analog CMOS Circuit Design - ECE315/ECE515",
-				"value": "CMOS"
-			},
-			{
-				"key": 85,
-				"text": "Solid State Devices - ECE318/ECE518",
-				"value": "SSD"
-			},
-			{
-				"key": 46,
-				"text": "Digital Communication Systems - ECE340",
-				"value": "DCS"
-			},
-			{
-				"key": 47,
-				"text": "Probability and Random Process - ECE501",
-				"value": "PRP"
-			},
-			{
-				"key": 48,
-				"text": "Wireless System Implementation - ECE539",
-				"value": "WSI"
-			},
-			{
-				"key": 49,
-				"text": "Principals of Digital Communication System - ECE543",
-				"value": "PDCS"
-			},
-			{
-				"key": 50,
-				"text": "Control Theory - ECE570",
-				"value": "CNT"
-			},
-			{
-				"key": 51,
-				"text": "Robotics - ECE670/CSE633",
-				"value": "ROB"
-			},
-			{
-				"key": 52,
-				"text": "RF Circuit Design - ECE321/ECE521",
-				"value": "RFCD"
-			},
-			{
-				"key": 53,
-				"text": "Introduction to Nanoelectronics - ECE517",
-				"value": "INE"
-			},
-			{
-				"key": 54,
-				"text": "Bayesian Machine Learning - ECE5XX",
-				"value": "BML"
-			},
-			{
-				"key": 84,
-				"text": "Low Voltage Analog Circuit Design - ECE520",
-				"value": "LVACD"
-			},
-			{
-				"key": 55,
-				"text": "Integrated Circuit Fabrication - ECE5XX",
-				"value": "ICF"
-			},
-			{
-				"key": 56,
-				"text": "Photonics: Fundamentals & Applications - ECE5XX",
-				"value": "PHO"
-			},
-			{
-				"key": 57,
-				"text": "Entrepreneurial Communication - ENT411",
-				"value": "EC"
-			},
-			{
-				"key": 58,
-				"text": "Entrepreneurial Khichadi - ENT412",
-				"value": "EK"
-			},
-			{
-				"key": 86,
-				"text": " Ecology, Evolution, and Environment",
-				"value": "EEE"
-			},
-			{
-				"key": 61,
-				"text": "Real Analysis-II - MTH340/MTH540",
-				"value": "RA-2"
-			},
-			{
-				"key": 62,
-				"text": "Stochastic Processes and Applications - MTH371",
-				"value": "SPA"
-			},
-			{
-				"key": 63,
-				"text": "Scientific Computing - MTH373/MTH573",
-				"value": "SCMP"
-			},
-			{
-				"key": 64,
-				"text": "Topics in Number Theory - MTH518",
-				"value": "TNT"
-			},
-			{
-				"key": 65,
-				"text": "Complex Analysis - MTH541",
-				"value": "CMPA"
-			},
-			{
-				"key": 66,
-				"text": "Finite and Spectral Element Methods - MTH545",
-				"value": "FSEM"
-			},
-			{
-				"key": 89,
-				"text": "Point Set Topology - MTH562A",
-				"value": "PST"
-			},
-			{
-				"key": 67,
-				"text": "Neuroscience of Decision Making - PSY307",
-				"value": "NDM"
-			},
-			{
-				"key": 68,
-				"text": "Cognition of Motor Movement - PSY308",
-				"value": "CMM"
-			},
-			{
-				"key": 69,
-				"text": "Contemporary India Sociological Perspective - SOC202",
-				"value": "CISP"
-			},
-			{
-				"key": 70,
-				"text": "Consumer Culture and Society - SOC209",
-				"value": "CCS"
-			},
-			{
-				"key": 71,
-				"text": "Key Concepts in Economic Sociology - SOC212",
-				"value": "KCES"
-			},
-			{
-				"key": 72,
-				"text": "Advance Ethnographic Research Methods - SOC311/SOC501",
-				"value": "AERM"
-			},
-			{
-				"key": 73,
-				"text": "Gender and Media - SOC308",
-				"value": "GM"
-			},
-			{
-				"key": 74,
-				"text": "Introduction to Philosophy - SSH121",
-				"value": "IPHI"
-			},
-			{
-				"key": 75,
-				"text": "Research Methods in Social Science and Design - SSH201",
-				"value": "RMSSD"
-			},
-			{
-				"key": 76,
-				"text": "Theatre Appreciation - SSH201",
-				"value": "TA"
-			},
-			{
-				"key": 77,
-				"text": "Social and Political Philosophy - SSH221",
-				"value": "SPP"
-			},
-			{
-				"key": 78,
-				"text": "Theories of Ethics - SSH300",
-				"value": "TE"
-			},
-			{
-				"key": 79,
-				"text": "Perspectives of Knowledge - SSH223",
-				"value": "POK"
-			},
-			{
-				"key": 80,
-				"text": "Urban Space and Political Power - SSH3XX",
-				"value": "USPP"
-			},
-			{
-				"key": 81,
-				"text": "New Media and Politics - SSH323",
-				"value": "NMP"
-			}
-		]
-	},
 	"schedule": {
 		"monsoon": {
 			"1": {
@@ -680,421 +241,827 @@
 	},
 	"info": {
 		"DM": {
-			"INST": "Samrith Ram",
-			"LINK": ""
+			"id": "1",
+			"code": "CSE121",
+			"title": "Discrete Mathematics",
+			"inst": "Samrith Ram",
+			"link": "https://zoom.us/meeting/register/tJUlf-qhpzorHNYto-CKZqxWijrLONiFZQMx",
+			"credits": "4"
 		},
 		"AP": {
-			"INST": "Raghava Mutharaju",
-			"LINK": "https://zoom.us/meeting/register/tJctduippjgiEtZWsy3gZ61Pe18w8OaHNQ9d"
+			"id": "2",
+			"code": "CSE201",
+			"title": "Advanced Programming",
+			"inst": "Vivek Kumar & Raghava Mutharaju",
+			"link": "https://meet.google.com/ypg-oewc-zbx",
+			"credits": "4",
+			"desc": "https://zoom.us/meeting/register/tJctduippjgiEtZWsy3gZ61Pe18w8OaHNQ9d"
 		},
 		"OS": {
-			"INST": "Arani Bhattacharya",
-			"LINK": "https://zoom.us/j/94080800404?pwd=NTEzbXVBaE8wUkdQNnE5emt5Q3MzUT09"
+			"id": "4",
+			"code": "CSE231",
+			"title": "Operating Systems",
+			"inst": "Sambuddho Chakravarty & Arani Bhattacharya",
+			"link": "",
+			"credits": "4",
+			"desc": "https://zoom.us/j/94080800404?pwd=NTEzbXVBaE8wUkdQNnE5emt5Q3MzUT09"
 		},
 		"M-III": {
-			"INST": "Sarthok Sircar",
-			"LINK": "https://nptel.ac.in/courses/111/104/111104125/",
-			"DESC": "https://nptel.ac.in/courses/111/105/111105122/"
+			"id": "6",
+			"code": "MTH203",
+			"title": "Maths III",
+			"inst": "Sarthok Sircar",
+			"link": "https://nptel.ac.in/courses/111/104/111104125/",
+			"credits": "4",
+			"desc": " https://nptel.ac.in/courses/111/105/111105122/"
 		},
 		"S&S": {
-			"INST": "Pravesh Biyani",
-			"LINK": "",
-			"DESC": "use \"sns\" meeting nick name in Google meet. Works only from IIIT D a/c."
+			"id": "7",
+			"code": "ECE250",
+			"title": "Signals & Systems",
+			"inst": "Pravesh Biyani",
+			"desc": "use \"sns\" meeting nick name in Google meet. Works only from IIIT D a/c.",
+			"credits": "4"
 		},
 		"ELD": {
-			"INST": "Sumit J Darak",
-			"LINK": "https://zoom.us/j/96738131141?pwd=Q3NWYk9Vd2pEMnVLWkVVeGpiN0RiUT09",
-			"DESC": "Meeting ID: 967 3813 1141, Passcode: ELD270"
+			"id": "8",
+			"code": "ECE270",
+			"title": "Embedded Logic Design",
+			"inst": "Sumit J Darak",
+			"link": "https://zoom.us/j/96738131141?pwd=Q3NWYk9Vd2pEMnVLWkVVeGpiN0RiUT09",
+			"credits": "4",
+			"desc": " Meeting ID: 967 3813 1141, Passcode: ELD270"
 		},
 		"CTD": {
-			"INST": "Shobha Sundar Ram",
-			"LINK": ""
+			"id": "9",
+			"code": "ECE215",
+			"title": "Circuit Theory and Devices",
+			"inst": "Shobha Sundar Ram",
+			"link": "https://meet.google.com/vty-fqpc-pdm",
+			"credits": "4"
 		},
 		"RA-I": {
-			"INST": "Debika Banerjee",
-			"LINK": "https://zoom.us/j/99010850939?pwd=Z0d1MlZGMllqZ2N4RVJBUmNFb0xsQT09"
+			"id": "10",
+			"code": "MTH240",
+			"title": "Real Analysis I",
+			"inst": "Debika Banerjee",
+			"link": "https://zoom.us/j/99010850939?pwd=Z0d1MlZGMllqZ2N4RVJBUmNFb0xsQT09",
+			"credits": "4"
 		},
 		"DS": {
-			"INST": "Sankha Basu",
-			"LINK": "https://zoom.us/j/92644465079?pwd=ZzRiMzFWdzlDN1QwNDR3QVdWbWs0UT09"
+			"id": "11",
+			"code": "MTH210",
+			"title": "Discrete Structures",
+			"inst": "Sankha Basu",
+			"link": "https://zoom.us/j/92644465079?pwd=ZzRiMzFWdzlDN1QwNDR3QVdWbWs0UT09",
+			"credits": "4"
 		},
 		"NT": {
-			"INST": "Sneha Chaubey",
-			"LINK": ""
+			"id": "12",
+			"code": "MTH211",
+			"title": "Number Theory",
+			"inst": "Sneha Chaubey",
+			"link": "https://meet.google.com/jwf-afmv-hjh",
+			"credits": "4"
 		},
 		"VDC": {
-			"INST": "Indrani De Parker(V)",
-			"LINK": ""
+			"id": "13",
+			"code": "DES202",
+			"title": "Visual Design and Communication",
+			"inst": "Indrani De Parker(V)",
+			"link": "",
+			"credits": "4"
 		},
 		"DPP": {
-			"INST": "Indrani De Parker(V)",
-			"LINK": ""
+			"id": "14",
+			"code": "DES201",
+			"title": "Design Processes and Perspectives",
+			"inst": "Indrani De Parker(V)",
+			"link": "",
+			"credits": "4"
 		},
 		"RMSSD": {
-			"INST": "Venkata Ratnadeep Suri",
-			"LINK": "https://zoom.us/j/92096401249?pwd=ZjVqYzJVUHViZjBSQVZ2VXAzTGhlUT09"
+			"id": "15",
+			"code": "SSH201",
+			"title": "Research Methods in Social Science and Design",
+			"inst": "Venkata Ratnadeep Suri",
+			"link": "https://zoom.us/j/92096401249?pwd=ZjVqYzJVUHViZjBSQVZ2VXAzTGhlUT09",
+			"credits": "4"
 		},
 		"CBB": {
-			"INST": "Arjun Ray",
-			"LINK": "https://zoom.us/j/97963344474?pwd=ZU92WWRldm9Od2VmTHdjWUZoZGlqQT09"
+			"id": "16",
+			"code": "BIO211",
+			"title": "Cell Biology and Biochemistry",
+			"inst": "Arjun Ray",
+			"link": "https://zoom.us/j/97963344474?pwd=ZU92WWRldm9Od2VmTHdjWUZoZGlqQT09",
+			"credits": "4"
 		},
 		"GMB": {
-			"INST": "Gaurav Ahuja",
-			"LINK": "https://meet.google.com/msz-sapq-uzn"
+			"id": "17",
+			"code": "BIO214",
+			"title": "Genetics and Molecular Biology",
+			"inst": "Gaurav Ahuja",
+			"link": "https://meet.google.com/msz-sapq-uzn",
+			"credits": "4"
 		},
 		"ABIN": {
-			"INST": "Debarka Sengupta",
-			"LINK": "https://meet.google.com/orf-cnyo-fif",
-			"DESC": "Dial-in: (US) +1 803-999-5557 PIN: 852 549 139#"
+			"id": "18",
+			"code": "BIO321",
+			"title": "Algorithms in Bioinformatics(New)",
+			"inst": "Debarka Sengupta",
+			"link": "https://meet.google.com/orf-cnyo-fif",
+			"credits": "4",
+			"desc": "Dial-in: (US) +1 803-999-5557 PIN: 852 549 139#"
 		},
 		"BPHY": {
-			"INST": "Arjun Ray",
-			"LINK": "https://zoom.us/j/94327424406?pwd=M0xRbGhIZmJhSEcreDJoSlNremV5dz09"
+			"id": "19",
+			"code": "BIO361",
+			"title": "Biophysics (New)",
+			"inst": "Arjun Ray",
+			"link": "https://zoom.us/j/94327424406?pwd=M0xRbGhIZmJhSEcreDJoSlNremV5dz09",
+			"credits": "4"
 		},
 		"CN": {
-			"INST": "Mukulika Maity",
-			"LINK": "https://zoom.us/j/95175714734?pwd=UmtRb3ZJdHJlVzVxL2U3bkVPem5IZz09",
-			"DESC": "Tutorial every Thursday from 5:30 to 6:30 PM."
+			"id": "20",
+			"code": "CSE232",
+			"title": "Computer Networks",
+			"inst": "Mukulika Maity",
+			"link": "https://meet.google.com/ymo-tmdu-dez",
+			"credits": "4",
+			"desc": "Tutorial every Thursday from 5:30 to 6:30 PM."
 		},
 		"TCOM": {
-			"INST": "Payel C Mukherjee(V)",
-			"LINK": "https://zoom.us/j/93889948026?pwd=QlREMm9JT0k3c09tZVQxZXJoeExnQT09",
-			"DESC": "Meeting ID: 938 8994 8026 PASSCODE: tcom1"
+			"id": "21",
+			"code": "COM301A",
+			"title": "Technical Communication",
+			"inst": "Payel C Mukherjee(V)",
+			"link": "https://zoom.us/j/93889948026?pwd=QlREMm9JT0k3c09tZVQxZXJoeExnQT09",
+			"credits": "2",
+			"desc": "Meeting ID: 938 8994 8026 PASSCODE: tcom1"
 		},
 		"DIS": {
-			"INST": "Aman Parnami",
-			"LINK": ""
+			"id": "22",
+			"code": "DES519",
+			"title": "Design of Interactive Systems",
+			"inst": "Aman Parnami",
+			"link": "",
+			"credits": "4"
 		},
-		"DCS": {
-			"INST": "Gourab Ghatak",
-			"LINK": "",
-			"DESC": "Meeting ID: 938 8994 8026"
+		"DC": {
+			"id": "23",
+			"code": "ECE340",
+			"title": "Digital Communication Systems",
+			"inst": "Gourab Ghatak",
+			"link": "https://meet.google.com/lookup/btqrccbvgn?authuser=1&hs=179",
+			"credits": "4"
 		},
 		"EEE": {
-			"INST": "Swapna Purandare(V)",
-			"LINK": "https://zoom.us/meeting/register/tJwlceuqqz4qHdzDLfJJGQE7GjP1DFdLV90C",
-			"DESC": "Meeting ID 988 6225 5078"
+			"id": "24",
+			"code": "ESC207A",
+			"title": "Ecology Evolution and Environment",
+			"inst": "Swapna Purandare(V)",
+			"link": "https://zoom.us/meeting/register/tJwlceuqqz4qHdzDLfJJGQE7GjP1DFdLV90C",
+			"credits": "2",
+			"desc": "Meeting ID 988 6225 5078"
 		},
 		"RA-2": {
-			"INST": "Shilpak Banerjee",
-			"LINK": "https://meet.google.com/lookup/hzuufsd72t"
+			"id": "25",
+			"code": "MTH340/MTH540",
+			"title": "Real Analysis II",
+			"inst": "Shilpak Banerjee",
+			"link": "https://meet.google.com/lookup/hzuufsd72t",
+			"credits": "4"
 		},
 		"SPA": {
-			"INST": "Monika Arora",
-			"LINK": "https://zoom.us/j/95488232595?pwd=dFEyUHFGbzhJRTQ4Z1dVZ3Y5Q1AyZz09"
+			"id": "26",
+			"code": "MTH371",
+			"title": "Stochastic Processes and Applications",
+			"inst": "Monika Arora",
+			"link": "https://zoom.us/j/95488232595?pwd=dFEyUHFGbzhJRTQ4Z1dVZ3Y5Q1AyZz09",
+			"credits": "4"
 		},
 		"SCMP": {
-			"INST": "Kaushik Kalyanaraman",
-			"LINK": "https://zoom.us/meeting/register/tJcpd-qurDojEtXFrE0dDztYnaULgPmxgIRK"
+			"id": "27",
+			"code": "MTH373/MTH573",
+			"title": "Scientific Computing",
+			"inst": "Kaushik Kalyanaraman",
+			"link": "https://zoom.us/meeting/register/tJcpd-qurDojEtXFrE0dDztYnaULgPmxgIRK",
+			"credits": "4"
 		},
 		"CBAB": {
-			"INST": "Sriram K",
-			"LINK": "https://meet.google.com/eio-jhpv-hwd"
+			"id": "29",
+			"code": "BIO511",
+			"title": "Cell Biology and Biochemistry",
+			"inst": "Sriram K",
+			"link": "https://meet.google.com/eio-jhpv-hwd",
+			"credits": "4"
 		},
 		"FOMB": {
-			"INST": "Vibhor Kumar",
-			"LINK": ""
+			"id": "30",
+			"code": "BIO512",
+			"title": "Foundations of Modern Biology",
+			"inst": "Vibhor Kumar",
+			"link": "https://meet.google.com/efz-anpz-mxm",
+			"credits": "4"
 		},
 		"NB": {
-			"INST": "Ganesh Bagler",
-			"LINK": "https://meet.google.com/xmj-jhwc-ked"
+			"id": "31",
+			"code": "BIO532",
+			"title": "Network Biology",
+			"inst": "Ganesh Bagler",
+			"link": "https://meet.google.com/xmj-jhwc-ked",
+			"credits": "4"
 		},
 		"MLBA": {
-			"INST": "GPS Raghava",
-			"LINK": ""
+			"id": "32",
+			"code": "BIO542",
+			"title": "Machine Learning for Biomedical Applications",
+			"inst": "GPS Raghava",
+			"link": "https://classroom.google.com/c/MzM4ODA2MjE1NzZa?cjc=qa33zgx",
+			"credits": "4"
 		},
 		"CGAS": {
-			"INST": "Ganesh Bagler",
-			"LINK": "https://meet.google.com/kfv-iymg-suh"
+			"id": "33",
+			"code": "BIO544",
+			"title": "Computational Gastronomy",
+			"inst": "Ganesh Bagler",
+			"link": "https://meet.google.com/kfv-iymg-suh",
+			"credits": "4"
 		},
 		"CFM": {
-			"INST": "Tavpritesh Sethi+Ponnurangam Kumarguru",
-			"LINK": "https://meet.google.com/vvv-aivk-wpb"
+			"id": "34",
+			"code": "BIO546/CSE585",
+			"title": "Computing for Medicine(New)",
+			"inst": "Tavpritesh Sethi+Ponnurangam Kumarguru",
+			"link": "https://meet.google.com/vvv-aivk-wpb",
+			"credits": "4"
 		},
 		"HIEE": {
-			"INST": "Tavpritesh Sethi",
-			"LINK": "https://meet.google.com/fgt-uznz-yju"
+			"id": "35",
+			"code": "BIO571/ENT421",
+			"title": "Healthcare Innovation and Entrepreneurship Essentials(New)",
+			"inst": "Tavpritesh Sethi",
+			"link": "https://meet.google.com/fgt-uznz-yju",
+			"credits": "2"
 		},
 		"CMP": {
-			"INST": "Piyus Kedia",
-			"LINK": "https://meet.google.com/lookup/hczrmpif7q"
+			"id": "36",
+			"code": "CSE301/CSE601",
+			"title": "Compilers",
+			"inst": "Piyus Kedia",
+			"link": "https://meet.google.com/lookup/hczrmpif7q",
+			"credits": "4"
 		},
 		"MAD": {
-			"INST": "Syamantak Das",
-			"LINK": "https://meet.google.com/lookup/fxks5a5aaz"
+			"id": "37",
+			"code": "CSE319/CSE519",
+			"title": "Modern Algorithm Design",
+			"inst": "Syamantak Das",
+			"link": "https://meet.google.com/lookup/fxks5a5aaz",
+			"credits": "4"
 		},
 		"CG": {
-			"INST": "Ojaswa Sharma",
-			"LINK": "https://meet.google.com/lookup/hb44gqvt6c"
+			"id": "38",
+			"code": "CSE333/CSE533",
+			"title": "Computer Graphics",
+			"inst": "Ojaswa Sharma",
+			"link": "https://meet.google.com/lookup/hb44gqvt6c",
+			"credits": "4"
 		},
 		"DIP": {
-			"INST": "Angshul Majumdar",
-			"LINK": "https://meet.google.com/hzh-eize-syk"
+			"id": "39",
+			"code": "CSE340/ECE350",
+			"title": "Digital Image Processing",
+			"inst": "A V Subramanyam & Angshul Majumdar",
+			"link": "https://meet.google.com/lookup/h2ksudy4kd",
+			"credits": "4",
+			"desc": "https://meet.google.com/hzh-eize-syk"
 		},
 		"ML": {
-			"INST": "Jainendra Shukla & Tanmoy Chakraborty",
-			"LINK": "https://meet.google.com/qrs-jmjw-gmh",
-			"DESC": "Tanmoy: https://meet.google.com/kat-iyxk-ifs, Tutorial: https://meet.google.com/bgh-vfws-vpw"
+			"id": "41",
+			"code": "CSE343/CSE543/ECE3xx\nECE563",
+			"title": "Machine Learning",
+			"inst": "Sec A-Jainendra Shukla & Sec B- Tanmoy Chakraborty",
+			"link": "https://meet.google.com/qrs-jmjw-gmh",
+			"credits": "4",
+			"desc": "https://meet.google.com/kat-iyxk-ifs"
 		},
 		"FCS": {
-			"INST": "Ponnurangam Kumaraguru",
-			"LINK": "https://meet.google.com/ebk-gmqn-dsh"
+			"id": "43",
+			"code": "CSE345/CSE545",
+			"title": "Foundations of Computer Security",
+			"inst": "Ponnurangam Kumaraguru",
+			"link": "https://meet.google.com/ebk-gmqn-dsh",
+			"credits": "4"
 		},
 		"NS": {
-			"INST": "B N Jain(V)",
-			"LINK": "https://meet.google.com/srn-cjni-rmi"
+			"id": "44",
+			"code": "CSE350/CSE550",
+			"title": "Network Security",
+			"inst": "B N Jain(V)",
+			"link": "https://meet.google.com/srn-cjni-rmi",
+			"credits": "4"
 		},
 		"DMG": {
-			"INST": "Vikram Goyal",
-			"LINK": "https://zoom.us/j/92444092655?pwd=ckNhcDJUL1J4d0VyQlQvbEJzM2RZZz09"
+			"id": "45",
+			"code": "CSE506",
+			"title": "Data Mining",
+			"inst": "Vikram Goyal",
+			"link": "https://zoom.us/j/92444092655?pwd=ckNhcDJUL1J4d0VyQlQvbEJzM2RZZz09",
+			"credits": "4"
 		},
 		"CA": {
-			"INST": "Sujay Deb",
-			"LINK": "https://meet.google.com/gwc-vomk-kpt"
+			"id": "46",
+			"code": "CSE511/ECE511",
+			"title": "Computer Architecture",
+			"inst": "Sujay Deb",
+			"link": "https://meet.google.com/gwc-vomk-kpt",
+			"credits": "4"
 		},
 		"RA": {
-			"INST": "Rajiv Raman",
-			"LINK": "https://meet.google.com/lookup/dpwnmwfxer"
+			"id": "47",
+			"code": "CSE523",
+			"title": "Randomized Algorithms",
+			"inst": "Rajiv Raman",
+			"link": "https://meet.google.com/lookup/dpwnmwfxer",
+			"credits": "4"
 		},
 		"IGA": {
-			"INST": "Debajyoti Bera",
-			"LINK": "https://zoom.us/s/93048906891?pwd=bXZob3dWdzltNjMvWUdVZjZ1eUQyQT09"
+			"id": "48",
+			"code": "CSE525",
+			"title": "Introduction to Graduate Algorithms",
+			"inst": "Debajyoti Bera",
+			"link": "https://zoom.us/s/93048906891?pwd=bXZob3dWdzltNjMvWUdVZjZ1eUQyQT09",
+			"credits": "4"
 		},
 		"AC": {
-			"INST": "Subhabrata Samajder",
-			"LINK": "https://meet.google.com/lookup/cm24hcja6g"
+			"id": "49",
+			"code": "CSE546",
+			"title": "Applied Cryptography",
+			"inst": "Subhabrata Samajder",
+			"link": "https://meet.google.com/lookup/cm24hcja6g",
+			"credits": "4"
 		},
 		"NLP": {
-			"INST": "Md. Shad Akhtar",
-			"LINK": "https://meet.google.com/jub-ckop-ybx"
+			"id": "50",
+			"code": "CSE556",
+			"title": "Natural Language Processing",
+			"inst": "Md. Shad Akhtar",
+			"link": "https://meet.google.com/jub-ckop-ybx",
+			"credits": "4"
 		},
 		"ACV": {
-			"INST": "Koteswar Rao Jerripothula",
-			"LINK": "https://meet.google.com/lookup/h2eg3wgyns"
+			"id": "51",
+			"code": "CSE562",
+			"title": "Advanced Computer Vision",
+			"inst": "Koteswar Rao Jerripothula",
+			"link": "https://meet.google.com/lookup/h2eg3wgyns",
+			"credits": "4"
 		},
 		"RL": {
-			"INST": "Sanjit Krishnan Kaul",
-			"LINK": "https://meet.google.com/oku-gerv-eat"
+			"id": "52",
+			"code": "CSE564/ECE564",
+			"title": "Reinforcement Learning",
+			"inst": "Sanjit Krishnan Kaul",
+			"link": "https://meet.google.com/oku-gerv-eat",
+			"credits": "4"
 		},
 		"SDOS": {
-			"INST": "Pankaj Jalote",
-			"LINK": ""
+			"id": "53",
+			"code": "CSE583",
+			"title": "Software Development using Open Source(New)",
+			"inst": "Pankaj Jalote",
+			"link": "",
+			"credits": "4"
 		},
 		"PV": {
-			"INST": "Rahul Purandare",
-			"LINK": "meet.google.com/mng-yyzm-gpt"
+			"id": "54",
+			"code": "CSE584",
+			"title": "Program Verification",
+			"inst": "Rahul Purandare",
+			"link": "https://meet.google.com/mng-yyzm-gpt",
+			"credits": "4"
 		},
 		"OOPD": {
-			"INST": "Naveen Prakash(V)",
-			"LINK": ""
+			"id": "55",
+			"code": "CSE600A/ECE600A",
+			"title": "Object Oriented Programing and Design",
+			"inst": "Naveen Prakash(V)",
+			"link": "https://zoom.us/j/92353184028?pwd=aDFsYWlNRUxxekREeVRHZUFPTzhEdz09",
+			"credits": "2",
+			"desc": "Meeting ID: 923 5318 4028 Passcode: 12345"
 		},
 		"DLM": {
-			"INST": "Sameep Mehta(G)+Hima Patel(G)",
-			"LINK": ""
+			"id": "56",
+			"code": "CSE606A",
+			"title": "Data Lifecycle Management(New)",
+			"inst": "Sameep Mehta(G)+Hima Patel(G)",
+			"link": "https://meet.google.com/pxo-hoqr-qpj",
+			"credits": "2"
 		},
 		"AML": {
-			"INST": "Saket Anand",
-			"LINK": "https://meet.google.com/vqk-rpvs-vrt"
+			"id": "57",
+			"code": "CSE642",
+			"title": "Advanced Machine Learning",
+			"inst": "Saket Anand",
+			"link": "https://meet.google.com/vqk-rpvs-vrt",
+			"credits": "4"
 		},
 		"AI": {
-			"INST": "C. Anantram",
-			"LINK": "https://zoom.us/j/98514809511?pwd=VklYSEg5VUhtbjlxamVmUzBlbzVlZz09"
+			"id": "58",
+			"code": "CSE643",
+			"title": "Artificial Intelligence",
+			"inst": "C. Anantram",
+			"link": "https://zoom.us/j/98514809511?pwd=VklYSEg5VUhtbjlxamVmUzBlbzVlZz09",
+			"credits": "4"
 		},
 		"IIA": {
-			"INST": "Mukesh Mohania",
-			"LINK": "https://meet.google.com/vwf-pnho-wnk"
+			"id": "59",
+			"code": "CSE656",
+			"title": "Information Integration and Applications(New)",
+			"inst": "Mukesh Mohania",
+			"link": "https://meet.google.com/vwf-pnho-wnk",
+			"credits": "4"
 		},
 		"CTH": {
-			"INST": "Ashutosh Rai",
-			"LINK": "https://zoom.us/j/4975521139"
+			"id": "60",
+			"code": "CSE621",
+			"title": "Complexity Theory",
+			"inst": "Ashutosh Rai",
+			"link": "https://zoom.us/j/4975521139",
+			"credits": "4"
 		},
 		"TACS": {
-			"INST": "Arun Balaji Buduru",
-			"LINK": ""
+			"id": "61",
+			"code": "CSE651",
+			"title": "Topics in Adaptive Cybersecurity",
+			"inst": "Arun Balaji Buduru",
+			"link": "https://meet.google.com/bzc-djhr-xzg\nhttps://meet.google.com/ikm-rmth-aag",
+			"credits": "4"
 		},
 		"ATMC": {
-			"INST": "Pushpendra Singh",
-			"LINK": "https://zoom.us/j/98953588286?pwd=MjVRSTRVWVBDSWtqdDlIcUpkQkxvdz09"
+			"id": "62",
+			"code": "CSE734",
+			"title": "Advanced Topics in Mobile Computing",
+			"inst": "Pushpendra Singh",
+			"link": "https://zoom.us/j/98953588286?pwd=MjVRSTRVWVBDSWtqdDlIcUpkQkxvdz09",
+			"credits": "4"
 		},
 		"FMRP": {
-			"INST": "Manohar Khushlani(V)",
-			"LINK": "https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F99945549990%3Fpwd%3DZnU2aExCVUFwempyR25PQnh2UUxJQT09&sa=D&ust=1598265108283000&usg=AOvVaw2W9982nvt-MKMKYAAzcWb3"
+			"id": "63",
+			"code": "DES303",
+			"title": "Film Making and Radio Podcasting",
+			"inst": "Manohar Khushlani(V)",
+			"link": "https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F99945549990%3Fpwd%3DZnU2aExCVUFwempyR25PQnh2UUxJQT09&sa=D&ust=1598265108283000&usg=AOvVaw2W9982nvt-MKMKYAAzcWb3",
+			"credits": "4"
 		},
 		"DA": {
-			"INST": "Aman Samuel(G)",
-			"LINK": "https://zoom.us/j/7810512578?pwd=RDZ0cGNVZjFYY0l3MzV0c0NkQUFzZz09",
-			"DESC": "Meeting ID: 781 051 2578 Passcode: 99241"
+			"id": "64",
+			"code": "DES514",
+			"title": "Digital Audio",
+			"inst": "Aman Samuel(G)",
+			"link": "https://zoom.us/j/7810512578?pwd=RDZ0cGNVZjFYY0l3MzV0c0NkQUFzZz09",
+			"credits": "4",
+			"desc": "Meeting ID: 781 051 2578 Passcode: 99241"
 		},
 		"IMG": {
-			"INST": "Anoop Ratn(V)",
-			"LINK": "https://meet.google.com/dgp-hpxj-psp"
+			"id": "65",
+			"code": "DES518",
+			"title": "Introduction to Motion Graphics",
+			"inst": "Anoop Ratn(V)",
+			"link": "https://meet.google.com/jcr-xkcf-pea",
+			"credits": "4"
 		},
 		"I3D": {
-			"INST": "Anoop Ratn(V)",
-			"LINK": "https://meet.google.com/mgv-jfzk-npd"
+			"id": "66",
+			"code": "DES516",
+			"title": "Introduction to 3D Production Design for Animation and Games",
+			"inst": "Anoop Ratn(V)",
+			"link": "https://meet.google.com/ktw-hcif-xya",
+			"credits": "4"
 		},
-		"AFE": {
-			"INST": "Angshu Das",
-			"LINK": "https://meet.google.com/iho-fmpj-bot?hs=122&authuser=0"
+		"FAE": {
+			"id": "67",
+			"code": "DES5xx",
+			"title": "Fundamentals of Audio for Engineers (New)",
+			"inst": "Angshu Das",
+			"link": "https://meet.google.com/iho-fmpj-bot?hs=122&authuser=0",
+			"credits": "4"
 		},
 		"MECO": {
-			"INST": "Souvik Dutta",
-			"LINK": "https://zoom.us/j/92261566605?pwd=azVNYkdGSGhoK3h0MkxMZDlPVkprQT09",
-			"DESC": "Meeting ID: 922 6156 6605, Passcode: 872492"
+			"id": "68",
+			"code": "ECO101",
+			"title": "Microeconomics",
+			"inst": "Souvik Dutta",
+			"link": "https://zoom.us/j/92261566605?pwd=azVNYkdGSGhoK3h0MkxMZDlPVkprQT09",
+			"credits": "4",
+			"desc": "Meeting ID: 922 6156 6605, Passcode: 872492"
 		},
 		"MAECO": {
-			"INST": "Kiriti Kanjilal",
-			"LINK": "https://us02web.zoom.us/j/83796010336?pwd=bnA1NDlRbzgrZnNTVEJxQ1VUU2poQT09"
+			"id": "69",
+			"code": "ECO201",
+			"title": "Macroeconomics",
+			"inst": "Kiriti Kanjilal",
+			"link": "https://us02web.zoom.us/j/83796010336?pwd=bnA1NDlRbzgrZnNTVEJxQ1VUU2poQT09",
+			"credits": "4"
 		},
 		"GMT": {
-			"INST": "Rakesh Chathurvedi",
-			"LINK": "https://zoom.us/j/98641296149?pwd=aHZrak5OOEhVU1pGdW1yRnhDM3RRQT09"
+			"id": "70",
+			"code": "ECO311",
+			"title": "Game Theory",
+			"inst": "Rakesh Chathurvedi",
+			"link": "https://zoom.us/j/98641296149?pwd=aHZrak5OOEhVU1pGdW1yRnhDM3RRQT09",
+			"credits": "4"
 		},
 		"E2": {
-			"INST": "Gaurav Arora",
-			"LINK": "https://zoom.us/j/99088100211?pwd=T3Fqa09lRVJDUGtUVmtSVDBiUk9nUT09",
-			"DESC": "Meeting ID: 990 8810 0211; Passcode: 715745"
+			"id": "71",
+			"code": "ECO322/ECO522",
+			"title": "Econometrics II (New)",
+			"inst": "Gaurav Arora",
+			"link": "https://zoom.us/j/99088100211?pwd=T3Fqa09lRVJDUGtUVmtSVDBiUk9nUT09",
+			"credits": "4",
+			"desc": "Meeting ID: 990 8810 0211; Passcode: 715745"
 		},
 		"FF": {
-			"INST": "Pankaj Vajpayee",
-			"LINK": "http://meet.google.com/kzh-hpgq-jjx"
+			"id": "72",
+			"code": "ECO331",
+			"title": "Foundations of Finance",
+			"inst": "Pankaj Vajpayee",
+			"link": "http://meet.google.com/kzh-hpgq-jjx",
+			"credits": "4"
 		},
 		"DVD": {
-			"INST": "Anuj Grover",
-			"LINK": "https://meet.google.com/wvq-kpdv-aaw"
+			"id": "73",
+			"code": "ECE314/ECE514",
+			"title": "Digital VLSI Design",
+			"inst": "Anuj Grover",
+			"link": "https://meet.google.com/wvq-kpdv-aaw",
+			"credits": "4"
 		},
 		"CMOS": {
-			"INST": "G S Visweswaran(V)",
-			"LINK": "https://meet.google.com/lookup/g33oiskcnu"
+			"id": "74",
+			"code": "ECE315/ECE515",
+			"title": "Analog CMOS Circuit Design",
+			"inst": "G S Visweswaran(V)",
+			"link": "https://meet.google.com/lookup/g33oiskcnu",
+			"credits": "4"
 		},
 		"SSD": {
-			"INST": "G S Visweswaran(V)",
-			"LINK": "https://meet.google.com/lookup/hp6ovrdtwn"
+			"id": "75",
+			"code": "ECE318/ECE518",
+			"title": "Solid State Devices",
+			"inst": "G S Visweswaran(V)",
+			"link": "https://meet.google.com/lookup/hp6ovrdtwn",
+			"credits": "4"
 		},
 		"PRP": {
-			"INST": "Anubha Gupta",
-			"LINK": "https://meet.google.com/yhw-xnbs-rca?authuser=0&hs=122"
+			"id": "76",
+			"code": "ECE501",
+			"title": "Probability & Random Process",
+			"inst": "Anubha Gupta",
+			"link": "https://meet.google.com/yhw-xnbs-rca?authuser=0&hs=122",
+			"credits": "4"
 		},
 		"WSI": {
-			"INST": "Vivek Bohara",
-			"LINK": "https://meet.google.com/ddv-wtpi-wys"
+			"id": "77",
+			"code": "ECE539",
+			"title": "Wireless System Implementation",
+			"inst": "Vivek Bohara",
+			"link": "https://meet.google.com/ddv-wtpi-wys",
+			"credits": "4"
 		},
 		"PDCS": {
-			"INST": "Anand Srivastava",
-			"LINK": "https://zoom.us/j/96470305072?pwd=Ukg4NnNZU3NybCsrTXA1Y1hLTDF1dz09"
+			"id": "78",
+			"code": "ECE543",
+			"title": "Principals of Digital Communication System",
+			"inst": "Anand Srivastava",
+			"link": "https://zoom.us/j/96470305072?pwd=Ukg4NnNZU3NybCsrTXA1Y1hLTDF1dz09",
+			"credits": "4"
 		},
 		"CNT": {
-			"INST": "Sanat K Biswas",
-			"LINK": ""
+			"id": "79",
+			"code": "ECE570",
+			"title": "Control Theory",
+			"inst": "Sanat K Biswas",
+			"link": "https://meet.google.com/lookup/cskaj3hgxt",
+			"credits": "4"
 		},
 		"ROB": {
-			"INST": "Sayan Basu Roy",
-			"LINK": "https://meet.google.com/hro-ttso-jzi"
+			"id": "80",
+			"code": "ECE670/CSE633",
+			"title": "Robotics",
+			"inst": "Sayan Basu Roy",
+			"link": "https://meet.google.com/hro-ttso-jzi",
+			"credits": "4"
 		},
 		"RFCD": {
-			"INST": "M S Hashmi",
-			"LINK": ""
+			"id": "81",
+			"code": "ECE321/ECE521",
+			"title": "RF Circuit Design",
+			"inst": "M S Hashmi",
+			"link": "https://meet.google.com/zst-cvte-sni",
+			"credits": "4"
 		},
 		"INE": {
-			"INST": "Sneh Saurabh",
-			"LINK": "https://meet.google.com/xbo-udub-cau"
+			"id": "82",
+			"code": "ECE517",
+			"title": "Introduction to Nanoelectronics",
+			"inst": "Sneh Saurabh",
+			"link": "https://meet.google.com/xbo-udub-cau",
+			"credits": "4"
 		},
 		"ICF": {
-			"INST": "S S Jamuar",
-			"LINK": ""
+			"id": "83",
+			"code": "ECE522",
+			"title": "Integrated Circuit Fabrication(New)",
+			"inst": "S S Jamuar",
+			"link": "https://docs.google.com/spreadsheets/d/1Hm7TWCFIGGW-yx4v-pGLB81lT7fYjUp4vs6SJmx-PgU/edit?usp=sharing",
+			"credits": "4"
 		},
-		"PHO": {
-			"INST": "Sayak Bhattacharya",
-			"LINK": "https://meet.google.com/nni-ytxa-raj"
+		"PH": {
+			"id": "84",
+			"code": "ECE545",
+			"title": "Photonics: Fundamentals & Applications(New)",
+			"inst": "Sayak Bhattacharya",
+			"link": "https://meet.google.com/xfh-uikm-ogk",
+			"credits": "4"
 		},
 		"BML": {
-			"INST": "Ranjitha P",
-			"LINK": "https://meet.google.com/lookup/b7joj7thzl"
+			"id": "85",
+			"code": "ECE551",
+			"title": "Bayesian Machine Learning(New)",
+			"inst": "Ranjitha P",
+			"link": "https://meet.google.com/lookup/b7joj7thzl",
+			"credits": "4"
 		},
 		"LVACD": {
-			"INST": "S S Jamuar",
-			"LINK": ""
+			"id": "86",
+			"code": "ECE520",
+			"title": "Low Voltage Analog Circuit Design",
+			"inst": "S S Jamuar",
+			"link": "https://docs.google.com/spreadsheets/d/1N04pReFJyFExUnfBbyfUqrZVvuI7f3da-G40CUBSEas/edit#gid=0",
+			"credits": "4"
 		},
 		"EC": {
-			"INST": "Payel C Mukherjee(V)",
-			"LINK": "https://meet.google.com/lookup/ghhaf7z7ru?authuser=1&hs=179"
+			"id": "87",
+			"code": "ENT411",
+			"title": "Entrepreneurial Communication (New)",
+			"inst": "Payel C Mukherjee(V)",
+			"link": "https://meet.google.com/lookup/ghhaf7z7ru?authuser=1&hs=179",
+			"credits": "4"
 		},
 		"EK": {
-			"INST": "Anupam Saronwala(V)",
-			"LINK": "https://meet.google.com/fss-tpgx-iap"
+			"id": "88",
+			"code": "ENT412",
+			"title": "Entrepreneurial Khichadi (New)",
+			"inst": "Anupam Saronwala(V)",
+			"link": "https://meet.google.com/fss-tpgx-iap",
+			"credits": "4"
 		},
 		"TNT": {
-			"INST": "Anuradha Sharma",
-			"LINK": "https://us02web.zoom.us/j/7191463141?pwd=b0FSYVJKRjIzbW85aVA3U0dKdUtnZz09"
+			"id": "89",
+			"code": "MTH518",
+			"title": "Topics in Number Theory (New)",
+			"inst": "Anuradha Sharma",
+			"link": "https://us02web.zoom.us/j/7191463141?pwd=b0FSYVJKRjIzbW85aVA3U0dKdUtnZz09",
+			"credits": "4"
 		},
 		"CMPA": {
-			"INST": "Ashish Kumar Pandey",
-			"LINK": "https://meet.google.com/lookup/asnb5gtycu"
+			"id": "90",
+			"code": "MTH541",
+			"title": "Complex Analysis",
+			"inst": "Ashish Kumar Pandey",
+			"link": "https://meet.google.com/lookup/asnb5gtycu",
+			"credits": "4"
 		},
 		"FSEM": {
-			"INST": "Subhashree Mohapatra",
-			"LINK": "https://meet.google.com/nzy-irwj-ohu"
+			"id": "91",
+			"code": "MTH545",
+			"title": "Finite and Spectral Element Methods (New)",
+			"inst": "Subhashree Mohapatra",
+			"link": "https://meet.google.com/nzy-irwj-ohu",
+			"credits": "4"
 		},
 		"PST": {
-			"INST": "Samaresh Chatterji(V)",
-			"LINK": ""
+			"id": "92",
+			"code": "MTH562A",
+			"title": "Point Set Topology (New)",
+			"inst": "Samaresh Chatterji(V)",
+			"link": "",
+			"credits": "2"
 		},
-		"NDM": {
-			"INST": "Mrinmoy Chakrabarty",
-			"LINK": ""
+		"ND": {
+			"id": "93",
+			"code": "PSY307",
+			"title": "Neuroscience of Decision Making (New)",
+			"inst": "Mrinmoy Chakrabarty",
+			"link": "https://classroom.google.com/c/MTI3MDcwMzM4OTcx?cjc=jx4k3px",
+			"credits": "4"
 		},
 		"CMM": {
-			"INST": "Sonia Baloni Ray",
-			"LINK": "https://meet.google.com/ood-unym-cqx"
+			"id": "94",
+			"code": "PSY308",
+			"title": "Cognition of Motor Movement (New)",
+			"inst": "Sonia Baloni Ray",
+			"link": "https://meet.google.com/ood-unym-cqx",
+			"credits": "4"
 		},
 		"CISP": {
-			"INST": "Paro Mishra",
-			"LINK": "https://meet.google.com/qqe-cqro-yvf"
+			"id": "95",
+			"code": "SOC202",
+			"title": "Contemporary India: Sociological Perspective",
+			"inst": "Paro Mishra",
+			"link": "https://meet.google.com/qqe-cqro-yvf",
+			"credits": "4"
 		},
 		"CCS": {
-			"INST": "Amrit Srinivasan(V)",
-			"LINK": "https://meet.google.com/cng-dqqw-bhs"
+			"id": "96",
+			"code": "SOC209",
+			"title": "Consumer Culture and Society",
+			"inst": "Amrit Srinivasan(V)",
+			"link": "https://meet.google.com/fmg-ijus-igc",
+			"credits": "4"
 		},
 		"KCES": {
-			"INST": "Gayatri Nair",
-			"LINK": "https://zoom.us/j/99916248698?pwd=MFRwYkRlL2RSek10MWEwYUVrVThtZz09",
-			"DESC": "Meeting ID: 999 1624 8698 Passcode: 520663"
+			"id": "97",
+			"code": "SOC212",
+			"title": "Key Concepts in Economic Sociology",
+			"inst": "Gayatri Nair",
+			"link": "https://zoom.us/j/99916248698?pwd=MFRwYkRlL2RSek10MWEwYUVrVThtZz09",
+			"desc": "Meeting ID: 999 1624 8698 Passcode: 520663",
+			"credits": "4"
 		},
 		"AERM": {
-			"INST": "Shireen Mirza",
-			"LINK": ""
+			"id": "98",
+			"code": "SOC311/SOC501",
+			"title": "Advance Ethnographic Research Methods(New)",
+			"inst": "Shireen Mirza",
+			"link": "https://meet.google.com/xid-dwfk-jgp",
+			"credits": "4"
 		},
 		"GM": {
-			"INST": "Smriti Singh",
-			"LINK": "https://teams.microsoft.com/l/team/19%3a65219fd65ad14f2cbe8cc2e463615edb%40thread.tacv2/conversations?groupId=ac4af217-abd6-4910-a28a-0f337b416981&tenantId=c9613df7-b16f-476b-8d8b-64bbab406416"
+			"id": "99",
+			"code": "SOC308",
+			"title": "Gender and Media",
+			"inst": "Smriti Singh",
+			"link": "https://teams.microsoft.com/l/team/19%3a65219fd65ad14f2cbe8cc2e463615edb%40thread.tacv2/conversations?groupId=ac4af217-abd6-4910-a28a-0f337b416981&tenantId=c9613df7-b16f-476b-8d8b-64bbab406416",
+			"credits": "4"
 		},
 		"IPHI": {
-			"INST": "Shweta Singh(L)",
-			"LINK": ""
+			"id": "100",
+			"code": "SSH121",
+			"title": "Introduction to Philosophy",
+			"inst": "Shweta Singh(L)",
+			"link": "https://zoom.us/j/92851075190?pwd=SS81QjJDaFU3bHE1RzN0MC9WMUhadz09",
+			"credits": "4"
 		},
 		"TA": {
-			"INST": "Manohar Khushlani(V)",
-			"LINK": "https://zoom.us/j/97943323956?pwd=bHJ4d1QwT1VETS9NZklnVjZZczhkQT09"
+			"id": "101",
+			"code": "SSH211",
+			"title": "Theatre Appreciation",
+			"inst": "Manohar Khushlani(V)",
+			"link": "https://zoom.us/j/97943323956?pwd=bHJ4d1QwT1VETS9NZklnVjZZczhkQT09",
+			"credits": "4"
 		},
 		"SPP": {
-			"INST": "Manohar Kumar",
-			"LINK": "https://meet.google.com/lookup/d6yufkm4or"
+			"id": "102",
+			"code": "SSH221",
+			"title": "Social and Political Philosophy",
+			"inst": "Manohar Kumar",
+			"link": "https://meet.google.com/lookup/d6yufkm4or",
+			"credits": "4"
 		},
 		"TE": {
-			"INST": "Nishad Patnaik",
-			"LINK": "https://meet.google.com/lookup/gizvd6g4sx"
+			"id": "103",
+			"code": "SSH300",
+			"title": "Theories of Ethics (New)",
+			"inst": "Nishad Patnaik",
+			"link": "https://meet.google.com/lookup/gizvd6g4sx",
+			"credits": "4"
 		},
 		"POK": {
-			"INST": "Shweta Singh(L)",
-			"LINK": ""
+			"id": "104",
+			"code": "SSH223",
+			"title": "Perspectives of Knowledge",
+			"inst": "Shweta Singh(L)",
+			"link": "https://zoom.us/j/93317082430?pwd=cCsyWENDZW9RUmdrZmFFYUd0VEJtZz09",
+			"credits": "4"
 		},
 		"USPP": {
-			"INST": "Praveen Priyadarshi",
-			"LINK": "https://meet.google.com/lookup/fusabtrjgr"
+			"id": "105",
+			"code": "SSH362",
+			"title": "Urban Space and Political Power (New)",
+			"inst": "Praveen Priyadarshi",
+			"link": "https://meet.google.com/lookup/fusabtrjgr",
+			"credits": "4"
 		},
 		"NMP": {
-			"INST": "Aasim Khan",
-			"LINK": ""
+			"id": "106",
+			"code": "SSH323",
+			"title": "New Media and Politics (New)",
+			"inst": "Aasim Khan",
+			"link": "https://meet.google.com/ruz-fycf-ubn",
+			"credits": "4"
 		}
 	}
 }

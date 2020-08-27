@@ -10,7 +10,6 @@ export const dataFetchAction = () => {
 		return await axios.get(url)
 			.then(response => {
 				if (!response.data.errmess){
-					dispatch({ type: ActionTypes.COURSE_FETCH_SUCCESS, courses: response.data.courses })
 					dispatch({ type: ActionTypes.SCHEDULE_FETCH_SUCCESS, schedule: response.data.schedule })
 					dispatch({ type: ActionTypes.INFO_FETCH_SUCCESS, info: response.data.info })
 

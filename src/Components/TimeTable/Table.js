@@ -8,7 +8,7 @@ export default class TableData extends Component {
 		var data = this.props.data.slice(1);  // get all data except the header
 
 		if (data) {
-			var rows = data.map(day => <Rows day={day} key={Math.random().toPrecision(4) * 10000} />)   // create all the rows
+			var rows = data.map(day => <Rows day={day} key={Math.random()} />)   // create all the rows
 
 
 			var header = headers.map(field => <th key={field}>{field}</th>) // create the header of table

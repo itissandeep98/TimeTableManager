@@ -4,7 +4,6 @@ import { dataFetchAction } from '../store/ActionCreators'
 import Plot from './TimeTable/Plot'
 import { ImpLink } from './ImpLinks'
 import { actions } from 'react-redux-form'
-
 import Chat from './Chat'
 import InfoTable from './InfoTable'
 
@@ -35,10 +34,10 @@ class Main extends Component {
 				<Plot
 					selectedCourses={this.state.selctedCourse}
 					addCourse={this.addCourse}
-					courses={this.props.courses.courses}
 					schedule={this.props.schedule.schedule}
-					isLoading={this.props.courses.isLoading}
-					errmess={this.props.courses.errmess}
+					isLoading={this.props.info.isLoading}
+					errmess={this.props.info.errmess}
+					info={this.props.info.info}
 				/>
 				<ImpLink />
 				<Chat resetFeedbackform={this.props.resetFeedbackform} />
@@ -52,7 +51,6 @@ class Main extends Component {
 }
 const mapStateToProps = (state) => {  // Redux props
 	return {
-		courses: state.courses,
 		schedule: state.schedule,
 		info:state.info
 	}

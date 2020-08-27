@@ -19,12 +19,12 @@ export default class InfoTable extends Component {
 						</tr>
 					</thead>
 					<tbody>
-						{this.props.selectedCourses.map(course => (
+						{this.props.selectedCourses.map(code => (
 							<tr>
-								<td>{course}</td>
-								<td>{info[course]["INST"]}</td>
-								<td><a href={info[course]["LINK"]}>{info[course]["LINK"]}</a></td>
-								<td>{info[course]["DESC"]}</td>
+								<td>{code}</td>
+								<td>{info[code].inst}</td>
+								<td><a href={info[code].link}>{info[code].link}</a></td>
+								<td>{info[code].desc}</td>
 							</tr>
 						))}
 					</tbody>
