@@ -22,7 +22,7 @@ export default function CourseList({ doc, deleteCourse, editCourse }) {
 								<Icon name="edit" />
 							</Button>
 							<Button.Or />
-							<Button  icon color="google plus" onClick={(e) => deleteCourse(e, course.key)}>
+							<Button icon color="google plus" onClick={(e) => deleteCourse(e, course.key)}>
 								<Icon name="delete" />
 							</Button>
 						</ButtonGroup>

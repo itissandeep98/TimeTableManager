@@ -26,7 +26,7 @@ export default class Slots extends Component {
 	addslot(e) {
 		e.preventDefault()
 		let key = 1;
-		const slots=this.props.slots
+		const slots = this.props.slots
 		if (slots.length > 0)
 			key = slots[slots.length - 1].key + 1
 		const slot = {
@@ -35,7 +35,7 @@ export default class Slots extends Component {
 			stime: this.state.stime,
 			etime: this.state.etime
 		}
-		
+
 		this.props.addslot(slot)
 		this.setState({
 			day: "",

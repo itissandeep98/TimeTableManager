@@ -1,11 +1,9 @@
 import React from 'react'
-import { Divider } from 'semantic-ui-react';
-import '../style.css'
 
 export const ImpLink = () => { // Links to show in the bottom of table
 	return (
-		<div className="container d-print-none">
-			<br/>
+		<div className="container d-print-none implinks">
+			<br />
 			<h2>Important Links</h2>
 			<ul>
 				<li>
@@ -18,7 +16,7 @@ export const ImpLink = () => { // Links to show in the bottom of table
 					Current Time Table <a href="https://iiitd.ac.in/academics/m2020" target="_blank" rel="noopener noreferrer">(Monsoon 2020)</a>
 				</li>
 			</ul>
-			<Divider horizontal>updated on 27 Aug 2020</Divider>
+			
 
 		</div>
 	);

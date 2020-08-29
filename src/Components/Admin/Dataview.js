@@ -10,8 +10,8 @@ export default class Dataview extends Component {
 		this.textInput = React.createRef();
 
 	}
-	componentDidMount(){
-		window.addEventListener("resize",()=>{
+	componentDidMount() {
+		window.addEventListener("resize", () => {
 			this.handleKeyDown()
 		})
 		this.handleKeyDown()
@@ -19,11 +19,11 @@ export default class Dataview extends Component {
 
 	handleKeyDown() {
 		this.textInput.style.height = 'inherit';
-		this.textInput.style.height = `${window.innerHeight-90}px`;
-		this.textInput.style.width = `${this.textInput.parentElement.clientWidth-20}px`
+		this.textInput.style.height = `${window.innerHeight - 90}px`;
+		this.textInput.style.width = `${this.textInput.parentElement.clientWidth - 20}px`
 	}
 
-	downloadFile(e,doc){
+	downloadFile(e, doc) {
 		e.preventDefault()
 		const element = document.createElement("a");
 		const file = new Blob([doc], { type: 'text/plain' });
@@ -34,24 +34,24 @@ export default class Dataview extends Component {
 		URL.revokeObjectURL(element.href); //frees the memory
 	}
 
-	copyText(e){
+	copyText(e) {
 		e.preventDefault()
-		let text=this.textInput
+		let text = this.textInput
 		text.select()
-		text.setSelectionRange(0, 99999); /*For mobile devices*/
-		document.execCommand("copy");		
+		text.setSelectionRange(0, 99999); // For mobile devices
+		document.execCommand("copy");
 	}
 
 	render() {
-		let docs=JSON.stringify(this.props.doc,null,4)
-		
+		let docs = JSON.stringify(this.props.doc, null, 4)
+
 		return (
 			<Form>
-				<Button onClick={(e)=>this.downloadFile(e,docs)}>Download</Button>
-				<Button onClick={(e)=>this.copyText(e)}>Copy</Button>
+				<Button onClick={(e) => this.downloadFile(e, docs)}>Download</Button>
+				<Button onClick={(e) => this.copyText(e)}>Copy</Button>
 				<br /><br />
 				<FormGroup>
-					<textarea  ref={this.textInput} value={docs} readOnly/>
+					<textarea ref={input => this.textInput = input} value={docs} readOnly />
 				</FormGroup>
 			</Form>
 		)

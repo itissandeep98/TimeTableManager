@@ -1,6 +1,6 @@
 import * as ActionTypes from "../ActionTypes";
 
-const initState = { isLoading: false}
+const initState = { isLoading: false }
 
 const scheduleReducer = (state = initState, action) => {
 	switch (action.type) {

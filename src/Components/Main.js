@@ -6,6 +6,7 @@ import { ImpLink } from './ImpLinks'
 import { actions } from 'react-redux-form'
 import Chat from './Chat'
 import InfoTable from './InfoTable'
+import { Divider } from 'semantic-ui-react'
 
 class Main extends Component {
 	constructor(props) {
@@ -40,12 +41,20 @@ class Main extends Component {
 					errmess={this.props.info.errmess}
 					info={this.props.info.info}
 				/>
+
 				<ImpLink />
+
+				<div className="container">
+					<Divider horizontal>updated on 27 Aug 2020</Divider>
+				</div>
+
 				<Chat resetFeedbackform={this.props.resetFeedbackform} />
+
 				<InfoTable
 					selectedCourses={this.state.selctedCourse}
 					info={this.props.info.info}
 				/>
+				
 			</div>
 		)
 	}

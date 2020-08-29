@@ -1,4 +1,4 @@
-export const times=[
+export const times = [
 	{
 		"key": 1,
 		"value": "9:00",
@@ -89,5 +89,5 @@ export const times=[
 		"value": "5:30",
 		"text": "5:30"
 	},
-	
+
 ]

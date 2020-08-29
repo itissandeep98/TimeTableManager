@@ -18,7 +18,7 @@ export default class Plot extends Component {
 
 	findpos(course) {  // finds all the positions of a particular course in the schedule
 		var schedule = this.props.schedule["monsoon"];
-	
+
 		var pos = []
 		for (let i = 1; i <= 5; i++) {
 			for (let j = 1; j <= 6; j++) {
@@ -30,7 +30,7 @@ export default class Plot extends Component {
 		return pos
 
 	}
-	
+
 	updateSchedule() {
 		var temp = JSON.parse(JSON.stringify(baseSchedule))
 
@@ -49,10 +49,10 @@ export default class Plot extends Component {
 
 	handleCourseChange(event, result) {   // To handle the changes in the courses list
 		const { value } = result || event.target;
-		this.props.addCourse(value).then(e =>this.updateSchedule())
+		this.props.addCourse(value).then(e => this.updateSchedule())
 	}
 
-	print(){
+	print() {
 		window.print()
 	}
 
@@ -65,39 +65,39 @@ export default class Plot extends Component {
 		}
 		else if (this.props.errmess) {  // Error message in the list if data could not be fetched
 			courselist = [
-				{ key: "error", value: this.props.errmess, text: this.props.errmess,onClick:()=>window.location.reload() }
+				{ key: "error", value: this.props.errmess, text: this.props.errmess, onClick: () => window.location.reload() }
 			]
 		}
 
-		else { 			
-			courselist = Object.keys(this.props.info).map(acro=>{
-				const temp={
+		else {
+			courselist = Object.keys(this.props.info).map(acro => {
+				const temp = {
 					"key": this.props.info[acro].id,
 					"text": this.props.info[acro].title + " - " + this.props.info[acro].code + " - " + acro,
-					"value":acro
+					"value": acro
 				}
 				return temp
-			})			
+			})
 		}
-		
+
 		return (
 			<div className="container">
-				<Button onClick={(e) => this.print()} className="d-print-none printbutton"> 
-					<span className="fa fa-file"/> Print To pdf
+				<Button onClick={(e) => this.print()} className="d-print-none printbutton">
+					<span className="fa fa-file" /> Print To pdf
 				</Button>
-				<br/><br/>
+				<br /><br />
 				<div className="row">
-					<TableData data={this.state.schedule}  />
+					<TableData data={this.state.schedule} />
 				</div>
 
 				<Segment className="d-print-none">
 					<Dropdown
 						placeholder="Select Courses"
-						fluid multiple search openOnFocus clearable selection 
+						fluid multiple search openOnFocus clearable selection
 						options={courselist}
 						value={this.props.selectedCourses}
 						onChange={this.handleCourseChange}
-						
+
 					/>
 				</Segment>
 			</div>

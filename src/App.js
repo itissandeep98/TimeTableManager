@@ -8,9 +8,9 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
-        <Routing/>
+        <Routing />
       </div>
-      </BrowserRouter>
+    </BrowserRouter>
   );
 }
 
