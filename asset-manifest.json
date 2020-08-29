@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/TimeTableManager/static/css/main.1c3021e3.chunk.css",
-    "main.js": "/TimeTableManager/static/js/main.965223e6.chunk.js",
-    "main.js.map": "/TimeTableManager/static/js/main.965223e6.chunk.js.map",
+    "main.css": "/TimeTableManager/static/css/main.acc19c59.chunk.css",
+    "main.js": "/TimeTableManager/static/js/main.d6b5e364.chunk.js",
+    "main.js.map": "/TimeTableManager/static/js/main.d6b5e364.chunk.js.map",
     "runtime-main.js": "/TimeTableManager/static/js/runtime-main.e8c87b5c.js",
     "runtime-main.js.map": "/TimeTableManager/static/js/runtime-main.e8c87b5c.js.map",
     "static/css/2.742ca047.chunk.css": "/TimeTableManager/static/css/2.742ca047.chunk.css",
-    "static/js/2.ae3b21b3.chunk.js": "/TimeTableManager/static/js/2.ae3b21b3.chunk.js",
-    "static/js/2.ae3b21b3.chunk.js.map": "/TimeTableManager/static/js/2.ae3b21b3.chunk.js.map",
+    "static/js/2.dfff0c02.chunk.js": "/TimeTableManager/static/js/2.dfff0c02.chunk.js",
+    "static/js/2.dfff0c02.chunk.js.map": "/TimeTableManager/static/js/2.dfff0c02.chunk.js.map",
     "index.html": "/TimeTableManager/index.html",
-    "precache-manifest.569f89fc160a286ccf52c0e6723ff8ec.js": "/TimeTableManager/precache-manifest.569f89fc160a286ccf52c0e6723ff8ec.js",
+    "precache-manifest.aa26762ff1d70124a2ae9a5f2c663d93.js": "/TimeTableManager/precache-manifest.aa26762ff1d70124a2ae9a5f2c663d93.js",
     "service-worker.js": "/TimeTableManager/service-worker.js",
     "static/css/2.742ca047.chunk.css.map": "/TimeTableManager/static/css/2.742ca047.chunk.css.map",
-    "static/css/main.1c3021e3.chunk.css.map": "/TimeTableManager/static/css/main.1c3021e3.chunk.css.map",
-    "static/js/2.ae3b21b3.chunk.js.LICENSE.txt": "/TimeTableManager/static/js/2.ae3b21b3.chunk.js.LICENSE.txt",
+    "static/css/main.acc19c59.chunk.css.map": "/TimeTableManager/static/css/main.acc19c59.chunk.css.map",
+    "static/js/2.dfff0c02.chunk.js.LICENSE.txt": "/TimeTableManager/static/js/2.dfff0c02.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/TimeTableManager/static/media/outline-icons.ef60a4f6.woff",
     "static/media/font-awesome.css": "/TimeTableManager/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.e8c87b5c.js",
     "static/css/2.742ca047.chunk.css",
-    "static/js/2.ae3b21b3.chunk.js",
-    "static/css/main.1c3021e3.chunk.css",
-    "static/js/main.965223e6.chunk.js"
+    "static/js/2.dfff0c02.chunk.js",
+    "static/css/main.acc19c59.chunk.css",
+    "static/js/main.d6b5e364.chunk.js"
   ]
 }
