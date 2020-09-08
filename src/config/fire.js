@@ -1,5 +1,5 @@
 import firebase from 'firebase/app'
-require('firebase/auth')
+require('firebase/messaging')
 require('firebase/database')
 
 const json = require('./fire.json') // fire.json is created at deploy time through github actions
