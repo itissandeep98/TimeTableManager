@@ -13,7 +13,6 @@ function App() {
   //     console.warn("token",data)
   //   })
   // })
-
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
@@ -22,5 +21,6 @@ function App() {
     </BrowserRouter>
   );
 }
+
 
 export default App;
