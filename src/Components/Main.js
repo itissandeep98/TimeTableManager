@@ -28,11 +28,10 @@ class Main extends Component {
 	componentDidMount() {
 		this.props.fetchInfo()
 		this.props.fetchSchedule()
+		firebaseAnalytics.logEvent("page_visited")
 	}
 
 	render() {
-		firebaseAnalytics.logEvent("page_visited")
-
 		return (
 			<div>
 

@@ -4,6 +4,7 @@ import { Dropdown, Segment } from 'semantic-ui-react'
 import { Spinner, Button } from 'reactstrap';
 import { baseSchedule } from '../../shared/Schedule'
 import '../../App.css'
+import { firebaseAnalytics } from '../../config/fire';
 
 export default class Plot extends Component {
 	constructor(props) {
@@ -53,6 +54,9 @@ export default class Plot extends Component {
 	}
 
 	print() {
+		for (let i = 0; i < this.props.selectedCourses.length; i++) {
+			firebaseAnalytics.logEvent(this.props.selectedCourses[i])
+		}
 		window.print()
 	}
 
@@ -72,9 +76,9 @@ export default class Plot extends Component {
 		else {
 			courselist = Object.keys(this.props.info).map(acro => {
 				const temp = {
-					"key": this.props.info[acro].id,
-					"text": this.props.info[acro].title + " - " + this.props.info[acro].code + " - " + acro,
-					"value": acro
+					key: this.props.info[acro].id,
+					text: this.props.info[acro].title + " - " + this.props.info[acro].code + " - " + acro,
+					value: acro,
 				}
 				return temp
 			})

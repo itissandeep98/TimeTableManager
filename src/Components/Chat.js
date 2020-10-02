@@ -6,6 +6,7 @@ import axios from 'axios';
 import { Control, Form } from 'react-redux-form';
 import { UncontrolledPopover } from 'reactstrap'
 import '../App.css'
+import { firebaseAnalytics } from '../config/fire';
 
 class Chat extends Component {
 	constructor(props) {
@@ -52,6 +53,7 @@ class Chat extends Component {
 				this.showAlert("info", "Feedback Sent ;)")
 			});
 		this.props.resetFeedbackform()
+		firebaseAnalytics.logEvent("feedback_sent")
 	}
 
 	render() {
