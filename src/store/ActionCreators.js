@@ -39,8 +39,16 @@ export const dataFetchScheduleFirebase = () => {
 	return async (dispatch) => {
 		dispatch({ type: ActionTypes.SCHEDULE_FETCH_LOADING })
 		return fire.database().ref('/schedule').on('value', (data) => {
-			console.log(data.val());
 			dispatch({ type: ActionTypes.SCHEDULE_FETCH_SUCCESS, schedule: data.val() })
+		})
+	}
+}
+
+export const extraFetchFirebase = () => {
+	return async (dispatch) => {
+		dispatch({ type: ActionTypes.EXTRA_LINKS_FETCH_LOADING })
+		return fire.database().ref('/extra').on('value', (data) => {
+			dispatch({ type: ActionTypes.EXTRA_LINKS_FETCH_SUCCESS, links: data.val() })
 		})
 	}
 }

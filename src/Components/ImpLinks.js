@@ -1,22 +1,24 @@
 import React from 'react'
 
-export const ImpLink = () => { // Links to show in the bottom of table
+export function ImpLink(props) { // Links to show in the bottom of table
 	return (
 		<div className="container d-print-none implinks">
 			<br />
 			<h2>Important Links</h2>
-			<ul>
-				<li>
-					<a href="https://drive.google.com/drive/folders/1YqptkWKt6iKvoImkJYRlB_2yRH69K_D2" target="_blank" rel="noopener noreferrer">Course Descriptions</a>
-				</li>
-				{/* <li>
+			{props.offl_page &&
+				<ul>
+					<li>
+						<a href={props.course_desc} target="_blank" rel="noopener noreferrer">Course Descriptions</a>
+					</li>
+					{/* <li>
 					<a href="https://docs.google.com/document/d/1v8EJcxPvXgtNYNFtnUjrvdiP3F5UZMM3vqw7HcDsN7A" target="_blank" rel="noopener noreferrer">Review of electives</a>
 				</li> */}
-				<li>
-					Current Time Table <a href="https://iiitd.ac.in/academics/m2020" target="_blank" rel="noopener noreferrer">(Monsoon 2020)</a>
-				</li>
-			</ul>
-			
+					<li>
+						Current Time Table <a href={props.offl_page.link} target="_blank" rel="noopener noreferrer">({props.offl_page.sem})</a>
+					</li>
+				</ul>
+			}
+
 
 		</div>
 	);

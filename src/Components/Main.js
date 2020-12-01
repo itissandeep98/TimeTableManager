@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { dataFetchInfoFirebase, dataFetchScheduleFirebase } from '../store/ActionCreators'
+import { dataFetchInfoFirebase, dataFetchScheduleFirebase, extraFetchFirebase } from '../store/ActionCreators'
 import Plot from './TimeTable/Plot'
 import { ImpLink } from './ImpLinks'
 import { actions } from 'react-redux-form'
@@ -28,6 +28,7 @@ class Main extends Component {
 	componentDidMount() {
 		this.props.fetchInfo()
 		this.props.fetchSchedule()
+		this.props.fetchExtra()
 		firebaseAnalytics.logEvent("page_visited")
 	}
 
@@ -44,7 +45,7 @@ class Main extends Component {
 					info={this.props.info.info}
 				/>
 
-				<ImpLink />
+				<ImpLink {...this.props.extra.links} />
 
 				<div className="container">
 					<Divider horizontal>updated on 27 Aug 2020</Divider>
@@ -64,13 +65,15 @@ class Main extends Component {
 const mapStateToProps = (state) => {  // Redux props
 	return {
 		schedule: state.schedule,
-		info: state.info
+		info: state.info,
+		extra: state.extra
 	}
 }
 const mapDispatchToProps = (dispatch) => ({ // Redux functions
 	resetFeedbackform: () => { dispatch(actions.reset('feedback')) },
 	fetchInfo: () => dispatch(dataFetchInfoFirebase()),
-	fetchSchedule: () => dispatch(dataFetchScheduleFirebase())
+	fetchSchedule: () => dispatch(dataFetchScheduleFirebase()),
+	fetchExtra: () => dispatch(extraFetchFirebase()),
 
 })
 
