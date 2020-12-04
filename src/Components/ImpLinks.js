@@ -1,8 +1,9 @@
 import React from 'react'
+import { Container } from 'reactstrap'
 
 export function ImpLink(props) { // Links to show in the bottom of table
 	return (
-		<div className="container d-print-none implinks">
+		<Container className="d-print-none implinks">
 			<br />
 			<h2>Important Links</h2>
 			{props.offl_page &&
@@ -18,8 +19,6 @@ export function ImpLink(props) { // Links to show in the bottom of table
 					</li>
 				</ul>
 			}
-
-
-		</div>
+		</Container>
 	);
 }
