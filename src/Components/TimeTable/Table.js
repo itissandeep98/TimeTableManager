@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Rows from './Rows';
-import { Table } from 'reactstrap';
+import { Col, Table } from 'reactstrap';
 
 export default class TableData extends Component {
 	render() {
@@ -15,7 +15,7 @@ export default class TableData extends Component {
 
 
 			return (
-				<div className="col-12 text-center">
+				<Col className="text-center">
 					<Table striped hover responsive className="border">
 						<thead>
 							<tr>
@@ -31,7 +31,7 @@ export default class TableData extends Component {
 							</tr>
 						</thead>
 					</Table>
-				</div>
+				</Col>
 			)
 		}
 		else {

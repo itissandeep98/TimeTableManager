@@ -8,14 +8,14 @@ export function ImpLink(props) { // Links to show in the bottom of table
 			<h2>Important Links</h2>
 			{props.offl_page &&
 				<ul>
-					<li>
+					{/* <li>
 						<a href={props.course_desc} target="_blank" rel="noopener noreferrer">Course Descriptions</a>
-					</li>
+					</li> */}
 					{/* <li>
 					<a href="https://docs.google.com/document/d/1v8EJcxPvXgtNYNFtnUjrvdiP3F5UZMM3vqw7HcDsN7A" target="_blank" rel="noopener noreferrer">Review of electives</a>
 				</li> */}
 					<li>
-						Current Time Table <a href={props.offl_page.link} target="_blank" rel="noopener noreferrer">({props.offl_page.sem})</a>
+						Official Page <a href={props.offl_page.link} target="_blank" rel="noopener noreferrer">({props.offl_page.sem})</a>
 					</li>
 				</ul>
 			}

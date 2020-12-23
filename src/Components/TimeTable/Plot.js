@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import TableData from './Table'
 import { Dropdown, Segment } from 'semantic-ui-react'
-import { Spinner, Button } from 'reactstrap';
+import { Spinner, Button, Container, Row } from 'reactstrap';
 import { baseSchedule } from '../../shared/Schedule'
 import '../../App.css'
 import { firebaseAnalytics } from '../../config/fire';
@@ -85,14 +85,24 @@ export default class Plot extends Component {
 		}
 
 		return (
-			<div className="container">
+			<Container>
 				<Button onClick={(e) => this.print()} className="d-print-none printbutton">
 					<span className="fa fa-file" /> Print To pdf
 				</Button>
-				<br /><br />
-				<div className="row">
-					<TableData data={this.state.schedule} />
+				<div className="float-right d-print-none">
+					<a 
+						href="https://github.com/itissandeep98/TimeTableManager" 
+						target="_blank" 
+						rel="noopener noreferrer"
+						style={{color:"inherit"}}
+						>
+						<span className="fa  fa-github fa-3x" />
+					</a>
 				</div>
+				<br /><br />
+				<Row>
+					<TableData data={this.state.schedule} />
+				</Row>
 
 				<Segment className="d-print-none">
 					<Dropdown
@@ -104,7 +114,7 @@ export default class Plot extends Component {
 
 					/>
 				</Segment>
-			</div>
+			</Container>
 		)
 	}
 }
