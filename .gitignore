@@ -23,4 +23,3 @@ yarn-debug.log*
 yarn-error.log*
 
 src/config/fire.json
-package-lock.json

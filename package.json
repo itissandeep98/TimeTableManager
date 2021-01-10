@@ -16,10 +16,7 @@
     "history": "^5.0.0",
     "proptypes": "^1.1.0",
     "react": "^16.13.1",
-    "react-animation-components": "^3.0.0",
     "react-dom": "^16.13.1",
-    "react-ga": "^3.1.2",
-    "react-google-login": "^5.1.21",
     "react-redux": "^7.2.1",
     "react-redux-form": "^1.16.14",
     "react-router-dom": "^5.2.0",
@@ -32,7 +29,6 @@
     "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
-    "json-server": "json-server --watch db.json -d 2000 -p 3001",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
