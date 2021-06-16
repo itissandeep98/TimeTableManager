@@ -1,20 +1,14 @@
-import React from 'react'
-import { List } from 'semantic-ui-react'
+import React from 'react';
+import { List } from 'semantic-ui-react';
 
 export default function Rows({ day }) {
-
-	var cols = day.map(slot =>
-		(<td style={slot.length > 1 ? { background: "#eb4034" } : null} //check length of course in slot if greater than 1 then change its background and print the list
-			className={slot.length > 0 ? "border" : null}
-			key={Math.random()} >
-
+	var cols = day.map(slot => (
+		<td
+			style={slot.length > 1 ? { background: '#eb4034' } : null} //check length of course in slot if greater than 1 then change its background and print the list
+			className={slot.length > 0 ? 'border' : null}
+			key={Math.random()}>
 			{<List items={slot} />}
-
-		</td>)
-	)
-	return (
-		<tr>
-			{cols}
-		</tr>
-	)
+		</td>
+	));
+	return <tr>{cols}</tr>;
 }

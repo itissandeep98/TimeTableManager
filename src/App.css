@@ -1,28 +1,28 @@
 @media print {
-     html, body {
-        border: 1px solid white;
-        height: 99%;
-        page-break-after: avoid;
-        page-break-before: avoid;
-     }
+	html,
+	body {
+		border: 1px solid white;
+		height: 99%;
+		page-break-after: avoid;
+		page-break-before: avoid;
+	}
 }
 
 .navbar-dark {
-    background-color: #3fada8;
-    padding: 10px;
-    font-size: small;
-    /* font-family: 'Dancing Script', cursive; */
+	background-color: #3fada8;
+	padding: 10px;
+	font-size: small;
+	/* font-family: 'Dancing Script', cursive; */
 }
 
-.navbar-dark .container a{
-    color: #fff;
-    padding: 15px 5px 15px 5px;
+.navbar-dark .container a {
+	color: #fff;
+	padding: 15px 5px 15px 5px;
 }
 
-
-.navbar-dark .container :hover{
-    background-color: #fff ;
-    color: #000;
+.navbar-dark .container :hover {
+	background-color: #fff;
+	color: #000;
 }
 
 .printbutton {
@@ -32,22 +32,22 @@
 	box-shadow: 0 3px 20px 0 #0000003b;
 }
 
-.feed-input{
-    margin: 10px auto;
+.feed-input {
+	margin: 10px auto;
 }
 
-#chatbutton{
-    display: inline;
-    position: fixed;
-    right: 5px;
-    bottom: 10px;
-    z-index: 100;
+#chatbutton {
+	display: inline;
+	position: fixed;
+	right: 5px;
+	bottom: 10px;
+	z-index: 100;
 }
 
-.implinks li a{
- color: #3fada8 !important;   
+.implinks li a {
+	color: #3fada8 !important;
 }
 
-.implinks li a:hover{
-    text-decoration: underline !important;
+.implinks li a:hover {
+	text-decoration: underline !important;
 }

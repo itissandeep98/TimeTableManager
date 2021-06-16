@@ -1,11 +1,11 @@
-import * as ActionTypes from "../ActionTypes";
+import * as ActionTypes from '../ActionTypes';
 
-const initState = { isLoading: false }
+const initState = { isLoading: false };
 
 const scheduleReducer = (state = initState, action) => {
 	switch (action.type) {
 		case ActionTypes.SCHEDULE_FETCH_LOADING:
-			return { ...state, isLoading: true }
+			return { ...state, isLoading: true };
 		case ActionTypes.SCHEDULE_FETCH_SUCCESS:
 			var schedule = action.schedule;
 			return { ...state, schedule, errmess: null };

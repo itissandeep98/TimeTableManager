@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Dataview from './Dataview';
 import Formview from './Formview';
 import CourseList from './CourseList';
+import { Col, Container, Input, Row } from 'reactstrap';
 
 class Admin extends Component {
 	constructor(props) {
@@ -73,24 +74,43 @@ class Admin extends Component {
 		})
 
 	}
+	fileHandler = (event) => {
+		const file = event.target.files[0];
+		console.log(file);
+		const reader = new FileReader();
+		reader.onload = (evt) => {
+			const a=evt.target.result
+			
+			var rows=a.split()
+			var data={}
+			console.log(rows.length);
+		};
+		reader.readAsBinaryString(file);
+
+	};
 
 	render() {
 		return (
-			<div className="constructor-fluid">
-				<div className="row d-none d-md-flex">
-					<div className="col-6">
-						<Formview addCourse={this.addCourse} course={this.state.course} onCoursechange={this.onCoursechange} />
+			<Container fluid>
+				<Row className=" d-none d-md-flex">
+					<Col>
+						<Input
+							type="file"
+							onChange={this.fileHandler}
+							accept=".csv"
+						/>
+						{/* <Formview addCourse={this.addCourse} course={this.state.course} onCoursechange={this.onCoursechange} />
 						<br /><br />
-						<CourseList doc={this.state.doc} deleteCourse={this.deleteCourse} editCourse={this.editCourse} />
-					</div>
-					<div className="col-6">
+						<CourseList doc={this.state.doc} deleteCourse={this.deleteCourse} editCourse={this.editCourse} /> */}
+					</Col>
+					<Col>
 						<Dataview doc={this.state.doc} />
-					</div>
-				</div>
-				<div className="container text-center d-md-none">
+					</Col>
+				</Row>
+				<Container className="text-center d-md-none">
 					<h1>This Page is not available for Small Screens</h1>
-				</div>
-			</div>
+				</Container>
+			</Container>
 		)
 	}
 }

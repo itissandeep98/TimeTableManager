@@ -1,11 +1,11 @@
-import * as ActionTypes from "../ActionTypes";
+import * as ActionTypes from '../ActionTypes';
 
-const initState = { isLoading: true }
+const initState = { isLoading: true };
 
 const infoReducer = (state = initState, action) => {
 	switch (action.type) {
 		case ActionTypes.INFO_FETCH_LOADING:
-			return { ...state, isLoading: true }
+			return { ...state, isLoading: true };
 		case ActionTypes.INFO_FETCH_SUCCESS:
 			var info = action.info;
 			return { ...state, info, errmess: null, isLoading: false };
