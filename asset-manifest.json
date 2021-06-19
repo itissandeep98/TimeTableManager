@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/TimeTableManager/static/css/main.b614c87e.chunk.css",
-    "main.js": "/TimeTableManager/static/js/main.6e7742ff.chunk.js",
-    "runtime-main.js": "/TimeTableManager/static/js/runtime-main.1e8d15e2.js",
-    "static/css/2.31cbe901.chunk.css": "/TimeTableManager/static/css/2.31cbe901.chunk.css",
-    "static/js/2.f298a64f.chunk.js": "/TimeTableManager/static/js/2.f298a64f.chunk.js",
-    "index.html": "/TimeTableManager/index.html",
-    "static/js/2.f298a64f.chunk.js.LICENSE.txt": "/TimeTableManager/static/js/2.f298a64f.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/TimeTableManager/static/media/outline-icons.ddae9b1b.woff",
-    "static/media/font-awesome.css": "/TimeTableManager/static/media/fontawesome-webfont.f691f37e.woff"
+    "main.css": "./static/css/main.b614c87e.chunk.css",
+    "main.js": "./static/js/main.aa8ac255.chunk.js",
+    "runtime-main.js": "./static/js/runtime-main.9dbce2e0.js",
+    "static/css/2.e3dfa1c2.chunk.css": "./static/css/2.e3dfa1c2.chunk.css",
+    "static/js/2.208fd2c3.chunk.js": "./static/js/2.208fd2c3.chunk.js",
+    "index.html": "./index.html",
+    "static/js/2.208fd2c3.chunk.js.LICENSE.txt": "./static/js/2.208fd2c3.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "./static/media/outline-icons.ddae9b1b.woff",
+    "static/media/font-awesome.css": "./static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e8d15e2.js",
-    "static/css/2.31cbe901.chunk.css",
-    "static/js/2.f298a64f.chunk.js",
+    "static/js/runtime-main.9dbce2e0.js",
+    "static/css/2.e3dfa1c2.chunk.css",
+    "static/js/2.208fd2c3.chunk.js",
     "static/css/main.b614c87e.chunk.css",
-    "static/js/main.6e7742ff.chunk.js"
+    "static/js/main.aa8ac255.chunk.js"
   ]
 }
