@@ -23,7 +23,6 @@ function InfoTable(props) {
 				<tbody>
 					{props.selectedCourses.map(code => (
 						<tr key={Math.random()}>
-							<td>{code}</td>
 							<td>
 								<a
 									href={
@@ -32,9 +31,10 @@ function InfoTable(props) {
 									}
 									target="_blank"
 									rel="noopener noreferrer">
-									{info[code].inst}
+									{info[code].code} - {code}
 								</a>
 							</td>
+							<td>{info[code].inst}</td>
 							<td>
 								<a
 									href={info[code].link}
