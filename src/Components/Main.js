@@ -29,7 +29,11 @@ function Main(props) {
 
 	const updateState = () => {
 		if (history.location.search.length > 1) {
-			setState(JSON.parse(decodeURI(history.location.search.slice(1))));
+			setState(
+				Array.from(
+					new Set(JSON.parse(decodeURI(history.location.search.slice(1))))
+				)
+			);
 		}
 	};
 	useEffect(() => {
