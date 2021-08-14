@@ -7,7 +7,7 @@ function InfoTable(props) {
 		return <div />;
 	}
 
-	const extractcode = code => code.split('/')[0];
+	const extractcode = code => code?.split('/')[0];
 
 	return (
 		<Container className="text-center">
@@ -20,33 +20,38 @@ function InfoTable(props) {
 						<td>Comments</td>
 					</tr>
 				</thead>
-				<tbody>
-					{props.selectedCourses.map(code => (
-						<tr key={Math.random()}>
-							<td>
-								<a
-									href={
-										'http://techtree.iiitd.edu.in/viewDescription/filename?=' +
-										extractcode(info[code].code)
-									}
-									target="_blank"
-									rel="noopener noreferrer">
-									{info[code].code} - {code}
-								</a>
-							</td>
-							<td>{info[code].inst}</td>
-							<td>
-								<a
-									href={info[code].link}
-									target="_blank"
-									rel="noopener noreferrer">
-									{info[code].link}
-								</a>
-							</td>
-							<td>{info[code].desc}</td>
-						</tr>
-					))}
-				</tbody>
+				{info && (
+					<tbody>
+						{props.selectedCourses.map(
+							(code, index) =>
+								info[code] && (
+									<tr key={index}>
+										<td>
+											<a
+												href={
+													'http://techtree.iiitd.edu.in/viewDescription/filename?=' +
+													extractcode(info?.[code]?.code)
+												}
+												target="_blank"
+												rel="noopener noreferrer">
+												{info[code].code} - {code}
+											</a>
+										</td>
+										<td>{info[code].inst}</td>
+										<td>
+											<a
+												href={info[code].link}
+												target="_blank"
+												rel="noopener noreferrer">
+												{info[code].link}
+											</a>
+										</td>
+										<td>{info[code].desc}</td>
+									</tr>
+								)
+						)}
+					</tbody>
+				)}
 			</Table>
 		</Container>
 	);

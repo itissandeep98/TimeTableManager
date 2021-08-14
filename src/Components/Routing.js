@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { withRouter, Switch, Route, Redirect } from 'react-router-dom';
 import Main from './Main';
 // import Admin from "./Admin/Admin";
@@ -9,7 +9,9 @@ import { useDispatch } from 'react-redux';
 
 function Routing() {
 	const dispatch = useDispatch();
-	dispatch(extraFetchFirebase());
+	useEffect(() => {
+		dispatch(extraFetchFirebase());
+	}, []);
 	return (
 		<div>
 			<Header />
