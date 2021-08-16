@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Spinner } from 'reactstrap';
 
-function TTPDF() {
-	const { ttpdf } = this.props.extra.links;
+function TTPDF(props) {
+	const { ttpdf } = props.extra.links;
 	return (
 		<>
 			{ttpdf ? (
