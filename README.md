@@ -3,13 +3,12 @@
 - [Table of Contents](#table-of-contents)
 	- [Usage](#usage)
 	- [Setup](#setup)
-	- [PS](#ps)
 
 Simple react application to create a TimeTable based only on your choice of subjects.
 
 ## Usage
 
-1. Visit [itissandeep98.github.io/TimeTableManager/](https://itissandeep98.github.io/TimeTableManager/)
+1. Visit [timetable.cf](https://timetable.cf)
 
 2. Wait until the application downloads all the timetable and schedule data from server, only then you will be able to see the dropdown list filled with subjects.
 
