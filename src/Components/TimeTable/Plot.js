@@ -15,10 +15,9 @@ function Plot(props) {
 	const findpos = course => {
 		// finds all the positions of a particular course in the schedule
 		var schedule = props.schedule['monsoon'];
-
 		var pos = [];
 		for (let i = 1; i <= 5; i++) {
-			for (let j = 1; j <= 6; j++) {
+			for (let j = 1; j <= 7; j++) {
 				if (schedule[i.toString()][j.toString()].includes(course)) {
 					pos.push([i, j]);
 				}
