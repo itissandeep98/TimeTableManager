@@ -19,21 +19,35 @@ function Main(props) {
 
 	const addCourse = value => {
 		setState([...value]);
-		setTimeout(() => {
-			history.push({
-				pathname: '/',
-				search: JSON.stringify(value),
-			});
-		}, 500);
+
+		window.history.replaceState(
+			null,
+			null,
+			'?' + JSON.stringify(value).replaceAll('"', '')
+		);
 	};
 
 	const updateState = () => {
 		if (history.location.search.length > 1) {
-			setState(
-				Array.from(
-					new Set(JSON.parse(decodeURI(history.location.search.slice(1))))
+			const courses = Array.from(
+				new Set(
+					JSON.parse(
+						decodeURI(
+							history.location.search
+								.slice(1)
+								.replaceAll(',', '","')
+								.replaceAll('[', '["')
+								.replaceAll(']', '"]')
+						)
+					)
 				)
 			);
+			window.history.replaceState(
+				null,
+				null,
+				'?' + JSON.stringify(courses).replaceAll('"', '')
+			);
+			setState(courses);
 		}
 	};
 	useEffect(() => {
