@@ -10,6 +10,7 @@ function Plot(props) {
 
 	useEffect(() => {
 		updateSchedule();
+		//eslint-disable-next-line
 	}, [props.selectedCourses]);
 
 	const findpos = course => {

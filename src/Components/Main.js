@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import {
 	dataFetchInfoFirebase,
@@ -57,6 +57,7 @@ function Main(props) {
 			firebaseAnalytics.logEvent('page_visited');
 		}
 		updateState();
+		//eslint-disable-next-line
 	}, []);
 
 	return (

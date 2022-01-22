@@ -11,6 +11,7 @@ function Routing() {
 	const dispatch = useDispatch();
 	useEffect(() => {
 		dispatch(extraFetchFirebase());
+		//eslint-disable-next-line
 	}, []);
 	return (
 		<div>
