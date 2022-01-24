@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { List } from 'semantic-ui-react';
 
 const days = ['MO', 'TU', 'WE', 'TH', 'FR'];
 const Times = [
