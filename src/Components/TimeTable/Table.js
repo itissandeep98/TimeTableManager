@@ -7,7 +7,9 @@ function TableData(props) {
 	var data = props.data.slice(1); // get all data except the header
 
 	if (data) {
-		var rows = data.map((day, index) => <Rows day={day} key={index} />); // create all the rows
+		var rows = data.map((day, index) => (
+			<Rows day={day} key={index} daynum={index} />
+		)); // create all the rows
 
 		var header = headers.map(field => <th key={field}>{field}</th>); // create the header of table
 
