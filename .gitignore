@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 src/config/fire.json
+# Layer0 generated build directory
+.layer0
