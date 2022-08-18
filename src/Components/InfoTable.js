@@ -16,8 +16,8 @@ function InfoTable(props) {
 					<tr>
 						<td>Course Code</td>
 						<td>Instructor</td>
-						<td>Class Link</td>
-						<td>Comments</td>
+						{/* <td>Class Link</td>
+						<td>Comments</td> */}
 					</tr>
 				</thead>
 				{info && (
@@ -38,7 +38,7 @@ function InfoTable(props) {
 											</a>
 										</td>
 										<td>{info[code].inst}</td>
-										<td>
+										{/* <td>
 											<a
 												href={info[code].link}
 												target="_blank"
@@ -46,7 +46,7 @@ function InfoTable(props) {
 												{info[code].link}
 											</a>
 										</td>
-										<td>{info[code].desc}</td>
+										<td>{info[code].desc}</td> */}
 									</tr>
 								)
 						)}
