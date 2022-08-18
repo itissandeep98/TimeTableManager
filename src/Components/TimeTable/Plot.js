@@ -19,7 +19,7 @@ function Plot(props) {
 		var pos = [];
 		for (let i = 1; i <= 5; i++) {
 			for (let j = 1; j <= 7; j++) {
-				if (schedule[i.toString()][j.toString()].includes(course)) {
+				if (schedule[i.toString()][j.toString()]?.includes(course)) {
 					pos.push([i, j]);
 				}
 			}
