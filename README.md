@@ -8,7 +8,7 @@ Simple react application to create a TimeTable based only on your choice of subj
 
 ## Usage
 
-1. Visit [timetable.cf](https://timetable.cf)
+1. Visit [timetables.cf](https://timetables.cf)
 
 2. Wait until the application downloads all the timetable and schedule data from server, only then you will be able to see the dropdown list filled with subjects.
 
