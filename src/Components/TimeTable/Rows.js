@@ -24,20 +24,21 @@ function Rows(props) {
 					index === 0 ? (
 						course
 					) : (
-						<a
-							href={`https://calendar.google.com/calendar/r/eventedit?text=${
-								info[course]?.title
-							}&dates=${getDateTime(Times[index - 1])[0]}Z/${
-								getDateTime(Times[index - 1])[1]
-							}Z&details=${
-								info[course]?.link + ' ' + info[course]?.desc
-							}&recur=RRULE:FREQ%3DWEEKLY;BYDAY%3D${
-								days[daynum]
-							};UNTIL%3D20220502T000000Z&sf=true`}
-							target={'_blank'}
-							rel="noreferrer">
-							{course}
-						</a>
+						<p>{course}</p>
+						// <a
+						// 	href={`https://calendar.google.com/calendar/r/eventedit?text=${
+						// 		info[course]?.title
+						// 	}&dates=${getDateTime(Times[index - 1])[0]}Z/${
+						// 		getDateTime(Times[index - 1])[1]
+						// 	}Z&details=${
+						// 		info[course]?.link + ' ' + info[course]?.desc
+						// 	}&recur=RRULE:FREQ%3DWEEKLY;BYDAY%3D${
+						// 		days[daynum]
+						// 	};UNTIL%3D20220502T000000Z&sf=true`}
+						// 	target={'_blank'}
+						// 	rel="noreferrer">
+						// 	{course}1 213
+						// </a>
 					)
 				)}
 			</div>
