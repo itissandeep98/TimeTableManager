@@ -1,3 +1,6 @@
-# https://www.robotstxt.org/robotstxt.html
+Sitemap: https://timetable.itissandeep.co/sitemap.xml
+
 User-agent: *
-Disallow:
+Allow: /*
+
+Disallow: 
