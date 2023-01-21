@@ -16,6 +16,7 @@ function InfoTable(props) {
 					<tr>
 						<td>Course Code</td>
 						<td>Instructor</td>
+						<td>Venue</td>
 						{/* <td>Class Link</td>
 						<td>Comments</td> */}
 					</tr>
@@ -38,6 +39,7 @@ function InfoTable(props) {
 											</a>
 										</td>
 										<td>{info[code].inst}</td>
+										<td>{info[code].desc}</td>
 										{/* <td>
 											<a
 												href={info[code].link}
